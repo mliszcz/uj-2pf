@@ -32,12 +32,12 @@ fits_format = "gauss%d(x):\n".fits_fmt_A."\n".fits_fmt_u."\n".fits_fmt_o."\n".fi
 fits_g1 = sprintf(fits_format, 1, A1, A1_err*1000, u1, u1_err*1000, sig, sig_err*1000, b1, b1_err*10000)
 fits_g2 = sprintf(fits_format, 2, A2, A2_err*1000, u2, u2_err*1000, sig, sig_err*1000, b2, b2_err*10000)
 
-set terminal svg size 800,600 fname 'Verdana' fsize 10
+set terminal svg size 800,600 fname 'Verdana' fsize 12
 set output sprintf("output/%s.svg", input_data)
 
 set multiplot
 
-set title sprintf("Profil natężenia wiązki laserowej (%s)", input_data)
+set title sprintf("Profil natężenia wiązki laserowej (%s)", input_data) noenhanced
 set xlabel "położenie detektora [mm]"
 set ylabel "natężenie światła [mW/cm²]"
 
@@ -47,6 +47,8 @@ set label 12 at 0.4,1.2 fits_g2 front left
 
 set obj 5 rect from 5.45,2.8 to 6.85,2.2
 set arrow from 5.35,2.5 to 4.0,2.5 lw 1 back filled
+
+set key box opaque
 
 plot input_data using 1:2 title input_data linestyle 1 pointsize 1.4, \
   gauss1(x) linestyle 2, \

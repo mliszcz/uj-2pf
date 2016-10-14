@@ -4,7 +4,7 @@ set decimalsign locale "pl_PL.UTF-8"
 
 input_data = "wykres_02.dat"
 
-set terminal svg size 800,600 fname 'Verdana' fsize 12
+set terminal svg size 1000,600 fname 'Verdana' fsize 16
 set output sprintf("output/%s.svg", input_data)
 
 set title sprintf("Przebieg zmiany fazy i sygnału w modulacji MSK (%s)", input_data) noenhanced

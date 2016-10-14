@@ -32,7 +32,7 @@ fits_format = "gauss%d(x):\n".fits_fmt_A."\n".fits_fmt_u."\n".fits_fmt_o."\n".fi
 fits_g1 = sprintf(fits_format, 1, A1, A1_err*1000, u1, u1_err*1000, sig, sig_err*1000, b1, b1_err*10000)
 fits_g2 = sprintf(fits_format, 2, A2, A2_err*1000, u2, u2_err*1000, sig, sig_err*1000, b2, b2_err*10000)
 
-set terminal svg size 800,600 fname 'Verdana' fsize 12
+set terminal svg size 900,600 fname 'Verdana' fsize 16
 set output sprintf("output/%s.svg", input_data)
 
 set multiplot
@@ -41,12 +41,12 @@ set title sprintf("Profil natężenia wiązki laserowej (%s)", input_data) noenh
 set xlabel "położenie detektora [mm]"
 set ylabel "natężenie światła [mW/cm²]"
 
-set label 10 at 6.0,0.25 fits_label front left
-set label 11 at 7.2,2.2 fits_g1 front left
-set label 12 at 0.4,1.2 fits_g2 front left
+set label 10 at 6.0,0.25 fits_label front left font 'Verdana,12'
+set label 11 at 7.4,2.0 fits_g1 front left font 'Verdana,12'
+set label 12 at 0.4,1.2 fits_g2 front left font 'Verdana,12'
 
 set obj 5 rect from 5.45,2.8 to 6.85,2.2
-set arrow from 5.35,2.5 to 4.0,2.5 lw 1 back filled
+set arrow from 5.35,2.5 to 3.8,2.5 lw 1 back filled
 
 set key box opaque
 
@@ -65,10 +65,13 @@ unset arrow
 unset key
 
 set size 0.35,0.35
-set origin 0.1,0.55
+set origin 0.1,0.50
 
 set xrange [5.45:6.85]
 set yrange [2.2:2.8]
+
+set xtics 0.4
+set ytics 0.2
 
 set grid
 

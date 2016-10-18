@@ -127,7 +127,8 @@ detektor,
   * <https://en.wikipedia.org/wiki/Sodium_chloride>
   * *In solid sodium chloride, each ion is surrounded by six ions of the
     opposite charge as expected on electrostatic grounds. The surrounding ions
-    are located at the vertices of a regular octahedron. In the language of close-packing, the larger chloride ions are arranged in a cubic array
+    are located at the vertices of a regular octahedron. In the language of
+    close-packing, the larger chloride ions are arranged in a cubic array
     whereas the smaller sodium ions fill all the cubic gaps (octahedral voids)
     between them. This same basic structure is found in many other compounds
     and is commonly known as the halite or rock-salt crystal structure. It can

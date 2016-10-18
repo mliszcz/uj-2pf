@@ -52,7 +52,7 @@ dyfraktogramy.
 Pierwszy pomiar testowy został wykonany przez współeksperymentatora. W tym
 pomiarze nie był użyty filtr Niklowy, więc w dyfraktogramie widoczne były
 refleksy linii $\beta$. Pomiar testowy miał na celu zawężenie analizowanego
-zakresu kąta $\theta$, z około [??, 150] do [??, 130].
+zakresu kąta $\theta$, z około [5, 150] do [20, 135].
 
 Drugi pomiar został wykonany przeze mnie, z większą dokładnością - zmniejszyłem
 krok i wydłużyłem czas pomiaru w jednym kroku.
@@ -77,6 +77,12 @@ goniometru w tym układzie wynosił 240 mm.
 * [ML_NaCl_20-137deg_0p01_60s_36min_20161012.xrdml](data/10-12/ML_NaCl_20-137deg_0p01_60s_36min_20161012.xrdml)
 * [multi-samples-hi.png](data/10-12/multi-samples-hi.png)
 
+## Zdjęcia
+
+* [WP_20161012_14_00_11_Pro.jpg](photos/WP_20161012_14_00_11_Pro.jpg)
+* [WP_20161012_14_00_29_Pro.jpg](photos/WP_20161012_14_00_29_Pro.jpg)
+* [WP_20161012_14_00_39_Pro.jpg](photos/WP_20161012_14_00_39_Pro.jpg)
+* [WP_20161012_11_48_00_Pro.jpg](photos/WP_20161012_11_48_00_Pro.jpg)
 
 ## Użyte oprogramowanie
 

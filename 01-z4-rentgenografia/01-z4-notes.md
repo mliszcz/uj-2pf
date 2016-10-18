@@ -68,14 +68,14 @@ goniometru w tym układzie wynosił 240 mm.
 
 ## Wyniki pomiarów
 
-* [combined.png](../data/10-12/combined.png)
-* [combined-zoom.png](../data/10-12/combined-zoom.png)
-* [combined-zoom-snr.png](../data/10-12/combined-zoom-snr.png)
-* [ML_NaCl_20-137deg_0p01_60s_36min_20161012.ASC](../data/10-12/ML_NaCl_20-137deg_0p01_60s_36min_20161012.ASC)
-* [ML_NaCl_20-137deg_0p01_60s_36min_20161012.rd](../data/10-12/ML_NaCl_20-137deg_0p01_60s_36min_20161012.rd)
-* [ML_NaCl_20-137deg_0p01_60s_36min_20161012.UDF](../data/10-12/ML_NaCl_20-137deg_0p01_60s_36min_20161012.UDF)
-* [ML_NaCl_20-137deg_0p01_60s_36min_20161012.xrdml](../data/10-12/ML_NaCl_20-137deg_0p01_60s_36min_20161012.xrdml)
-* [multi-samples-hi.png](../data/10-12/multi-samples-hi.png)
+* [combined.png](data/10-12/combined.png)
+* [combined-zoom.png](data/10-12/combined-zoom.png)
+* [combined-zoom-snr.png](data/10-12/combined-zoom-snr.png)
+* [ML_NaCl_20-137deg_0p01_60s_36min_20161012.ASC](data/10-12/ML_NaCl_20-137deg_0p01_60s_36min_20161012.ASC)
+* [ML_NaCl_20-137deg_0p01_60s_36min_20161012.rd](data/10-12/ML_NaCl_20-137deg_0p01_60s_36min_20161012.rd)
+* [ML_NaCl_20-137deg_0p01_60s_36min_20161012.UDF](data/10-12/ML_NaCl_20-137deg_0p01_60s_36min_20161012.UDF)
+* [ML_NaCl_20-137deg_0p01_60s_36min_20161012.xrdml](data/10-12/ML_NaCl_20-137deg_0p01_60s_36min_20161012.xrdml)
+* [multi-samples-hi.png](data/10-12/multi-samples-hi.png)
 
 
 ## Użyte oprogramowanie

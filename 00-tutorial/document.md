@@ -7,7 +7,7 @@
 # author: Michał Liszcz
 # date: 18.03.2016
 
-geometry: margin=6em
+geometry: a4paper, margin=6em
 header-includes:
   - \usepackage[pdftex]{graphicx}
   - \usepackage{hyperref}

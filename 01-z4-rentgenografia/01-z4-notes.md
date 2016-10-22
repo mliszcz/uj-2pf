@@ -23,6 +23,15 @@ header-includes:
     - \usepackage{subcaption}
 ---
 
+# 2016-10-19
+
+Pomiary dla substancji wielofazowych:
+
+* Si - wzorzec PANalytical
+* KCl
+* Salvita (NaCl + KCl) - ucierana
+* Salvita + Si
+
 # 2016-10-12
 
 ## Opis eksperymentu i metoda pomiarów

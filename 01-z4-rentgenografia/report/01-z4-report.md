@@ -13,6 +13,7 @@ header-includes:
   - \usepackage[pdftex]{graphicx}
   - \usepackage{hyperref}
   - \usepackage{float}
+  - \usepackage{gensymb}
   - \usepackage{bm}
   - \setlength{\parindent}{3em}
 
@@ -100,6 +101,38 @@ promieniowanie linii $K_{\alpha1}$, $K_{\alpha2}$ oraz $K_{\beta}$, wynikające
 z przejścia elektronów z poziomów $L$ i $M$ na poziom $K$.
 
 # Opis eksperymentu
+
+W eksperymencie badałem próbki cztery próbki,
+P1: *NaCl* (sproszkowana, ucierana),
+P2: *KCl* (sproszkowana),
+P3: *Si* (wzorzec PANalytical),
+P4: *Salvita* (sproszkowana, ucierana, mieszanina 75% NaCl i 25% KCl),
+P5: *Salvita z krzemem* (sproszkowana).
+
+Pomiary przeprowadziłem z wykorzystaniem dyfraktometru rentgenowskiego
+PANalytical EMPYREAN oraz detektora PIXcel3D. Dyfraktometr pracował w geometrii
+pionowej (Bragga-Brentano). Promieniowanie rentgenowskie pochodziło z lampy Cu.
+Lampa zasilana była prądem $40$ mA z napięciem $40$ kV. Promień
+goniometru w tym układzie wynosił 240 mm.
+W dyfraktometrze zbudowałem następujący układ dla *wiązki pierwotnej*:
+układ szczelin Solera $0.04$ rad, szczelina wejściowa $1/4\degree$, maska
+$10$ mm i szczelina przeciwrozproszeniowa $1/2\degree$. *Wiązka odbita*
+przechodziła przez układ szczelin Solera $0.04$ rad i filtr niklowy.
+Zadaniem filtra niklowego była absorpcja refleksów pochodzących od lini
+$K_{\beta}$ lampy Cu.
+
+W dużym zakresie kąta $\theta$ lampa oświetlała próbkę. Odbita wiązka trafiała
+do detektora. Na podstawie odczytów z detektora program akwizycyjny generował
+dyfraktogramy. Pierwszy pomiar testowy dla próbki P1 został wykonany bez filtra
+niklowego. Podczas tego pomiaru kąt $\theta$ zmieniał się w zakresie od
+$5\degree$ do $150\degree$. Porównanie dyfraktogramów otrzymanych z filtrem
+i bez niego pozwoliło zidentyfikować refleksy $K_{\beta}$. Kolejne, właściwe
+już pomiary, wykonywane były w zakresie od $20\degree$ do $137\degree$,
+z krokiem $0.013\degree$ i czasem pomiaru wynoszącym $0.235$ s na krok.
+
+Dla próbki P1 przeprowadziłem wskaźnikowanie i wyznaczyłem stałą sieci
+krystalicznej. Dla wielofazowej próbki P5 dokonałem rozkładu dyfraktogramu na
+wzorcowe próbki P1, P2 i P3.
 
 # Wyniki i dyskusja
 

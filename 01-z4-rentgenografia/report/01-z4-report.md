@@ -176,6 +176,14 @@ $2\theta\,[\degree]$ | $h^2+k^2+l^2$ | $(hkl)$ | $a\,[\mathrm{nm}]$
 Table: Wskaźnikowanie refleksów dyfraktogramu próbki P1 w punktach $2\theta$.
 Rozkłady $(hkl)$ podane są z dokładnością do permutacji. {#tbl:wskaznikowanie}
 
+\begin{figure}[H]
+\centering
+
+\includegraphics[width=0.81\textwidth]{{../workspace/plots/ML_NaCl_20-137deg_0p01_60s_36min_20161012.ASC.svg}.pdf}
+\caption{Profil natężenia wiązki laserowej}
+
+\end{figure}
+
 TODO: wykresy:
 
 * dyfraktogram NaCl + inset dla dużych kątów + krzywa ekstrapolacyjna

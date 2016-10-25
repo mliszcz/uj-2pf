@@ -1,4 +1,4 @@
-FLAGS=--number-sections --filter pandoc-crossref
+FLAGS=--number-sections --filter pandoc-crossref --filter pandoc-citeproc
 
 %.pdf: %.md
 	pandoc $(FLAGS) -o $@ $<

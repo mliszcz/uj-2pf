@@ -3,7 +3,10 @@ title: |
   Badanie struktur oraz ilościowa analiza substancji krystalicznych \
   metodą dyfrakcji promieni X
 author: Michał Liszcz, pod kierunkiem dr Teresy Jaworskiej-Gołąb
-date: 19.10.2016
+date: 12.10.2016
+
+bibliography: references.bib
+csl: ieee.csl
 
 documentclass: article
 lang: pl-PL
@@ -22,7 +25,14 @@ keywords:
   - NaCl
 
 abstract: |
-  Tutaj będzie abstrakt.
+  W ćwiczeniu przeprowadzona została analiza próbek substancji krystalicznych
+  metodą dyfrakcji promieni rentgenowskich. Z wykorzystaniem równania Bragga
+  próbka NaCl została wywskaźnikowana i wyznaczona została dla niej stała sieci
+  krysta licznej wynosząca $a = 0.564(xx)\,\mathrm{nm}$. Wskaźnikowanie
+  potwierdziło zakładany model sieci krystalicznej fcc a wyznaczona stała
+  sieci jest zgodna z wartościami tablicowymi.
+  Dodatkowo została zbadany został dyfraktogram próbki wielofazowej z którego
+  wyodrębiono wszystkie refleksy próbek wzorcowych i potwierdzono jej skład.
 ---
 
 # Wstęp
@@ -130,13 +140,58 @@ i bez niego pozwoliło zidentyfikować refleksy $K_{\beta}$. Kolejne, właściwe
 już pomiary, wykonywane były w zakresie od $20\degree$ do $137\degree$,
 z krokiem $0.013\degree$ i czasem pomiaru wynoszącym $0.235$ s na krok.
 
+# Wyniki i dyskusja
+
 Dla próbki P1 przeprowadziłem wskaźnikowanie i wyznaczyłem stałą sieci
 krystalicznej. Dla wielofazowej próbki P5 dokonałem rozkładu dyfraktogramu na
 wzorcowe próbki P1, P2 i P3.
 
-# Wyniki i dyskusja
+## Stała sieciowa próbki NaCl
+
+Przyjęta w obliczeniach długość falii linii $K_{\alpha1}$ miedzi to
+$\lambda=0.154056\,\mathrm{nm}$.
+
+TODO:
+
+* uzupełnić tekst
+* wyrzucić z tabelki $a$ (wyliczyć z regresji liniowej)
+* rachunek niepewności + zaokrąglenie wyników
+* *systematic absences*, *allowed hkl list for fcc* [@lufaso2013]
+
+$2\theta\,[\degree]$ | $h^2+k^2+l^2$ | $(hkl)$ | $a\,[\mathrm{nm}]$
+---------------------|---------------|---------|-------------------
+27.3473              | 3             | $(111)$ | 0.5643879589
+31.6868              | 4             | $(200)$ | 0.564289042
+45.4307              | 8             | $(220)$ | 0.5642011867
+53.8489              | 11            | $(311)$ | 0.5641881253
+56.4538              | 12            | $(222)$ | 0.5641709494
+66.2128              | 16            | $(400)$ | 0.5641056767
+75.2684              | 20            | $(420)$ | 0.5641492758
+83.9582              | 24            | $(422)$ | 0.5641821667
+101.1383             | 32            | $(440)$ | 0.5641388541
+110.0194             | 36            | $(442)$ | 0.5641360838
+119.4398             | 40            | $(620)$ | 0.5641319576
+129.8396             | 44            | $(622)$ | 0.5641352502
+
+Table: Wskaźnikowanie refleksów dyfraktogramu próbki P1 w punktach $2\theta$.
+Rozkłady $(hkl)$ podane są z dokładnością do permutacji. {#tbl:wskaznikowanie}
+
+TODO: wykresy:
+
+* dyfraktogram NaCl + inset dla dużych kątów + krzywa ekstrapolacyjna
+* regresja liniowa dopasowania $a$
+
+## Analiza próbki polifazowej
+
+TODO:
+
+* wykres z nałożonymi dyfraktogramami
 
 # Podsumowanie
+
+# Bibliografia
+
+<div id="refs"></div>
 
 \newpage
 \appendix

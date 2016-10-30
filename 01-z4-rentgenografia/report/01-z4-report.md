@@ -37,9 +37,7 @@ abstract: |
 
 # Wstęp
 
-Celem eksperymentu była analiza obrazu dyfrakcyjnego próbki jednofazowej,
-przeprowadzenie jego wskaźnikowania oraz wyznaczenie stałej sieci
-krystalicznej. Analizie została poddana również próbka wielofazowa.
+// TODO napisac tutaj o dyskretnym obrazie dyfrakcyjnym
 
 Zgodnie z klasyczną definicją kryształ to ciało stałe o periodycznej budowie
 w którym występuje atomowy porządek dalekiego zasięgu. Strukturę krystaliczną
@@ -71,6 +69,9 @@ Eksperymentalnej analizy sieci krystalicznej dokonuje się często z
 wykorzystaniem zjawiska *dyfrakcji promieniowania* na strukturze krystalicznej.
 Kryształy dają dyskretny obraz dyfrakcyjny z maksimami pochodzącymi od różnych
 rodzin płaszczyzn krystalograficznych.
+Dyfrakcję promieniowania na krysztale można analizować trzema metodami,
+zaproponowanymi kolejno przez Lauego [], Ewalda [] i Braggów []. W tej pracy
+wykorzystane zostało podejście Braggów.
 Promieniowanie padające na kryształ pod kątem $\theta$ w niewielkiej części
 przenika w głąb kryształu i jest odbijane od kolejnych warstw struktury
 krystalicznej. Dla warstw kryształu odległych o $d$ różnica dróg przebytych
@@ -102,13 +103,17 @@ skład próbki wielofazowej.
 Z równania Bragga widać ograniczenie na wyrażenie $n\lambda/2d$ przez
 maksymalną wartość funkcji $\sin\theta$. Z tego względu do analizy struktury
 krystalicznej wykorzystuje się promieniowanie o bardzo małej długości fali,
-rzędu $0.1$ nm. Często jest to promieniowanie rentgenowskie, pochodzące od
+rzędu $1$ \AA. Często jest to promieniowanie rentgenowskie, pochodzące od
 zderzeń przyspieszonych elektronów z tarczą anody w lampie rentgenowskiej.
 Elektrony blisko jądra zostają wybite a następnie powracają na niższe poziomy
 energetyczne emitując *promieniowanie charakterystyczne*. W widmie
 promieniowania dla lampy o anodzie miedzianej (Cu) można obserwować
 promieniowanie linii $K_{\alpha1}$, $K_{\alpha2}$ oraz $K_{\beta}$, wynikające
 z przejścia elektronów z poziomów $L$ i $M$ na poziom $K$.
+
+Celem eksperymentu była analiza obrazu dyfrakcyjnego próbki jednofazowej,
+przeprowadzenie jego wskaźnikowania oraz wyznaczenie stałej sieci
+krystalicznej. Analizie została poddana również próbka wielofazowa.
 
 # Opis eksperymentu
 
@@ -121,7 +126,7 @@ P5: *Salvita z krzemem* (sproszkowana).
 
 Pomiary przeprowadziłem z wykorzystaniem dyfraktometru rentgenowskiego
 PANalytical EMPYREAN oraz detektora PIXcel3D. Dyfraktometr pracował w geometrii
-pionowej (Bragga-Brentano). Promieniowanie rentgenowskie pochodziło z lampy Cu.
+Bragga-Brentano. Promieniowanie rentgenowskie pochodziło z lampy Cu.
 Lampa zasilana była prądem $40$ mA z napięciem $40$ kV. Promień
 goniometru w tym układzie wynosił 240 mm.
 W dyfraktometrze zbudowałem następujący układ dla *wiązki pierwotnej*:
@@ -131,14 +136,13 @@ przechodziła przez układ szczelin Solera $0.04$ rad i filtr niklowy.
 Zadaniem filtra niklowego była absorpcja refleksów pochodzących od lini
 $K_{\beta}$ lampy Cu.
 
-W dużym zakresie kąta $\theta$ lampa oświetlała próbkę. Odbita wiązka trafiała
-do detektora. Na podstawie odczytów z detektora program akwizycyjny generował
-dyfraktogramy. Pierwszy pomiar testowy dla próbki P1 został wykonany bez filtra
-niklowego. Podczas tego pomiaru kąt $\theta$ zmieniał się w zakresie od
+Pierwszy pomiar testowy dla próbki P1 został wykonany bez filtra
+niklowego. Podczas tego pomiaru kąt $2\theta$ zmieniał się w zakresie od
 $5\degree$ do $150\degree$. Porównanie dyfraktogramów otrzymanych z filtrem
 i bez niego pozwoliło zidentyfikować refleksy $K_{\beta}$. Kolejne, właściwe
-już pomiary, wykonywane były w zakresie od $20\degree$ do $137\degree$,
-z krokiem $0.013\degree$ i czasem pomiaru wynoszącym $0.235$ s na krok.
+już pomiary, wykonywane były w zakresie od $20\degree$ do $137\degree$.
+Dyfraktometr pracował w trybie ciągłym z szybkością obrotu odpowiadającą
+krokowi $0.013\degree$, w którym pomiar trwa $0.235$ s.
 
 # Wyniki i dyskusja
 
@@ -149,7 +153,7 @@ wzorcowe próbki P1, P2 i P3.
 ## Stała sieciowa próbki NaCl
 
 Przyjęta w obliczeniach długość falii linii $K_{\alpha1}$ miedzi to
-$\lambda=0.154056\,\mathrm{nm}$.
+$\lambda=1.54056\,\mathrm{\AA}$.
 
 TODO:
 

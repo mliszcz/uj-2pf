@@ -1,0 +1,22 @@
+ => TITLE: ML_NaCl_20-137deg_0p01_60s_36min_20161012.dat
+! Ang_init   Ang_fin  Nbac Npeak  Ncyc   Inte  Inst  Jobt  Cont Weight Corr Constr
+   26.8408   27.9458     2     1    50     1    10     1     0     0    0.     0
+    1.540560    1.544330  <=  Lambda1 & Lambda2
+!  Global Profile Parameters:
+        0.5000     0      <= Kalph2/Kalph1 ratio  &  Flag 
+        0.0000     0      <= Asymmetry parameter1 &    "  
+        0.0000     0      <= Asymmetry parameter2 &    "  
+        0.0000     0      <= Parameter  U         &    "  
+        0.0000     0      <= Parameter  V         &    "  
+        0.0161     1      <= Parameter  W         &    "  
+        0.0000     0      <= Parameter  Z         &    "  
+        0.4800     1      <= Parameter Eta0       &    "  
+        0.0000     0      <= Parameter  X         &    "  
+!  Background Parameters:
+!    2Theta/TOF/Energy   Background    Flag
+       26.8408      688.9338     0
+       27.9458      653.7225     0
+!  Reflection Parameters:
+!  2Theta/TOF/Energy     Intensity     Shift-FWHM     Shift-Eta     Flags 
+       27.3473      377.9795        0.0000        0.0000  1  1  0  0
+!  Chi2 =    2.26783    

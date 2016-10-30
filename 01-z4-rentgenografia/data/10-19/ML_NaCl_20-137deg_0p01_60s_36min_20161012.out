@@ -1,0 +1,4588 @@
+ 
+ 
+            ------------------------------------ 
+                  --- PROGRAM: XRFIT ---
+            (Author: J. Rodriguez-Carvajal, LLB)
+                 (version 3.0 October 1998) 
+            ------------------------------------ 
+
+ => TITLE: ML_NaCl_20-137deg_0p01_60s_36min_20161012.dat                                                                                                                                                                                                                   
+
+ => 2Theta range, peaks and cycles read 
+ => 2Theta(init)    :   65.574
+ => 2Theta(fin )    :   67.248
+ => Number of peaks :     1
+ => Number of background points :     2
+ => Number of cycles:    10
+
+ => Global parameters                 Flag
+ => Kalph2/Kalph1 ratio :      0.5000  0
+ => Asymmetry parameter1:      0.0000  0
+ => Asymmetry parameter2:      0.0000  0
+
+      Profile Parameters for Pseudo-Voigt
+        pV(x) = ETA* L(x) + (1-ETA)* G(x)
+    FWHM = SQRT((U tanT + V) tanT + W) + Z/cosT
+    ETA  = Eta0 + X * 2T 
+
+ => Parameter  U        :      0.0000  0
+ => Parameter  V        :      0.0000  0
+ => Parameter  W        :      0.1000  1
+ => Parameter  Z        :      0.0000  0
+ => Parameter Eta0      :      0.0020  0
+ => Parameter  X        :      0.0000  0
+
+ => Background parameters
+      Scatt. Variable     Background  Flag
+           65.5737          169.0141   0
+           67.2485          157.2774   0
+
+    Position    Intensity    D-Gamma       D-Eta          Flags
+
+     66.2109        356.      0.0000      0.0000       1  0  0  0
+
+ => Total number of refined parameters:    2
+
+
+
+ => Cycle No.:  1  Chi2 =   89.2968    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1000000      -0.4727805E-01   0.5272195E-01   0.1194207E-02
+   12     66.21090       0.1958466E-01    66.23048       0.2341842E-02
+
+
+ => Cycle No.:  2  Chi2 =   86.5595    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.5272195E-01  -0.1499089E-01   0.3773107E-01   0.6893324E-03
+   12     66.23048      -0.3401184E-01    66.19647       0.2010349E-02
+
+
+ => Cycle No.:  3  Chi2 =   83.2712    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.3773107E-01  -0.6301261E-02   0.3142980E-01   0.4588836E-03
+   12     66.19647       0.3054047E-01    66.22701       0.1689321E-02
+
+
+ => Cycle No.:  4  Chi2 =   83.2671    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.3142980E-01  -0.4614074E-02   0.2681573E-01   0.3930485E-03
+   12     66.22701      -0.3078461E-01    66.19623       0.1657556E-02
+
+
+ => Cycle No.:  5  Chi2 =   81.3813    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2681573E-01  -0.1509810E-02   0.2530592E-01   0.3027547E-03
+   12     66.19623       0.2863312E-01    66.22486       0.1443668E-02
+
+
+ => Cycle No.:  6  Chi2 =   81.1343    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2530592E-01  -0.1944464E-02   0.2336146E-01   0.2970421E-03
+   12     66.22486      -0.2479553E-01    66.20007       0.1468397E-02
+
+
+ => Cycle No.:  7  Chi2 =   80.0155    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2336146E-01  -0.5941056E-03   0.2276735E-01   0.2563166E-03
+   12     66.20007       0.2098083E-01    66.22105       0.1345187E-02
+
+
+ => Cycle No.:  8  Chi2 =   79.7109    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2276735E-01  -0.1050226E-02   0.2171713E-01   0.2571191E-03
+   12     66.22105      -0.1660156E-01    66.20444       0.1366509E-02
+
+
+ => Cycle No.:  9  Chi2 =   79.2150    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2171713E-01  -0.3311895E-03   0.2138594E-01   0.2354454E-03
+   12     66.20444       0.1306152E-01    66.21751       0.1294886E-02
+
+
+ => Cycle No.: 10  Chi2 =   79.0555    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2138594E-01  -0.5613752E-03   0.2082456E-01   0.2356485E-03
+   12     66.21751      -0.9689331E-02    66.20782       0.1304718E-02
+
+       GLOBAL  PARAMETERS       (Value - Sigma):  
+
+ => Kalph2/Kalph1 ratio :      0.5000      0.0000
+ => Asymmetry parameter1:      0.0000      0.0000
+ => Asymmetry parameter2:      0.0000      0.0000
+ => Parameter  U        :      0.0000      0.0000
+ => Parameter  V        :      0.0000      0.0000
+ => Parameter  W        :      0.0208      0.0002
+ => Parameter  Z        :      0.0000      0.0000
+ => Parameter Eta0      :      0.0020      0.0000
+ => Parameter  X        :      0.0000      0.0000
+
+      BACKGROUND PARAMETERS
+      Scatt. Variable     Background            Sigma
+           65.5808          169.0141            0.0000
+           67.2448          157.2774            0.0000
+
+      PEAK PARAMETERS
+
+   Npeak     2Theta       Intensity        D-Gamma         D-Eta
+
+    1        66.2078       355.8259         0.0000         0.0000
+              0.0013         0.0000         0.0000         0.0000
+
+  Rfact=   35.104   Rwfact=   36.688  Rex=    4.126
+
+ => Error correlations 
+
+    Correlation:  16 >  0% for parameters:            W & Posit_1    (   6  12)
+
+ => There are   1 values of Correlation >  0%
+
+
+ => Cycle No.:  1  Chi2 =   78.8891    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2082456E-01  -0.1718458E-03   0.2065272E-01   0.2242028E-03
+   12     66.20782       0.7217407E-02    66.21503       0.1264937E-02
+
+
+ => Cycle No.:  2  Chi2 =   78.8341    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2065272E-01  -0.2707466E-03   0.2038197E-01   0.2243153E-03
+   12     66.21503      -0.5104065E-02    66.20993       0.1269838E-02
+
+
+ => Cycle No.:  3  Chi2 =   78.7899    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2038197E-01  -0.7474981E-04   0.2030722E-01   0.2188705E-03
+   12     66.20993       0.3677368E-02    66.21361       0.1250552E-02
+
+
+ => Cycle No.:  4  Chi2 =   78.7744    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2030722E-01  -0.1191590E-03   0.2018806E-01   0.2189822E-03
+   12     66.21361      -0.2548218E-02    66.21106       0.1252858E-02
+
+
+ => Cycle No.:  5  Chi2 =   78.7640    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2018806E-01  -0.2665259E-04   0.2016141E-01   0.2165155E-03
+   12     66.21106       0.1808167E-02    66.21287       0.1243917E-02
+
+
+ => Cycle No.:  6  Chi2 =   78.7601    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2016141E-01  -0.4973449E-04   0.2011167E-01   0.2166962E-03
+   12     66.21287      -0.1243591E-02    66.21162       0.1245395E-02
+
+
+ => Cycle No.:  7  Chi2 =   78.7571    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2011167E-01  -0.7754192E-05   0.2010392E-01   0.2156193E-03
+   12     66.21162       0.8697510E-03    66.21249       0.1241424E-02
+
+
+ => Cycle No.:  8  Chi2 =   78.7560    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2010392E-01  -0.2004206E-04   0.2008388E-01   0.2157679E-03
+   12     66.21249      -0.5950928E-03    66.21190       0.1242293E-02
+
+ => Convergence reached! : Chi2(old)-Chi2(new) < 0.00001 * Chi2(old)
+
+
+       GLOBAL  PARAMETERS       (Value - Sigma):  
+
+ => Kalph2/Kalph1 ratio :      0.5000      0.0000
+ => Asymmetry parameter1:      0.0000      0.0000
+ => Asymmetry parameter2:      0.0000      0.0000
+ => Parameter  U        :      0.0000      0.0000
+ => Parameter  V        :      0.0000      0.0000
+ => Parameter  W        :      0.0201      0.0002
+ => Parameter  Z        :      0.0000      0.0000
+ => Parameter Eta0      :      0.0020      0.0000
+ => Parameter  X        :      0.0000      0.0000
+
+      BACKGROUND PARAMETERS
+      Scatt. Variable     Background            Sigma
+           65.5808          169.0141            0.0000
+           67.2448          157.2774            0.0000
+
+      PEAK PARAMETERS
+
+   Npeak     2Theta       Intensity        D-Gamma         D-Eta
+
+    1        66.2119       355.8259         0.0000         0.0000
+              0.0012         0.0000         0.0000         0.0000
+
+  Rfact=   35.104   Rwfact=   36.619  Rex=    4.126
+
+ => Error correlations 
+
+    Correlation:  16 >  0% for parameters:            W & Posit_1    (   6  12)
+
+ => There are   1 values of Correlation >  0%
+ 
+ 
+            ------------------------------------ 
+                  --- PROGRAM: XRFIT ---
+            (Author: J. Rodriguez-Carvajal, LLB)
+                 (version 3.0 October 1998) 
+            ------------------------------------ 
+
+ => TITLE: ML_NaCl_20-137deg_0p01_60s_36min_20161012.dat                                                                                                                                                                                                                   
+
+ => 2Theta range, peaks and cycles read 
+ => 2Theta(init)    :   65.614
+ => 2Theta(fin )    :   66.873
+ => Number of peaks :     1
+ => Number of background points :     2
+ => Number of cycles:    10
+
+ => Global parameters                 Flag
+ => Kalph2/Kalph1 ratio :      0.5000  0
+ => Asymmetry parameter1:      0.0000  0
+ => Asymmetry parameter2:      0.0000  0
+
+      Profile Parameters for Pseudo-Voigt
+        pV(x) = ETA* L(x) + (1-ETA)* G(x)
+    FWHM = SQRT((U tanT + V) tanT + W) + Z/cosT
+    ETA  = Eta0 + X * 2T 
+
+ => Parameter  U        :      0.0000  0
+ => Parameter  V        :      0.0000  0
+ => Parameter  W        :      0.1000  1
+ => Parameter  Z        :      0.0000  0
+ => Parameter Eta0      :      0.0020  0
+ => Parameter  X        :      0.0000  0
+
+ => Background parameters
+      Scatt. Variable     Background  Flag
+           65.6135          192.0190   0
+           66.8729          192.0190   0
+
+    Position    Intensity    D-Gamma       D-Eta          Flags
+
+     66.2113        363.      0.0000      0.0000       1  0  0  0
+
+ => Total number of refined parameters:    2
+
+
+
+ => Cycle No.:  1  Chi2 =   97.8242    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1000000      -0.5451161E-01   0.4548839E-01   0.1170458E-02
+   12     66.21127       0.1719666E-01    66.22847       0.2295892E-02
+
+
+ => Cycle No.:  2  Chi2 =   94.7234    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.4548839E-01  -0.1366746E-01   0.3182093E-01   0.5847923E-03
+   12     66.22847      -0.3501129E-01    66.19346       0.1881353E-02
+
+
+ => Cycle No.:  3  Chi2 =   90.4109    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.3182093E-01  -0.4132004E-02   0.2768893E-01   0.3641417E-03
+   12     66.19346       0.3499603E-01    66.22845       0.1528940E-02
+
+
+ => Cycle No.:  4  Chi2 =   89.0814    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2768893E-01  -0.3074221E-02   0.2461470E-01   0.3126392E-03
+   12     66.22845      -0.3114319E-01    66.19731       0.1449203E-02
+
+
+ => Cycle No.:  5  Chi2 =   86.5945    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2461470E-01  -0.1372768E-02   0.2324194E-01   0.2653641E-03
+   12     66.19731       0.2584076E-01    66.22315       0.1344660E-02
+
+
+ => Cycle No.:  6  Chi2 =   86.2248    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2324194E-01  -0.1719220E-02   0.2152272E-01   0.2594201E-03
+   12     66.22315      -0.2202606E-01    66.20113       0.1359775E-02
+
+
+ => Cycle No.:  7  Chi2 =   84.8978    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2152272E-01  -0.4308876E-03   0.2109183E-01   0.2264379E-03
+   12     66.20113       0.1863098E-01    66.21976       0.1253712E-02
+
+
+ => Cycle No.:  8  Chi2 =   84.4920    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2109183E-01  -0.8359775E-03   0.2025585E-01   0.2272745E-03
+   12     66.21976      -0.1448059E-01    66.20528       0.1268929E-02
+
+
+ => Cycle No.:  9  Chi2 =   83.9470    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2025585E-01  -0.2142042E-03   0.2004165E-01   0.2110637E-03
+   12     66.20528       0.1124573E-01    66.21652       0.1212030E-02
+
+
+ => Cycle No.: 10  Chi2 =   83.7593    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2004165E-01  -0.4205517E-03   0.1962110E-01   0.2116627E-03
+   12     66.21652      -0.8209229E-02    66.20831       0.1219863E-02
+
+       GLOBAL  PARAMETERS       (Value - Sigma):  
+
+ => Kalph2/Kalph1 ratio :      0.5000      0.0000
+ => Asymmetry parameter1:      0.0000      0.0000
+ => Asymmetry parameter2:      0.0000      0.0000
+ => Parameter  U        :      0.0000      0.0000
+ => Parameter  V        :      0.0000      0.0000
+ => Parameter  W        :      0.0196      0.0002
+ => Parameter  Z        :      0.0000      0.0000
+ => Parameter Eta0      :      0.0020      0.0000
+ => Parameter  X        :      0.0000      0.0000
+
+      BACKGROUND PARAMETERS
+      Scatt. Variable     Background            Sigma
+           65.6198          192.0190            0.0000
+           66.8678          192.0190            0.0000
+
+      PEAK PARAMETERS
+
+   Npeak     2Theta       Intensity        D-Gamma         D-Eta
+
+    1        66.2083       363.0650         0.0000         0.0000
+              0.0012         0.0000         0.0000         0.0000
+
+  Rfact=   32.503   Rwfact=   34.051  Rex=    3.721
+
+ => Error correlations 
+
+    Correlation:  15 >  0% for parameters:            W & Posit_1    (   6  12)
+
+ => There are   1 values of Correlation >  0%
+
+
+ => Cycle No.:  1  Chi2 =   83.5905    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1962110E-01  -0.9926409E-04   0.1952183E-01   0.2034484E-03
+   12     66.20831       0.6050110E-02    66.21436       0.1189697E-02
+
+
+ => Cycle No.:  2  Chi2 =   83.5308    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1952183E-01  -0.1925118E-03   0.1932932E-01   0.2039289E-03
+   12     66.21436      -0.4241943E-02    66.21012       0.1194226E-02
+
+
+ => Cycle No.:  3  Chi2 =   83.4878    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1932932E-01  -0.3656745E-04   0.1929275E-01   0.2001756E-03
+   12     66.21012       0.3036499E-02    66.21316       0.1180281E-02
+
+
+ => Cycle No.:  4  Chi2 =   83.4716    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1929275E-01  -0.8145720E-04   0.1921130E-01   0.2005061E-03
+   12     66.21316      -0.2098083E-02    66.21106       0.1182603E-02
+
+
+ => Cycle No.:  5  Chi2 =   83.4616    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1921130E-01  -0.9363517E-05   0.1920193E-01   0.1988451E-03
+   12     66.21106       0.1480103E-02    66.21254       0.1176298E-02
+
+
+ => Cycle No.:  6  Chi2 =   83.4576    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1920193E-01  -0.3310479E-04   0.1916883E-01   0.1991118E-03
+   12     66.21254      -0.1014709E-02    66.21152       0.1177758E-02
+
+
+ => Cycle No.:  7  Chi2 =   83.4548    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1916883E-01  -0.7897615E-06   0.1916804E-01   0.1983980E-03
+   12     66.21152       0.7095337E-03    66.21223       0.1175010E-02
+
+ => Convergence reached! : Chi2(old)-Chi2(new) < 0.00001 * Chi2(old)
+
+
+       GLOBAL  PARAMETERS       (Value - Sigma):  
+
+ => Kalph2/Kalph1 ratio :      0.5000      0.0000
+ => Asymmetry parameter1:      0.0000      0.0000
+ => Asymmetry parameter2:      0.0000      0.0000
+ => Parameter  U        :      0.0000      0.0000
+ => Parameter  V        :      0.0000      0.0000
+ => Parameter  W        :      0.0192      0.0002
+ => Parameter  Z        :      0.0000      0.0000
+ => Parameter Eta0      :      0.0020      0.0000
+ => Parameter  X        :      0.0000      0.0000
+
+      BACKGROUND PARAMETERS
+      Scatt. Variable     Background            Sigma
+           65.6198          192.0190            0.0000
+           66.8678          192.0190            0.0000
+
+      PEAK PARAMETERS
+
+   Npeak     2Theta       Intensity        D-Gamma         D-Eta
+
+    1        66.2122       363.0650         0.0000         0.0000
+              0.0012         0.0000         0.0000         0.0000
+
+  Rfact=   32.503   Rwfact=   33.989  Rex=    3.721
+
+ => Error correlations 
+
+    Correlation:  16 >  0% for parameters:            W & Posit_1    (   6  12)
+
+ => There are   1 values of Correlation >  0%
+ 
+ 
+            ------------------------------------ 
+                  --- PROGRAM: XRFIT ---
+            (Author: J. Rodriguez-Carvajal, LLB)
+                 (version 3.0 October 1998) 
+            ------------------------------------ 
+
+ => TITLE: ML_NaCl_20-137deg_0p01_60s_36min_20161012.dat                                                                                                                                                                                                                   
+
+ => 2Theta range, peaks and cycles read 
+ => 2Theta(init)    :   74.583
+ => 2Theta(fin )    :   76.218
+ => Number of peaks :     1
+ => Number of background points :     2
+ => Number of cycles:    10
+
+ => Global parameters                 Flag
+ => Kalph2/Kalph1 ratio :      0.5000  0
+ => Asymmetry parameter1:      0.0000  0
+ => Asymmetry parameter2:      0.0000  0
+
+      Profile Parameters for Pseudo-Voigt
+        pV(x) = ETA* L(x) + (1-ETA)* G(x)
+    FWHM = SQRT((U tanT + V) tanT + W) + Z/cosT
+    ETA  = Eta0 + X * 2T 
+
+ => Parameter  U        :      0.0000  0
+ => Parameter  V        :      0.0000  0
+ => Parameter  W        :      0.1000  1
+ => Parameter  Z        :      0.0000  0
+ => Parameter Eta0      :      0.0020  0
+ => Parameter  X        :      0.0000  0
+
+ => Background parameters
+      Scatt. Variable     Background  Flag
+           74.5827          178.7392   0
+           76.2180          172.0325   0
+
+    Position    Intensity    D-Gamma       D-Eta          Flags
+
+     75.2744        400.      0.0000      0.0000       1  1  0  0
+
+ => Total number of refined parameters:    3
+
+
+
+ => Cycle No.:  1  Chi2 =   19.1934    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1000000      -0.2901842E-01   0.7098158E-01   0.1274687E-02
+   12     75.27444       0.2250671E-02    75.27669       0.2617349E-02
+   13     399.6675        411.3311        810.9987        3.541348    
+
+
+ => Cycle No.:  2  Chi2 =   18.5753    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.7098158E-01  -0.4395500E-02   0.6658608E-01   0.4610116E-03
+   12     75.27669      -0.7354736E-02    75.26933       0.1174208E-02
+   13     810.9987       -1.229980        809.7687        3.504791    
+
+
+ => Cycle No.:  3  Chi2 =   17.9888    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.6658608E-01  -0.3304720E-02   0.6328136E-01   0.4296090E-03
+   12     75.26933       0.4547119E-02    75.27388       0.1142972E-02
+   13     809.7687      -0.8688354        808.8998        3.496974    
+
+
+ => Cycle No.:  4  Chi2 =   17.7466    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.6328136E-01  -0.2524931E-02   0.6075643E-01   0.4104731E-03
+   12     75.27388      -0.3784180E-02    75.27010       0.1131700E-02
+   13     808.8998      -0.7438965        808.1559        3.490865    
+
+
+ => Cycle No.:  5  Chi2 =   17.5197    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.6075643E-01  -0.1967616E-02   0.5878882E-01   0.3917088E-03
+   12     75.27010       0.2235413E-02    75.27233       0.1112053E-02
+   13     808.1559      -0.6874390        807.4685        3.485757    
+
+
+ => Cycle No.:  6  Chi2 =   17.4239    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.5878882E-01  -0.1527090E-02   0.5726173E-01   0.3795915E-03
+   12     75.27233      -0.1861572E-02    75.27047       0.1103489E-02
+   13     807.4685      -0.5679932        806.9005        3.481761    
+
+
+ => Cycle No.:  7  Chi2 =   17.3358    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.5726173E-01  -0.1203667E-02   0.5605806E-01   0.3681962E-03
+   12     75.27047       0.1045227E-02    75.27151       0.1091316E-02
+   13     806.9005      -0.4984131        806.4021        3.478470    
+
+
+ => Cycle No.:  8  Chi2 =   17.2940    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.5605806E-01  -0.9436198E-03   0.5511444E-01   0.3604311E-03
+   12     75.27151      -0.8926392E-03    75.27062       0.1085041E-02
+   13     806.4021      -0.3961792        806.0059        3.475898    
+
+
+ => Cycle No.:  9  Chi2 =   17.2617    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.5511444E-01  -0.7487275E-03   0.5436571E-01   0.3534192E-03
+   12     75.27062       0.4653931E-03    75.27109       0.1077485E-02
+   13     806.0059      -0.3306274        805.6753        3.473819    
+
+
+ => Cycle No.: 10  Chi2 =   17.2495    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.5436571E-01  -0.5897768E-03   0.5377594E-01   0.3484208E-03
+   12     75.27109      -0.4196167E-03    75.27067       0.1073035E-02
+   13     805.6753      -0.2715454        805.4037        3.472155    
+
+       GLOBAL  PARAMETERS       (Value - Sigma):  
+
+ => Kalph2/Kalph1 ratio :      0.5000      0.0000
+ => Asymmetry parameter1:      0.0000      0.0000
+ => Asymmetry parameter2:      0.0000      0.0000
+ => Parameter  U        :      0.0000      0.0000
+ => Parameter  V        :      0.0000      0.0000
+ => Parameter  W        :      0.0538      0.0003
+ => Parameter  Z        :      0.0000      0.0000
+ => Parameter Eta0      :      0.0020      0.0000
+ => Parameter  X        :      0.0000      0.0000
+
+      BACKGROUND PARAMETERS
+      Scatt. Variable     Background            Sigma
+           74.5898          178.7392            0.0000
+           76.2148          172.0325            0.0000
+
+      PEAK PARAMETERS
+
+   Npeak     2Theta       Intensity        D-Gamma         D-Eta
+
+    1        75.2707       805.4037         0.0000         0.0000
+              0.0011         3.4722         0.0000         0.0000
+
+  Rfact=   12.563   Rwfact=   15.482  Rex=    3.728
+
+ => Error correlations 
+
+    Correlation:  17 >  0% for parameters:            W & Posit_1    (   6  12)
+    Correlation:  10 >  0% for parameters:            W & Inten_1    (   6  13)
+    Correlation:   2 >  0% for parameters:      Posit_1 & Inten_1    (  12  13)
+
+ => There are   3 values of Correlation >  0%
+
+
+ => Cycle No.:  1  Chi2 =   17.2362    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.5377594E-01  -0.4667640E-03   0.5330917E-01   0.3438927E-03
+   12     75.27067       0.2059937E-03    75.27087       0.1067770E-02
+   13     805.4037      -0.2305298        805.1732        3.469028    
+
+
+ => Cycle No.:  2  Chi2 =   17.2322    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.5330917E-01  -0.3699511E-03   0.5293922E-01   0.3408785E-03
+   12     75.27087      -0.1983643E-03    75.27068       0.1065289E-02
+   13     805.1732      -0.1749268        804.9983        3.469572    
+
+
+ => Cycle No.:  3  Chi2 =   17.2248    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.5293922E-01  -0.2935790E-03   0.5264564E-01   0.3381876E-03
+   12     75.27068       0.8392334E-04    75.27076       0.1062408E-02
+   13     804.9983      -0.1496582        804.8486        3.468869    
+
+ => Convergence reached! : Chi2(old)-Chi2(new) < 0.00001 * Chi2(old)
+
+
+       GLOBAL  PARAMETERS       (Value - Sigma):  
+
+ => Kalph2/Kalph1 ratio :      0.5000      0.0000
+ => Asymmetry parameter1:      0.0000      0.0000
+ => Asymmetry parameter2:      0.0000      0.0000
+ => Parameter  U        :      0.0000      0.0000
+ => Parameter  V        :      0.0000      0.0000
+ => Parameter  W        :      0.0526      0.0003
+ => Parameter  Z        :      0.0000      0.0000
+ => Parameter Eta0      :      0.0020      0.0000
+ => Parameter  X        :      0.0000      0.0000
+
+      BACKGROUND PARAMETERS
+      Scatt. Variable     Background            Sigma
+           74.5898          178.7392            0.0000
+           76.2148          172.0325            0.0000
+
+      PEAK PARAMETERS
+
+   Npeak     2Theta       Intensity        D-Gamma         D-Eta
+
+    1        75.2708       804.8486         0.0000         0.0000
+              0.0011         3.4689         0.0000         0.0000
+
+  Rfact=   12.467   Rwfact=   15.471  Rex=    3.728
+
+ => Error correlations 
+
+    Correlation:  18 >  0% for parameters:            W & Posit_1    (   6  12)
+    Correlation:  10 >  0% for parameters:            W & Inten_1    (   6  13)
+    Correlation:   2 >  0% for parameters:      Posit_1 & Inten_1    (  12  13)
+
+ => There are   3 values of Correlation >  0%
+ 
+ 
+            ------------------------------------ 
+                  --- PROGRAM: XRFIT ---
+            (Author: J. Rodriguez-Carvajal, LLB)
+                 (version 3.0 October 1998) 
+            ------------------------------------ 
+
+ => TITLE: ML_NaCl_20-137deg_0p01_60s_36min_20161012.dat                                                                                                                                                                                                                   
+
+ => 2Theta range, peaks and cycles read 
+ => 2Theta(init)    :   65.200
+ => 2Theta(fin )    :   67.366
+ => Number of peaks :     1
+ => Number of background points :     2
+ => Number of cycles:    10
+
+ => Global parameters                 Flag
+ => Kalph2/Kalph1 ratio :      0.5000  0
+ => Asymmetry parameter1:      0.0000  0
+ => Asymmetry parameter2:      0.0000  0
+
+      Profile Parameters for Pseudo-Voigt
+        pV(x) = ETA* L(x) + (1-ETA)* G(x)
+    FWHM = SQRT((U tanT + V) tanT + W) + Z/cosT
+    ETA  = Eta0 + X * 2T 
+
+ => Parameter  U        :      0.0000  0
+ => Parameter  V        :      0.0000  0
+ => Parameter  W        :      0.0117  1
+ => Parameter  Z        :      0.0000  0
+ => Parameter Eta0      :      0.0020  0
+ => Parameter  X        :      0.0000  0
+
+ => Background parameters
+      Scatt. Variable     Background  Flag
+           65.2004          191.8514   0
+           67.3658          169.2155   0
+
+    Position    Intensity    D-Gamma       D-Eta          Flags
+
+     66.2086        308.      0.0000      0.0000       1  1  0  0
+
+ => Total number of refined parameters:    3
+
+
+
+ => Cycle No.:  1  Chi2 =   15.4123    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1172000E-01   0.5832555E-02   0.1755255E-01   0.1316798E-03
+   12     66.20865       0.1099396E-01    66.21964       0.9456990E-03
+   13     307.5067        286.0524        593.5591        2.948604    
+
+
+ => Cycle No.:  2  Chi2 =   12.1926    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1755255E-01   0.1878820E-02   0.1943137E-01   0.1102222E-03
+   12     66.21964      -0.9284973E-02    66.21036       0.6771684E-03
+   13     593.5591        13.11798        606.6771        2.993374    
+
+
+ => Cycle No.:  3  Chi2 =   11.6376    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1943137E-01   0.1283908E-02   0.2071528E-01   0.1215887E-03
+   12     66.21036       0.4035950E-02    66.21439       0.7097370E-03
+   13     606.6771        2.866333        609.5434        3.004733    
+
+
+ => Cycle No.:  4  Chi2 =   11.2832    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2071528E-01   0.8289088E-03   0.2154419E-01   0.1321195E-03
+   12     66.21439      -0.2578735E-02    66.21181       0.7424055E-03
+   13     609.5434       0.8112793        610.3547        3.008812    
+
+
+ => Cycle No.:  5  Chi2 =   11.1941    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2154419E-01   0.5993694E-03   0.2214356E-01   0.1383434E-03
+   12     66.21181       0.1365662E-02    66.21318       0.7596470E-03
+   13     610.3547       0.7185669        611.0732        3.012363    
+
+
+ => Cycle No.:  6  Chi2 =   11.1340    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2214356E-01   0.3862642E-03   0.2252983E-01   0.1434898E-03
+   12     66.21318      -0.9918213E-03    66.21219       0.7741834E-03
+   13     611.0732       0.2973022        611.3705        3.014108    
+
+
+ => Cycle No.:  7  Chi2 =   11.1155    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2252983E-01   0.2784729E-03   0.2280830E-01   0.1464647E-03
+   12     66.21219       0.5722046E-03    66.21276       0.7817898E-03
+   13     611.3705       0.2488403        611.6194        3.015538    
+
+
+ => Cycle No.:  8  Chi2 =   11.1032    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2280830E-01   0.1790859E-03   0.2298738E-01   0.1488940E-03
+   12     66.21276      -0.4348755E-03    66.21233       0.7883384E-03
+   13     611.6194       0.1251831        611.7446        3.016329    
+
+
+ => Cycle No.:  9  Chi2 =   11.0999    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2298738E-01   0.1291446E-03   0.2311653E-01   0.1502823E-03
+   12     66.21233       0.2593994E-03    66.21259       0.7917471E-03
+   13     611.7446       0.1037598        611.8483        3.016965    
+
+
+ => Cycle No.: 10  Chi2 =   11.0989    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2311653E-01   0.8279085E-04   0.2319932E-01   0.1514184E-03
+   12     66.21259      -0.1983643E-03    66.21239       0.7947501E-03
+   13     611.8483       0.5139160E-01    611.8997        3.017315    
+
+       GLOBAL  PARAMETERS       (Value - Sigma):  
+
+ => Kalph2/Kalph1 ratio :      0.5000      0.0000
+ => Asymmetry parameter1:      0.0000      0.0000
+ => Asymmetry parameter2:      0.0000      0.0000
+ => Parameter  U        :      0.0000      0.0000
+ => Parameter  V        :      0.0000      0.0000
+ => Parameter  W        :      0.0232      0.0002
+ => Parameter  Z        :      0.0000      0.0000
+ => Parameter Eta0      :      0.0020      0.0000
+ => Parameter  X        :      0.0000      0.0000
+
+      BACKGROUND PARAMETERS
+      Scatt. Variable     Background            Sigma
+           65.2038          191.8514            0.0000
+           67.3618          169.2155            0.0000
+
+      PEAK PARAMETERS
+
+   Npeak     2Theta       Intensity        D-Gamma         D-Eta
+
+    1        66.2124       611.8997         0.0000         0.0000
+              0.0008         3.0173         0.0000         0.0000
+
+  Rfact=   11.402   Rwfact=   14.965  Rex=    4.492
+
+ => Error correlations 
+
+    Correlation:  18 >  0% for parameters:            W & Posit_1    (   6  12)
+    Correlation:   9 >  0% for parameters:            W & Inten_1    (   6  13)
+    Correlation:   1 >  0% for parameters:      Posit_1 & Inten_1    (  12  13)
+
+ => There are   3 values of Correlation >  0%
+
+
+ => Cycle No.:  1  Chi2 =   11.0983    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2319932E-01   0.5952828E-04   0.2325885E-01   0.1519835E-03
+   12     66.21239       0.1220703E-03    66.21251       0.7958968E-03
+   13     611.8997       0.3936768E-01    611.9391        3.016054    
+
+
+ => Cycle No.:  2  Chi2 =   11.0961    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2325885E-01   0.3812276E-04   0.2329697E-01   0.1525853E-03
+   12     66.21251      -0.9918213E-04    66.21241       0.7976660E-03
+   13     611.9391       0.2288818E-01    611.9620        3.017590    
+
+ => Convergence reached! : Chi2(old)-Chi2(new) < 0.00001 * Chi2(old)
+
+
+       GLOBAL  PARAMETERS       (Value - Sigma):  
+
+ => Kalph2/Kalph1 ratio :      0.5000      0.0000
+ => Asymmetry parameter1:      0.0000      0.0000
+ => Asymmetry parameter2:      0.0000      0.0000
+ => Parameter  U        :      0.0000      0.0000
+ => Parameter  V        :      0.0000      0.0000
+ => Parameter  W        :      0.0233      0.0002
+ => Parameter  Z        :      0.0000      0.0000
+ => Parameter Eta0      :      0.0020      0.0000
+ => Parameter  X        :      0.0000      0.0000
+
+      BACKGROUND PARAMETERS
+      Scatt. Variable     Background            Sigma
+           65.2038          191.8514            0.0000
+           67.3618          169.2155            0.0000
+
+      PEAK PARAMETERS
+
+   Npeak     2Theta       Intensity        D-Gamma         D-Eta
+
+    1        66.2124       611.9620         0.0000         0.0000
+              0.0008         3.0176         0.0000         0.0000
+
+  Rfact=   11.426   Rwfact=   14.963  Rex=    4.492
+
+ => Error correlations 
+
+    Correlation:  18 >  0% for parameters:            W & Posit_1    (   6  12)
+    Correlation:   9 >  0% for parameters:            W & Inten_1    (   6  13)
+    Correlation:   2 >  0% for parameters:      Posit_1 & Inten_1    (  12  13)
+
+ => There are   3 values of Correlation >  0%
+ 
+ 
+            ------------------------------------ 
+                  --- PROGRAM: XRFIT ---
+            (Author: J. Rodriguez-Carvajal, LLB)
+                 (version 3.0 October 1998) 
+            ------------------------------------ 
+
+ => TITLE: ML_NaCl_20-137deg_0p01_60s_36min_20161012.dat                                                                                                                                                                                                                   
+
+ => 2Theta range, peaks and cycles read 
+ => 2Theta(init)    :   65.657
+ => 2Theta(fin )    :   66.880
+ => Number of peaks :     1
+ => Number of background points :     2
+ => Number of cycles:    50
+
+ => Global parameters                 Flag
+ => Kalph2/Kalph1 ratio :      0.5000  0
+ => Asymmetry parameter1:      0.0000  0
+ => Asymmetry parameter2:      0.0000  0
+
+      Profile Parameters for Pseudo-Voigt
+        pV(x) = ETA* L(x) + (1-ETA)* G(x)
+    FWHM = SQRT((U tanT + V) tanT + W) + Z/cosT
+    ETA  = Eta0 + X * 2T 
+
+ => Parameter  U        :      0.0000  0
+ => Parameter  V        :      0.0000  0
+ => Parameter  W        :      0.0132  1
+ => Parameter  Z        :      0.0000  0
+ => Parameter Eta0      :      0.0020  0
+ => Parameter  X        :      0.0000  0
+
+ => Background parameters
+      Scatt. Variable     Background  Flag
+           65.6571          166.7005   0
+           66.8803          175.9223   0
+
+    Position    Intensity    D-Gamma       D-Eta          Flags
+
+     66.2154        329.      0.0000      0.0000       1  1  0  0
+
+ => Total number of refined parameters:    3
+
+
+
+ => Cycle No.:  1  Chi2 =   25.4721    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1323000E-01   0.5117854E-02   0.1834785E-01   0.1409594E-03
+   12     66.21542      -0.3509521E-02    66.21191       0.9714266E-03
+   13     329.4439        272.3940        601.8378        2.962840    
+
+
+ => Cycle No.:  2  Chi2 =   23.4682    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1834785E-01   0.1676239E-02   0.2002409E-01   0.1141410E-03
+   12     66.21191       0.1686096E-02    66.21360       0.6866270E-03
+   13     601.8378        10.61139        612.4492        2.999345    
+
+
+ => Cycle No.:  3  Chi2 =   22.4786    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2002409E-01   0.1156962E-02   0.2118105E-01   0.1257063E-03
+   12     66.21360      -0.1312256E-02    66.21229       0.7206042E-03
+   13     612.4492        1.616333        614.0656        3.006302    
+
+
+ => Cycle No.:  4  Chi2 =   22.1142    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2118105E-01   0.8295849E-03   0.2201064E-01   0.1346006E-03
+   12     66.21229       0.4577637E-03    66.21275       0.7467106E-03
+   13     614.0656        1.033447        615.0990        3.010980    
+
+
+ => Cycle No.:  5  Chi2 =   21.9253    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2201064E-01   0.5708300E-03   0.2258147E-01   0.1413465E-03
+   12     66.21275      -0.4653931E-03    66.21228       0.7656127E-03
+   13     615.0990       0.5427856        615.6418        3.013750    
+
+
+ => Cycle No.:  6  Chi2 =   21.8498    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2258147E-01   0.4047137E-03   0.2298618E-01   0.1459003E-03
+   12     66.21228       0.1754761E-03    66.21246       0.7776070E-03
+   13     615.6418       0.3670044        616.0088        3.015702    
+
+
+ => Cycle No.:  7  Chi2 =   21.8129    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2298618E-01   0.2772100E-03   0.2326339E-01   0.1492627E-03
+   12     66.21246      -0.1983643E-03    66.21226       0.7863718E-03
+   13     616.0088       0.2136841        616.2225        3.016937    
+
+
+ => Cycle No.:  8  Chi2 =   21.7964    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2326339E-01   0.1957472E-03   0.2345914E-01   0.1515094E-03
+   12     66.21226       0.7629395E-04    66.21233       0.7919994E-03
+   13     616.2225       0.1445923        616.3671        3.017801    
+
+
+ => Cycle No.:  9  Chi2 =   21.7876    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2345914E-01   0.1339354E-03   0.2359308E-01   0.1531516E-03
+   12     66.21233      -0.8392334E-04    66.21225       0.7961380E-03
+   13     616.3671       0.9252930E-01    616.4596        3.018375    
+
+
+ => Cycle No.: 10  Chi2 =   21.7808    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2359308E-01   0.9440631E-04   0.2368748E-01   0.1542441E-03
+   12     66.21225       0.3051758E-04    66.21228       0.7988065E-03
+   13     616.4596       0.6640625E-01    616.5260        3.018785    
+
+
+ => Cycle No.: 11  Chi2 =   21.7787    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2368748E-01   0.6480142E-04   0.2375228E-01   0.1550344E-03
+   12     66.21228      -0.3814697E-04    66.21224       0.8007534E-03
+   13     616.5260       0.4809570E-01    616.5741        3.019076    
+
+
+ => Cycle No.: 12  Chi2 =   21.7751    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2375228E-01   0.2243742E-04   0.2377472E-01   0.1083267E-03
+   12     66.21224      -0.7629395E-05    66.21223       0.5598507E-03
+   13     616.5741      -0.3051758E-02    616.5710        2.129480    
+
+
+ => Cycle No.: 13  Chi2 =   21.7748    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2377472E-01   0.1907349E-04   0.2379379E-01   0.1084558E-03
+   12     66.21223        0.000000        66.21223       0.5601595E-03
+   13     616.5710       0.9094238E-02    616.5801        2.129558    
+
+
+ => Cycle No.: 14  Chi2 =   21.7745    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2379379E-01   0.1619197E-04   0.2380999E-01   0.1085667E-03
+   12     66.21223        0.000000        66.21223       0.5604265E-03
+   13     616.5801       0.1123047E-01    616.5914        2.129614    
+
+ => Convergence reached! : Chi2(old)-Chi2(new) < 0.00001 * Chi2(old)
+
+
+       GLOBAL  PARAMETERS       (Value - Sigma):  
+
+ => Kalph2/Kalph1 ratio :      0.5000      0.0000
+ => Asymmetry parameter1:      0.0000      0.0000
+ => Asymmetry parameter2:      0.0000      0.0000
+ => Parameter  U        :      0.0000      0.0000
+ => Parameter  V        :      0.0000      0.0000
+ => Parameter  W        :      0.0238      0.0001
+ => Parameter  Z        :      0.0000      0.0000
+ => Parameter Eta0      :      0.0020      0.0000
+ => Parameter  X        :      0.0000      0.0000
+
+      BACKGROUND PARAMETERS
+      Scatt. Variable     Background            Sigma
+           65.6588          166.7005            0.0000
+           66.8678          175.9223            0.0000
+
+      PEAK PARAMETERS
+
+   Npeak     2Theta       Intensity        D-Gamma         D-Eta
+
+    1        66.2122       616.5914         0.0000         0.0000
+              0.0006         2.1296         0.0000         0.0000
+
+  Rfact=   13.133   Rwfact=   17.060  Rex=    3.656
+
+ => Error correlations 
+
+    Correlation:  18 >  0% for parameters:            W & Posit_1    (   6  12)
+    Correlation:   8 >  0% for parameters:            W & Inten_1    (   6  13)
+    Correlation:   2 >  0% for parameters:      Posit_1 & Inten_1    (  12  13)
+
+ => There are   3 values of Correlation >  0%
+ 
+ 
+            ------------------------------------ 
+                  --- PROGRAM: XRFIT ---
+            (Author: J. Rodriguez-Carvajal, LLB)
+                 (version 3.0 October 1998) 
+            ------------------------------------ 
+
+ => TITLE: ML_NaCl_20-137deg_0p01_60s_36min_20161012.dat                                                                                                                                                                                                                   
+
+ => 2Theta range, peaks and cycles read 
+ => 2Theta(init)    :   74.216
+ => 2Theta(fin )    :   76.657
+ => Number of peaks :     1
+ => Number of background points :     2
+ => Number of cycles:    50
+
+ => Global parameters                 Flag
+ => Kalph2/Kalph1 ratio :      0.5000  0
+ => Asymmetry parameter1:      0.0000  0
+ => Asymmetry parameter2:      0.0000  0
+
+      Profile Parameters for Pseudo-Voigt
+        pV(x) = ETA* L(x) + (1-ETA)* G(x)
+    FWHM = SQRT((U tanT + V) tanT + W) + Z/cosT
+    ETA  = Eta0 + X * 2T 
+
+ => Parameter  U        :      0.0000  0
+ => Parameter  V        :      0.0000  0
+ => Parameter  W        :      0.0249  1
+ => Parameter  Z        :      0.0000  0
+ => Parameter Eta0      :      0.0020  0
+ => Parameter  X        :      0.0000  0
+
+ => Background parameters
+      Scatt. Variable     Background  Flag
+           74.2156          165.9289   0
+           76.6573          139.1014   0
+
+    Position    Intensity    D-Gamma       D-Eta          Flags
+
+     75.2673        433.      0.0000      0.0000       1  1  0  0
+
+ => Total number of refined parameters:    3
+
+
+
+ => Cycle No.:  1  Chi2 =   21.7604    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2493000E-01   0.9442728E-02   0.3437273E-01   0.2433614E-03
+   12     75.26729       0.8140564E-02    75.27543       0.1261114E-02
+   13     432.7986        359.3601        792.1587        3.374801    
+
+
+ => Cycle No.:  2  Chi2 =   19.1234    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.3437273E-01   0.4008181E-02   0.3838091E-01   0.2028577E-03
+   12     75.27543      -0.6996155E-02    75.26843       0.8736261E-03
+   13     792.1587        14.07745        806.2361        3.416549    
+
+
+ => Cycle No.:  3  Chi2 =   18.2269    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.3838091E-01   0.3202677E-02   0.4158359E-01   0.2278215E-03
+   12     75.26843       0.3265381E-02    75.27170       0.9094336E-03
+   13     806.2361        4.134521        810.3707        3.430456    
+
+
+ => Cycle No.:  4  Chi2 =   17.5691    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.4158359E-01   0.2689112E-02   0.4427270E-01   0.2519440E-03
+   12     75.27170      -0.1632690E-02    75.27007       0.9484069E-03
+   13     810.3707        2.620422        812.9911        3.439847    
+
+
+ => Cycle No.:  5  Chi2 =   17.2241    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.4427270E-01   0.2233539E-02   0.4650624E-01   0.2707723E-03
+   12     75.27007       0.1075745E-02    75.27114       0.9730557E-03
+   13     812.9911        1.979004        814.9701        3.447377    
+
+
+ => Cycle No.:  6  Chi2 =   16.9777    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.4650624E-01   0.1877829E-02   0.4838407E-01   0.2872022E-03
+   12     75.27114      -0.4425049E-03    75.27070       0.9945174E-03
+   13     814.9701        1.478455        816.4485        3.453263    
+
+
+ => Cycle No.:  7  Chi2 =   16.8250    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.4838407E-01   0.1568265E-02   0.4995233E-01   0.3003676E-03
+   12     75.27070       0.4653931E-03    75.27116       0.1009593E-02
+   13     816.4485        1.139099        817.5876        3.458010    
+
+
+ => Cycle No.:  8  Chi2 =   16.7129    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.4995233E-01   0.1317024E-02   0.5126936E-01   0.3116305E-03
+   12     75.27116      -0.9918213E-04    75.27106       0.1022528E-02
+   13     817.5876       0.8973389        818.4850        3.461860    
+
+
+ => Cycle No.:  9  Chi2 =   16.6389    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.5126936E-01   0.1099836E-02   0.5236919E-01   0.3207935E-03
+   12     75.27106       0.2288818E-03    75.27129       0.1032222E-02
+   13     818.4850       0.7182007        819.2032        3.465023    
+
+
+ => Cycle No.: 10  Chi2 =   16.5862    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.5236919E-01   0.9211227E-03   0.5329031E-01   0.3285349E-03
+   12     75.27129       0.7629395E-05    75.27130       0.1040417E-02
+   13     819.2032       0.5718994        819.7751        3.467602    
+
+
+ => Cycle No.: 11  Chi2 =   16.5466    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.5329031E-01   0.7691644E-03   0.5405948E-01   0.3348960E-03
+   12     75.27130       0.1220703E-03    75.27142       0.1046820E-02
+   13     819.7751       0.4565430        820.2316        3.469712    
+
+
+ => Cycle No.: 12  Chi2 =   16.5184    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.5405948E-01   0.6417669E-03   0.5470125E-01   0.3402322E-03
+   12     75.27142       0.3051758E-04    75.27145       0.1052194E-02
+   13     820.2316       0.3792725        820.6109        3.471472    
+
+
+ => Cycle No.: 13  Chi2 =   16.4977    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.5470125E-01   0.5345307E-03   0.5523578E-01   0.3446279E-03
+   12     75.27145       0.7629395E-04    75.27153       0.1056474E-02
+   13     820.6109       0.3045654        820.9155        3.472913    
+
+
+ => Cycle No.: 14  Chi2 =   16.4835    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.5523578E-01   0.4453324E-03   0.5568111E-01   0.3483011E-03
+   12     75.27153       0.3814697E-04    75.27157       0.1060053E-02
+   13     820.9155       0.2489624        821.1644        3.474103    
+
+
+ => Cycle No.: 15  Chi2 =   16.4705    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.5568111E-01   0.3710315E-03   0.5605214E-01   0.3513407E-03
+   12     75.27157       0.4577637E-04    75.27161       0.1062956E-02
+   13     821.1644       0.1993408        821.3638        3.475074    
+
+
+ => Cycle No.: 16  Chi2 =   16.4628    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.5605214E-01   0.3078356E-03   0.5635998E-01   0.3538714E-03
+   12     75.27161       0.2288818E-04    75.27164       0.1065375E-02
+   13     821.3638       0.1719360        821.5357        3.475899    
+
+
+ => Cycle No.: 17  Chi2 =   16.4547    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.5635998E-01   0.2562590E-03   0.5661624E-01   0.3559585E-03
+   12     75.27164       0.3814697E-04    75.27168       0.1067327E-02
+   13     821.5357       0.1329346        821.6686        3.476559    
+
+
+ => Cycle No.: 18  Chi2 =   16.4493    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.5661624E-01   0.2121739E-03   0.5682841E-01   0.3577023E-03
+   12     75.27168       0.7629395E-05    75.27168       0.1068981E-02
+   13     821.6686       0.1176758        821.7863        3.477126    
+
+ => Convergence reached! : Chi2(old)-Chi2(new) < 0.00001 * Chi2(old)
+
+
+       GLOBAL  PARAMETERS       (Value - Sigma):  
+
+ => Kalph2/Kalph1 ratio :      0.5000      0.0000
+ => Asymmetry parameter1:      0.0000      0.0000
+ => Asymmetry parameter2:      0.0000      0.0000
+ => Parameter  U        :      0.0000      0.0000
+ => Parameter  V        :      0.0000      0.0000
+ => Parameter  W        :      0.0568      0.0004
+ => Parameter  Z        :      0.0000      0.0000
+ => Parameter Eta0      :      0.0020      0.0000
+ => Parameter  X        :      0.0000      0.0000
+
+      BACKGROUND PARAMETERS
+      Scatt. Variable     Background            Sigma
+           74.2258          165.9289            0.0000
+           76.6568          139.1014            0.0000
+
+      PEAK PARAMETERS
+
+   Npeak     2Theta       Intensity        D-Gamma         D-Eta
+
+    1        75.2717       821.7863         0.0000         0.0000
+              0.0011         3.4771         0.0000         0.0000
+
+  Rfact=   14.159   Rwfact=   17.536  Rex=    4.324
+
+ => Error correlations 
+
+    Correlation:  17 >  0% for parameters:            W & Posit_1    (   6  12)
+    Correlation:   9 >  0% for parameters:            W & Inten_1    (   6  13)
+    Correlation:   1 >  0% for parameters:      Posit_1 & Inten_1    (  12  13)
+
+ => There are   3 values of Correlation >  0%
+ 
+ 
+            ------------------------------------ 
+                  --- PROGRAM: XRFIT ---
+            (Author: J. Rodriguez-Carvajal, LLB)
+                 (version 3.0 October 1998) 
+            ------------------------------------ 
+
+ => TITLE: ML_NaCl_20-137deg_0p01_60s_36min_20161012.dat                                                                                                                                                                                                                   
+
+ => 2Theta range, peaks and cycles read 
+ => 2Theta(init)    :   74.229
+ => 2Theta(fin )    :   76.430
+ => Number of peaks :     1
+ => Number of background points :     2
+ => Number of cycles:    50
+
+ => Global parameters                 Flag
+ => Kalph2/Kalph1 ratio :      0.5000  1
+ => Asymmetry parameter1:      0.0000  0
+ => Asymmetry parameter2:      0.0000  0
+
+      Profile Parameters for Pseudo-Voigt
+        pV(x) = ETA* L(x) + (1-ETA)* G(x)
+    FWHM = SQRT((U tanT + V) tanT + W) + Z/cosT
+    ETA  = Eta0 + X * 2T 
+
+ => Parameter  U        :      0.0000  0
+ => Parameter  V        :      0.0000  0
+ => Parameter  W        :      0.0232  1
+ => Parameter  Z        :      0.0000  0
+ => Parameter Eta0      :      0.0020  0
+ => Parameter  X        :      0.0000  0
+
+ => Background parameters
+      Scatt. Variable     Background  Flag
+           74.2294          173.0383   0
+           76.4295          157.9478   0
+
+    Position    Intensity    D-Gamma       D-Eta          Flags
+
+     75.2724        415.      0.0000      0.0000       1  1  0  0
+
+ => Total number of refined parameters:    4
+
+
+
+ => Cycle No.:  1  Chi2 =   19.0955    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    1    0.5000000       0.5641013E-01   0.5564101       0.9922092E-02
+    6    0.2318000E-01   0.9601086E-02   0.3278109E-01   0.2407292E-03
+   12     75.27237      -0.5104065E-02    75.26727       0.1298531E-02
+   13     414.6515        367.5586        782.2101        3.365661    
+
+
+ => Cycle No.:  2  Chi2 =   17.3228    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    1    0.5564101      -0.9935796E-02   0.5464743       0.7203427E-02
+    6    0.3278109E-01   0.3572378E-02   0.3635347E-01   0.2140200E-03
+   12     75.26727       0.1838684E-02    75.26910       0.1019568E-02
+   13     782.2101        16.55768        798.7678        3.414566    
+
+
+ => Cycle No.:  3  Chi2 =   16.2194    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    1    0.5464743       0.9660482E-02   0.5561348       0.7674150E-02
+    6    0.3635347E-01   0.2590250E-02   0.3894372E-01   0.2456486E-03
+   12     75.26910      -0.2380371E-02    75.26672       0.1129056E-02
+   13     798.7678        3.404663        802.1724        3.426293    
+
+
+ => Cycle No.:  4  Chi2 =   15.7208    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    1    0.5561348       0.7417798E-03   0.5568766       0.8369282E-02
+    6    0.3894372E-01   0.2069630E-02   0.4101335E-01   0.2735073E-03
+   12     75.26672       0.1052856E-02    75.26778       0.1233583E-02
+   13     802.1724        2.343689        804.5161        3.434932    
+
+
+ => Cycle No.:  5  Chi2 =   15.3903    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    1    0.5568766       0.6376624E-02   0.5632532       0.8855877E-02
+    6    0.4101335E-01   0.1488753E-02   0.4250210E-01   0.2967629E-03
+   12     75.26778      -0.1426697E-02    75.26635       0.1317460E-02
+   13     804.5161        1.464661        805.9808        3.440737    
+
+
+ => Cycle No.:  6  Chi2 =   15.2265    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    1    0.5632532      -0.1693010E-02   0.5615602       0.9334345E-02
+    6    0.4250210E-01   0.1232330E-02   0.4373443E-01   0.3142578E-03
+   12     75.26635       0.1037598E-02    75.26739       0.1384718E-02
+   13     805.9808        1.088074        807.0688        3.445289    
+
+
+ => Cycle No.:  7  Chi2 =   15.1004    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    1    0.5615602       0.5587339E-02   0.5671476       0.9627646E-02
+    6    0.4373443E-01   0.8289702E-03   0.4456340E-01   0.3288502E-03
+   12     75.26739      -0.1335144E-02    75.26605       0.1437400E-02
+   13     807.0688       0.6969604        807.7658        3.448344    
+
+
+ => Cycle No.:  8  Chi2 =   15.0387    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    1    0.5671476      -0.3760576E-02   0.5633870       0.9949846E-02
+    6    0.4456340E-01   0.7587299E-03   0.4532213E-01   0.3390714E-03
+   12     75.26605       0.1304626E-02    75.26736       0.1478322E-02
+   13     807.7658       0.5877686        808.3536        3.450981    
+
+
+ => Cycle No.:  9  Chi2 =   14.9878    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    1    0.5633870       0.6375372E-02   0.5697623       0.1009533E-01
+    6    0.4532213E-01   0.4280098E-03   0.4575014E-01   0.3482085E-03
+   12     75.26736      -0.1625061E-02    75.26573       0.1510301E-02
+   13     808.3536       0.3386841        808.6923        3.452565    
+
+
+ => Cycle No.: 10  Chi2 =   14.9620    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    1    0.5697623      -0.6257951E-02   0.5635044       0.1033239E-01
+    6    0.4575014E-01   0.5091317E-03   0.4625927E-01   0.3537666E-03
+   12     75.26573       0.1838684E-02    75.26757       0.1534734E-02
+   13     808.6923       0.3474731        809.0397        3.454199    
+
+
+ => Cycle No.: 11  Chi2 =   14.9440    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    1    0.5635044       0.8704543E-02   0.5722089       0.1036598E-01
+    6    0.4625927E-01   0.1658052E-03   0.4642507E-01   0.3598331E-03
+   12     75.26757      -0.2288818E-02    75.26528       0.1553983E-02
+   13     809.0397       0.1487427        809.1885        3.454924    
+
+
+ => Cycle No.: 12  Chi2 =   14.9383    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    1    0.5722089      -0.1006514E-01   0.5621438       0.1057361E-01
+    6    0.4642507E-01   0.4064403E-03   0.4683151E-01   0.3622683E-03
+   12     75.26528       0.2777100E-02    75.26806       0.1568150E-02
+   13     809.1885       0.2523804        809.4409        3.456119    
+
+ => Convergence reached! : Chi2(old)-Chi2(new) < 0.00001 * Chi2(old)
+
+
+       GLOBAL  PARAMETERS       (Value - Sigma):  
+
+ => Kalph2/Kalph1 ratio :      0.5621      0.0106
+ => Asymmetry parameter1:      0.0000      0.0000
+ => Asymmetry parameter2:      0.0000      0.0000
+ => Parameter  U        :      0.0000      0.0000
+ => Parameter  V        :      0.0000      0.0000
+ => Parameter  W        :      0.0468      0.0004
+ => Parameter  Z        :      0.0000      0.0000
+ => Parameter Eta0      :      0.0020      0.0000
+ => Parameter  X        :      0.0000      0.0000
+
+      BACKGROUND PARAMETERS
+      Scatt. Variable     Background            Sigma
+           74.2388          173.0383            0.0000
+           76.4228          157.9478            0.0000
+
+      PEAK PARAMETERS
+
+   Npeak     2Theta       Intensity        D-Gamma         D-Eta
+
+    1        75.2681       809.4409         0.0000         0.0000
+              0.0016         3.4561         0.0000         0.0000
+
+  Rfact=   12.135   Rwfact=   16.025  Rex=    4.146
+
+ => Error correlations 
+
+    Correlation:  53 >  0% for parameters:            W & Posit_1    (   6  12)
+    Correlation:   9 >  0% for parameters:            W & Inten_1    (   6  13)
+    Correlation:   4 >  0% for parameters:      Posit_1 & Inten_1    (  12  13)
+
+ => There are   3 values of Correlation >  0%
+ 
+ 
+            ------------------------------------ 
+                  --- PROGRAM: XRFIT ---
+            (Author: J. Rodriguez-Carvajal, LLB)
+                 (version 3.0 October 1998) 
+            ------------------------------------ 
+
+ => TITLE: ML_NaCl_20-137deg_0p01_60s_36min_20161012.dat                                                                                                                                                                                                                   
+
+ => 2Theta range, peaks and cycles read 
+ => 2Theta(init)    :   65.329
+ => 2Theta(fin )    :   67.085
+ => Number of peaks :     1
+ => Number of background points :     2
+ => Number of cycles:    10
+
+ => Global parameters                 Flag
+ => Kalph2/Kalph1 ratio :      0.5000  0
+ => Asymmetry parameter1:      0.0000  0
+ => Asymmetry parameter2:      0.0000  0
+
+      Profile Parameters for Pseudo-Voigt
+        pV(x) = ETA* L(x) + (1-ETA)* G(x)
+    FWHM = SQRT((U tanT + V) tanT + W) + Z/cosT
+    ETA  = Eta0 + X * 2T 
+
+ => Parameter  U        :      0.0000  0
+ => Parameter  V        :      0.0000  0
+ => Parameter  W        :      0.0103  1
+ => Parameter  Z        :      0.0000  0
+ => Parameter Eta0      :      0.0020  1
+ => Parameter  X        :      0.0000  0
+
+ => Background parameters
+      Scatt. Variable     Background  Flag
+           65.3294          198.2563   0
+           67.0854          171.4287   0
+
+    Position    Intensity    D-Gamma       D-Eta          Flags
+
+     66.2074        287.      0.0000      0.0000       1  1  0  0
+
+ => Total number of refined parameters:    4
+
+
+
+ => Cycle No.:  1  Chi2 =   7.14698    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1030000E-01   0.3229835E-02   0.1352984E-01   0.1437964E-03
+    8    0.2000000E-02   0.9000638       0.9020638       0.2061000E-01
+   12     66.20742       0.1250458E-01    66.21992       0.9195982E-03
+   13     286.6004        381.1370        667.7374        3.483741    
+
+
+ => Cycle No.:  2  Chi2 =   3.26446    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1352984E-01   0.1649675E-02   0.1517951E-01   0.2198010E-03
+    8    0.9020638      -0.1363941       0.7656697       0.1114722E-01
+   12     66.21992      -0.7652283E-02    66.21227       0.5001614E-03
+   13     667.7374        30.06024        697.7976        3.624214    
+
+
+ => Cycle No.:  3  Chi2 =   2.94087    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1517951E-01   0.6017322E-03   0.1578124E-01   0.1919473E-03
+    8    0.7656697      -0.6178880E-01   0.7038809       0.9556340E-02
+   12     66.21227       0.8163452E-03    66.21309       0.5167614E-03
+   13     697.7976       -3.298828        694.4988        3.634494    
+
+
+ => Cycle No.:  4  Chi2 =   2.85153    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1578124E-01   0.3169104E-03   0.1609815E-01   0.1847464E-03
+    8    0.7038809      -0.3202462E-01   0.6718563       0.9288757E-02
+   12     66.21309      -0.2365112E-03    66.21285       0.5341847E-03
+   13     694.4988       -1.134155        693.3646        3.639518    
+
+
+ => Cycle No.:  5  Chi2 =   2.82711    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1609815E-01   0.1753569E-03   0.1627351E-01   0.1813635E-03
+    8    0.6718563      -0.1683414E-01   0.6550221       0.9164916E-02
+   12     66.21285      -0.2288818E-04    66.21283       0.5428523E-03
+   13     693.3646      -0.5725708        692.7921        3.641873    
+
+
+ => Cycle No.:  6  Chi2 =   2.82040    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1627351E-01   0.9690411E-04   0.1637041E-01   0.1798192E-03
+    8    0.6550221      -0.8843482E-02   0.6461787       0.9106914E-02
+   12     66.21283      -0.3814697E-04    66.21279       0.5476185E-03
+   13     692.7921      -0.2844238        692.5076        3.643271    
+
+
+ => Cycle No.:  7  Chi2 =   2.81851    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1637041E-01   0.5365349E-04   0.1642407E-01   0.1790925E-03
+    8    0.6461787      -0.4656017E-02   0.6415226       0.9077727E-02
+   12     66.21279      -0.1525879E-04    66.21278       0.5502250E-03
+   13     692.5076      -0.1470337        692.3606        3.644057    
+
+
+ => Cycle No.:  8  Chi2 =   2.81848    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1642407E-01   0.2956390E-04   0.1645363E-01   0.1787504E-03
+    8    0.6415226      -0.2452075E-02   0.6390706       0.9062771E-02
+   12     66.21278      -0.7629395E-05    66.21277       0.5516589E-03
+   13     692.3606      -0.7568359E-01    692.2849        3.644505    
+
+
+ => Cycle No.:  9  Chi2 =   2.81830    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1645363E-01   0.1592934E-04   0.1646956E-01   0.1785884E-03
+    8    0.6390706      -0.1274586E-02   0.6377960       0.9054910E-02
+   12     66.21277        0.000000        66.21277       0.5524541E-03
+   13     692.2849      -0.3961182E-01    692.2453        3.644757    
+
+
+ => Cycle No.: 10  Chi2 =   2.81768    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1646956E-01   0.8670613E-05   0.1647823E-01   0.1785119E-03
+    8    0.6377960      -0.6703138E-03   0.6371257       0.9050908E-02
+   12     66.21277      -0.7629395E-05    66.21276       0.5528762E-03
+   13     692.2453      -0.1995850E-01    692.2253        3.644897    
+
+       GLOBAL  PARAMETERS       (Value - Sigma):  
+
+ => Kalph2/Kalph1 ratio :      0.5000      0.0000
+ => Asymmetry parameter1:      0.0000      0.0000
+ => Asymmetry parameter2:      0.0000      0.0000
+ => Parameter  U        :      0.0000      0.0000
+ => Parameter  V        :      0.0000      0.0000
+ => Parameter  W        :      0.0165      0.0002
+ => Parameter  Z        :      0.0000      0.0000
+ => Parameter Eta0      :      0.6371      0.0091
+ => Parameter  X        :      0.0000      0.0000
+
+      BACKGROUND PARAMETERS
+      Scatt. Variable     Background            Sigma
+           65.3338          198.2563            0.0000
+           67.0758          171.4287            0.0000
+
+      PEAK PARAMETERS
+
+   Npeak     2Theta       Intensity        D-Gamma         D-Eta
+
+    1        66.2128       692.2253         0.0000         0.0000
+              0.0006         3.6449         0.0000         0.0000
+
+  Rfact=    4.525   Rwfact=    6.981  Rex=    4.159
+
+ => Error correlations 
+
+    Correlation:  11 >  0% for parameters:            W & Posit_1    (   6  12)
+    Correlation:  35 >  0% for parameters:         Eta0 & Inten_1    (   8  13)
+
+ => There are   2 values of Correlation >  0%
+
+
+ => Cycle No.:  1  Chi2 =   2.81764    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1647823E-01   0.5079433E-05   0.1648331E-01   0.1782232E-03
+    8    0.6371257      -0.3738999E-03   0.6367518       0.9034972E-02
+   12     66.21276        0.000000        66.21276       0.5528035E-03
+   13     692.2253      -0.1031494E-01    692.2150        3.642327    
+
+ => Convergence reached! : Chi2(old)-Chi2(new) < 0.00001 * Chi2(old)
+
+
+       GLOBAL  PARAMETERS       (Value - Sigma):  
+
+ => Kalph2/Kalph1 ratio :      0.5000      0.0000
+ => Asymmetry parameter1:      0.0000      0.0000
+ => Asymmetry parameter2:      0.0000      0.0000
+ => Parameter  U        :      0.0000      0.0000
+ => Parameter  V        :      0.0000      0.0000
+ => Parameter  W        :      0.0165      0.0002
+ => Parameter  Z        :      0.0000      0.0000
+ => Parameter Eta0      :      0.6368      0.0090
+ => Parameter  X        :      0.0000      0.0000
+
+      BACKGROUND PARAMETERS
+      Scatt. Variable     Background            Sigma
+           65.3338          198.2563            0.0000
+           67.0758          171.4287            0.0000
+
+      PEAK PARAMETERS
+
+   Npeak     2Theta       Intensity        D-Gamma         D-Eta
+
+    1        66.2128       692.2150         0.0000         0.0000
+              0.0006         3.6423         0.0000         0.0000
+
+  Rfact=    4.528   Rwfact=    6.981  Rex=    4.159
+
+ => Error correlations 
+
+    Correlation:  11 >  0% for parameters:            W & Posit_1    (   6  12)
+    Correlation:  35 >  0% for parameters:         Eta0 & Inten_1    (   8  13)
+
+ => There are   2 values of Correlation >  0%
+ 
+ 
+            ------------------------------------ 
+                  --- PROGRAM: XRFIT ---
+            (Author: J. Rodriguez-Carvajal, LLB)
+                 (version 3.0 October 1998) 
+            ------------------------------------ 
+
+ => TITLE: ML_NaCl_20-137deg_0p01_60s_36min_20161012.dat                                                                                                                                                                                                                   
+
+ => 2Theta range, peaks and cycles read 
+ => 2Theta(init)    :   63.722
+ => 2Theta(fin )    :   86.165
+ => Number of peaks :     3
+ => Number of background points :     2
+ => Number of cycles:    10
+
+ => Global parameters                 Flag
+ => Kalph2/Kalph1 ratio :      0.5000  0
+ => Asymmetry parameter1:      0.0000  0
+ => Asymmetry parameter2:      0.0000  0
+
+      Profile Parameters for Pseudo-Voigt
+        pV(x) = ETA* L(x) + (1-ETA)* G(x)
+    FWHM = SQRT((U tanT + V) tanT + W) + Z/cosT
+    ETA  = Eta0 + X * 2T 
+
+ => Parameter  U        :      0.0000  0
+ => Parameter  V        :      0.0000  0
+ => Parameter  W        :      0.0145  1
+ => Parameter  Z        :      0.0000  0
+ => Parameter Eta0      :      0.0020  1
+ => Parameter  X        :      0.0000  0
+
+ => Background parameters
+      Scatt. Variable     Background  Flag
+           63.7218          171.4287   0
+           86.1654          117.7733   0
+
+    Position    Intensity    D-Gamma       D-Eta          Flags
+
+     66.2030        257.      0.0000      0.0000       1  1  0  0
+     75.2481        248.      0.0000      0.0000       1  1  0  0
+     83.9323        207.      0.0000      0.0000       1  1  0  0
+
+ => Total number of refined parameters:    8
+
+
+
+ => Cycle No.:  1  Chi2 =   8.14771    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1447000E-01   0.5002003E-02   0.1947200E-01   0.1386640E-03
+    8    0.2000000E-02    1.473364        1.475364       0.1426247E-01
+   12     66.20301       0.3072357E-01    66.23373       0.1328243E-02
+   13     256.5061        494.4504        750.9565        3.169546    
+   16     75.24812       0.4235077E-01    75.29047       0.1405305E-02
+   17     248.1699        595.4586        843.6285        3.317168    
+   20     83.93233       0.2304840E-01    83.95538       0.1158082E-02
+   21     207.2022        256.3277        463.5298        2.414016    
+
+
+ => Cycle No.:  2  Chi2 =   3.77718    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1947200E-01  -0.1748765E-02   0.1772324E-01   0.2700169E-03
+    8     1.475364      -0.2024275        1.272937       0.7692614E-02
+   12     66.23373      -0.2021790E-01    66.21352       0.5397126E-03
+   13     750.9565       -26.06360        724.8929        3.727834    
+   16     75.29047      -0.1737976E-01    75.27309       0.5238963E-03
+   17     843.6285        127.8809        971.5094        4.144255    
+   20     83.95538       0.1312256E-02    83.95669       0.6797349E-03
+   21     463.5298        32.36523        495.8951        3.123730    
+
+
+ => Cycle No.:  3  Chi2 =   3.13467    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1772324E-01   0.2470212E-02   0.2019345E-01   0.2476582E-03
+    8     1.272937      -0.1744196        1.098517       0.7767891E-02
+   12     66.21352       0.3967285E-03    66.21391       0.5329870E-03
+   13     724.8929        15.01599        739.9089        3.659596    
+   16     75.27309      -0.3494263E-02    75.26960       0.4322145E-03
+   17     971.5094        2.747681        974.2571        4.082010    
+   20     83.95669       0.2441406E-03    83.95693       0.5990930E-03
+   21     495.8951       -8.176758        487.7183        3.017576    
+
+
+ => Cycle No.:  4  Chi2 =   2.86496    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2019345E-01   0.3029684E-02   0.2322313E-01   0.2350547E-03
+    8     1.098517      -0.1373739       0.9611431       0.6931356E-02
+   12     66.21391       0.1525879E-04    66.21393       0.5705870E-03
+   13     739.9089      -0.2534790        739.6555        3.636881    
+   16     75.26960      -0.9689331E-03    75.26863       0.4717547E-03
+   17     974.2571       -4.020203        970.2369        4.048733    
+   20     83.95693       0.4119873E-03    83.95734       0.6697831E-03
+   21     487.7183       -4.456879        483.2614        2.970771    
+
+
+ => Cycle No.:  5  Chi2 =   2.78200    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2322313E-01   0.1691241E-02   0.2491437E-01   0.2202982E-03
+    8    0.9611431      -0.7119030E-01   0.8899528       0.6074015E-02
+   12     66.21393       0.5340576E-04    66.21398       0.6263743E-03
+   13     739.6555       -2.354858        737.3006        3.626708    
+   16     75.26863      -0.4577637E-04    75.26859       0.5223888E-03
+   17     970.2369       -3.739258        966.4976        4.033778    
+   20     83.95734       0.4653931E-03    83.95781       0.7476961E-03
+   21     483.2614       -2.546661        480.7148        2.945192    
+
+
+ => Cycle No.:  6  Chi2 =   2.75814    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2491437E-01   0.8447077E-03   0.2575908E-01   0.2143738E-03
+    8    0.8899528      -0.3503364E-01   0.8549191       0.5741614E-02
+   12     66.21398      -0.1602173E-03    66.21382       0.6583820E-03
+   13     737.3006      -0.8284912        736.4721        3.619639    
+   16     75.26859      -0.3814697E-04    75.26855       0.5515033E-03
+   17     966.4976       -1.449036        965.0486        4.026248    
+   20     83.95781       0.2517700E-03    83.95806       0.7912549E-03
+   21     480.7148      -0.8947449        479.8200        2.931130    
+
+
+ => Cycle No.:  7  Chi2 =   2.75112    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2575908E-01   0.4220083E-03   0.2618109E-01   0.2118299E-03
+    8    0.8549191      -0.1734245E-01   0.8375767       0.5603603E-02
+   12     66.21382      -0.4577637E-04    66.21378       0.6736204E-03
+   13     736.4721      -0.3037109        736.1684        3.615368    
+   16     75.26855      -0.5340576E-04    75.26849       0.5658022E-03
+   17     965.0486      -0.5935669        964.4550        4.022265    
+   20     83.95806       0.9155273E-04    83.95815       0.8124582E-03
+   21     479.8200      -0.3589478        479.4611        2.923719    
+
+
+ => Cycle No.:  8  Chi2 =   2.74893    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2618109E-01   0.2123434E-03   0.2639343E-01   0.2106766E-03
+    8    0.8375767      -0.8622050E-02   0.8289546       0.5541004E-02
+   12     66.21378      -0.4577637E-04    66.21373       0.6810598E-03
+   13     736.1684      -0.1279297        736.0405        3.613054    
+   16     75.26849      -0.3814697E-04    75.26846       0.5728525E-03
+   17     964.4550      -0.2641602        964.1909        4.020225    
+   20     83.95815       0.3051758E-04    83.95818       0.8228791E-03
+   21     479.4611      -0.1523743        479.3087        2.919954    
+
+
+ => Cycle No.:  9  Chi2 =   2.74812    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2639343E-01   0.1068786E-03   0.2650031E-01   0.2101433E-03
+    8    0.8289546      -0.4286468E-02   0.8246682       0.5511199E-02
+   12     66.21373      -0.1525879E-04    66.21371       0.6847322E-03
+   13     736.0405      -0.5920410E-01    735.9813        3.611860    
+   16     75.26846      -0.2288818E-04    75.26843       0.5763762E-03
+   17     964.1909      -0.1240845        964.0668        4.019207    
+   20     83.95818       0.7629395E-05    83.95819       0.8280820E-03
+   21     479.3087      -0.7028198E-01    479.2384        2.918064    
+
+
+ => Cycle No.: 10  Chi2 =   2.74781    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2650031E-01   0.5412288E-04   0.2655444E-01   0.2098955E-03
+    8    0.8246682      -0.2138555E-02   0.8225296       0.5496729E-02
+   12     66.21371      -0.7629395E-05    66.21371       0.6865797E-03
+   13     735.9813      -0.3094482E-01    735.9503        3.611260    
+   16     75.26843      -0.7629395E-05    75.26842       0.5781297E-03
+   17     964.0668      -0.5627441E-01    964.0105        4.018707    
+   20     83.95819        0.000000        83.95819       0.8306892E-03
+   21     479.2384      -0.3289795E-01    479.2055        2.917128    
+
+       GLOBAL  PARAMETERS       (Value - Sigma):  
+
+ => Kalph2/Kalph1 ratio :      0.5000      0.0000
+ => Asymmetry parameter1:      0.0000      0.0000
+ => Asymmetry parameter2:      0.0000      0.0000
+ => Parameter  U        :      0.0000      0.0000
+ => Parameter  V        :      0.0000      0.0000
+ => Parameter  W        :      0.0266      0.0002
+ => Parameter  Z        :      0.0000      0.0000
+ => Parameter Eta0      :      0.8225      0.0055
+ => Parameter  X        :      0.0000      0.0000
+
+      BACKGROUND PARAMETERS
+      Scatt. Variable     Background            Sigma
+           63.7348          171.4287            0.0000
+           86.1598          117.7733            0.0000
+
+      PEAK PARAMETERS
+
+   Npeak     2Theta       Intensity        D-Gamma         D-Eta
+
+    1        66.2137       735.9503         0.0000         0.0000
+              0.0007         3.6113         0.0000         0.0000
+    2        75.2684       964.0105         0.0000         0.0000
+              0.0006         4.0187         0.0000         0.0000
+    3        83.9582       479.2055         0.0000         0.0000
+              0.0008         2.9171         0.0000         0.0000
+
+  Rfact=    7.857   Rwfact=   10.592  Rex=    6.390
+
+ => Error correlations 
+
+    Correlation:   9 >  0% for parameters:            W & Posit_1    (   6  12)
+    Correlation:   7 >  0% for parameters:            W & Posit_2    (   6  16)
+    Correlation:   3 >  0% for parameters:            W & Posit_3    (   6  20)
+    Correlation:   2 >  0% for parameters:            W & Inten_3    (   6  21)
+    Correlation:  18 >  0% for parameters:         Eta0 & Inten_1    (   8  13)
+    Correlation:  17 >  0% for parameters:         Eta0 & Inten_2    (   8  17)
+    Correlation:  12 >  0% for parameters:         Eta0 & Inten_3    (   8  21)
+    Correlation:   1 >  0% for parameters:      Posit_1 & Posit_2    (  12  16)
+    Correlation:   0 >  0% for parameters:      Posit_1 & Posit_3    (  12  20)
+    Correlation:   4 >  0% for parameters:      Inten_1 & Inten_2    (  13  17)
+    Correlation:   3 >  0% for parameters:      Inten_1 & Inten_3    (  13  21)
+    Correlation:   0 >  0% for parameters:      Posit_2 & Posit_3    (  16  20)
+    Correlation:   0 >  0% for parameters:      Posit_2 & Inten_3    (  16  21)
+    Correlation:   0 >  0% for parameters:      Inten_2 & Posit_3    (  17  20)
+    Correlation:   5 >  0% for parameters:      Inten_2 & Inten_3    (  17  21)
+    Correlation:   0 >  0% for parameters:      Posit_3 & Inten_3    (  20  21)
+
+ => There are  16 values of Correlation >  0%
+
+
+ => Cycle No.:  1  Chi2 =   2.74768    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2655444E-01   0.2726726E-04   0.2658170E-01   0.2093690E-03
+    8    0.8225296      -0.1063585E-02   0.8214660       0.5478479E-02
+   12     66.21371        0.000000        66.21371       0.6871481E-03
+   13     735.9503      -0.1489258E-01    735.9354        3.608887    
+   16     75.26842      -0.7629395E-05    75.26842       0.5787199E-03
+   17     964.0105      -0.2777100E-01    963.9827        4.016187    
+   20     83.95819        0.000000        83.95819       0.8315811E-03
+   21     479.2055      -0.1455688E-01    479.1910        2.915086    
+
+
+ => Cycle No.:  2  Chi2 =   2.74761    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2658170E-01   0.1396425E-04   0.2659567E-01   0.2096844E-03
+    8    0.8214660      -0.5351305E-03   0.8209309       0.5484933E-02
+   12     66.21371      -0.7629395E-05    66.21370       0.6879407E-03
+   13     735.9354      -0.8361816E-02    735.9271        3.610607    
+   16     75.26842        0.000000        75.26842       0.5794323E-03
+   17     963.9827      -0.1391602E-01    963.9688        4.018117    
+   20     83.95819        0.000000        83.95819       0.8326134E-03
+   21     479.1910      -0.6958008E-02    479.1840        2.916289    
+
+
+ => Cycle No.:  3  Chi2 =   2.74757    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2659567E-01   0.7087365E-05   0.2660275E-01   0.2096964E-03
+    8    0.8209309      -0.2680421E-03   0.8206629       0.5484163E-02
+   12     66.21370        0.000000        66.21370       0.6882075E-03
+   13     735.9271      -0.4333496E-02    735.9227        3.610722    
+   16     75.26842        0.000000        75.26842       0.5796878E-03
+   17     963.9688      -0.6774902E-02    963.9620        4.018265    
+   20     83.95819      -0.7629395E-05    83.95818       0.8329864E-03
+   21     479.1840      -0.3204346E-02    479.1808        2.916321    
+
+ => Convergence reached! : Chi2(old)-Chi2(new) < 0.00001 * Chi2(old)
+
+
+       GLOBAL  PARAMETERS       (Value - Sigma):  
+
+ => Kalph2/Kalph1 ratio :      0.5000      0.0000
+ => Asymmetry parameter1:      0.0000      0.0000
+ => Asymmetry parameter2:      0.0000      0.0000
+ => Parameter  U        :      0.0000      0.0000
+ => Parameter  V        :      0.0000      0.0000
+ => Parameter  W        :      0.0266      0.0002
+ => Parameter  Z        :      0.0000      0.0000
+ => Parameter Eta0      :      0.8207      0.0055
+ => Parameter  X        :      0.0000      0.0000
+
+      BACKGROUND PARAMETERS
+      Scatt. Variable     Background            Sigma
+           63.7348          171.4287            0.0000
+           86.1598          117.7733            0.0000
+
+      PEAK PARAMETERS
+
+   Npeak     2Theta       Intensity        D-Gamma         D-Eta
+
+    1        66.2137       735.9227         0.0000         0.0000
+              0.0007         3.6107         0.0000         0.0000
+    2        75.2684       963.9620         0.0000         0.0000
+              0.0006         4.0183         0.0000         0.0000
+    3        83.9582       479.1808         0.0000         0.0000
+              0.0008         2.9163         0.0000         0.0000
+
+  Rfact=    7.856   Rwfact=   10.592  Rex=    6.390
+
+ => Error correlations 
+
+    Correlation:   9 >  0% for parameters:            W & Posit_1    (   6  12)
+    Correlation:   8 >  0% for parameters:            W & Posit_2    (   6  16)
+    Correlation:   3 >  0% for parameters:            W & Posit_3    (   6  20)
+    Correlation:   2 >  0% for parameters:            W & Inten_3    (   6  21)
+    Correlation:  18 >  0% for parameters:         Eta0 & Inten_1    (   8  13)
+    Correlation:  17 >  0% for parameters:         Eta0 & Inten_2    (   8  17)
+    Correlation:  12 >  0% for parameters:         Eta0 & Inten_3    (   8  21)
+    Correlation:   1 >  0% for parameters:      Posit_1 & Posit_2    (  12  16)
+    Correlation:   0 >  0% for parameters:      Posit_1 & Posit_3    (  12  20)
+    Correlation:   4 >  0% for parameters:      Inten_1 & Inten_2    (  13  17)
+    Correlation:   3 >  0% for parameters:      Inten_1 & Inten_3    (  13  21)
+    Correlation:   0 >  0% for parameters:      Posit_2 & Posit_3    (  16  20)
+    Correlation:   0 >  0% for parameters:      Posit_2 & Inten_3    (  16  21)
+    Correlation:   0 >  0% for parameters:      Inten_2 & Posit_3    (  17  20)
+    Correlation:   5 >  0% for parameters:      Inten_2 & Inten_3    (  17  21)
+    Correlation:   0 >  0% for parameters:      Posit_3 & Inten_3    (  20  21)
+
+ => There are  16 values of Correlation >  0%
+ 
+ 
+            ------------------------------------ 
+                  --- PROGRAM: XRFIT ---
+            (Author: J. Rodriguez-Carvajal, LLB)
+                 (version 3.0 October 1998) 
+            ------------------------------------ 
+
+ => TITLE: ML_NaCl_20-137deg_0p01_60s_36min_20161012.dat                                                                                                                                                                                                                   
+
+ => 2Theta range, peaks and cycles read 
+ => 2Theta(init)    :   98.457
+ => 2Theta(fin )    :  124.467
+ => Number of peaks :     3
+ => Number of background points :     2
+ => Number of cycles:    10
+
+ => Global parameters                 Flag
+ => Kalph2/Kalph1 ratio :      0.5000  0
+ => Asymmetry parameter1:      0.0000  0
+ => Asymmetry parameter2:      0.0000  0
+
+      Profile Parameters for Pseudo-Voigt
+        pV(x) = ETA* L(x) + (1-ETA)* G(x)
+    FWHM = SQRT((U tanT + V) tanT + W) + Z/cosT
+    ETA  = Eta0 + X * 2T 
+
+ => Parameter  U        :      0.0000  0
+ => Parameter  V        :      0.0000  0
+ => Parameter  W        :      0.0412  1
+ => Parameter  Z        :      0.0000  0
+ => Parameter Eta0      :      0.0020  1
+ => Parameter  X        :      0.0000  0
+
+ => Background parameters
+      Scatt. Variable     Background  Flag
+           98.4568          118.3100   0
+          124.4671          155.8686   0
+
+    Position    Intensity    D-Gamma       D-Eta          Flags
+
+    101.1212         75.      0.0000      0.0000       1  1  0  0
+    109.9774        119.      0.0000      0.0000       1  1  0  0
+    119.4173        137.      0.0000      0.0000       1  1  0  0
+
+ => Total number of refined parameters:    8
+
+
+
+ => Cycle No.:  1  Chi2 =   3.21448    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.4121000E-01   0.1834942E-01   0.5955942E-01   0.6811875E-03
+    8    0.2000000E-02    1.520954        1.522954       0.2721915E-01
+   12     101.1212       0.2504730E-01    101.1463       0.4186513E-02
+   13     75.26892        96.83376        172.1027        1.720287    
+   16     109.9774       0.8863068E-01    110.0661       0.3602775E-02
+   17     119.3524        286.6139        405.9663        2.567383    
+   20     119.4173       0.3795624E-01    119.4552       0.2920822E-02
+   21     136.8156        240.3721        377.1877        2.603971    
+
+
+ => Cycle No.:  2  Chi2 =   1.84118    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.5955942E-01  -0.8067824E-03   0.5875264E-01   0.1301535E-02
+    8     1.522954      -0.2133687        1.309586       0.1131107E-01
+   12     101.1463      -0.5180359E-02    101.1411       0.2412320E-02
+   13     172.1027       -15.80008        156.3026        2.372920    
+   16     110.0661      -0.3907776E-01    110.0270       0.1463671E-02
+   17     405.9663        74.25571        480.2220        3.427300    
+   20     119.4552      -0.1246643E-01    119.4428       0.1472875E-02
+   21     377.1877        32.15213        409.3398        3.330790    
+
+
+ => Cycle No.:  3  Chi2 =   1.65426    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.5875264E-01   0.7875800E-02   0.6662844E-01   0.1321860E-02
+    8     1.309586      -0.1663756        1.143210       0.1223621E-01
+   12     101.1411      -0.3051758E-02    101.1381       0.2668900E-02
+   13     156.3026        3.476303        159.7789        2.257311    
+   16     110.0270      -0.6340027E-02    110.0207       0.1234506E-02
+   17     480.2220        1.541840        481.7638        3.340194    
+   20     119.4428      -0.2548218E-02    119.4402       0.1346683E-02
+   21     409.3398       0.4147949        409.7546        3.220544    
+
+
+ => Cycle No.:  4  Chi2 =   1.58358    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.6662844E-01   0.8512609E-02   0.7514105E-01   0.1318562E-02
+    8     1.143210      -0.1269672        1.016243       0.1201314E-01
+   12     101.1381      -0.8392334E-04    101.1380       0.2881343E-02
+   13     159.7789      -0.5695801        159.2093        2.216201    
+   16     110.0207      -0.1213074E-02    110.0194       0.1342958E-02
+   17     481.7638       -3.462830        478.3010        3.298658    
+   20     119.4402      -0.5187988E-03    119.4397       0.1468002E-02
+   21     409.7546       -2.752747        407.0018        3.177322    
+
+
+ => Cycle No.:  5  Chi2 =   1.55717    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.7514105E-01   0.5072273E-02   0.8021332E-01   0.1250008E-02
+    8     1.016243      -0.7376015E-01   0.9424828       0.1122200E-01
+   12     101.1380       0.4653931E-03    101.1384       0.3178420E-02
+   13     159.2093      -0.6065521        158.6028        2.192545    
+   16     110.0194       0.9155273E-04    110.0195       0.1474032E-02
+   17     478.3010       -2.943420        475.3576        3.291795    
+   20     119.4397       0.9155273E-04    119.4398       0.1605718E-02
+   21     407.0018       -2.214233        404.7876        3.162808    
+
+
+ => Cycle No.:  6  Chi2 =   1.54742    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.8021332E-01   0.2714396E-02   0.8292772E-01   0.1202620E-02
+    8    0.9424828      -0.4022366E-01   0.9022592       0.1079477E-01
+   12     101.1384       0.2288818E-04    101.1385       0.3361842E-02
+   13     158.6028      -0.2147827        158.3880        2.177564    
+   16     110.0195      -0.7629395E-05    110.0195       0.1556360E-02
+   17     475.3576       -1.367584        473.9900        3.290108    
+   20     119.4398       0.4577637E-04    119.4398       0.1689209E-02
+   21     404.7876      -0.9521179        403.8355        3.154664    
+
+
+ => Cycle No.:  7  Chi2 =   1.54372    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.8292772E-01   0.1454577E-02   0.8438230E-01   0.1176453E-02
+    8    0.9022592      -0.2176690E-01   0.8804923       0.1058869E-01
+   12     101.1385      -0.6103516E-04    101.1384       0.3457662E-02
+   13     158.3880      -0.7594299E-01    158.3120        2.168633    
+   16     110.0195      -0.6103516E-04    110.0195       0.1600304E-02
+   17     473.9900      -0.6520996        473.3379        3.288883    
+   20     119.4398      -0.7629395E-05    119.4398       0.1732869E-02
+   21     403.8355      -0.4309998        403.4045        3.149547    
+
+
+ => Cycle No.:  8  Chi2 =   1.54224    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.8438230E-01   0.7877946E-03   0.8517009E-01   0.1162592E-02
+    8    0.8804923      -0.1178139E-01   0.8687109       0.1048633E-01
+   12     101.1384      -0.5340576E-04    101.1383       0.3507983E-02
+   13     158.3120      -0.3042603E-01    158.2816        2.163592    
+   16     110.0195      -0.5340576E-04    110.0194       0.1623721E-02
+   17     473.3379      -0.3309631        473.0069        3.288080    
+   20     119.4398      -0.1525879E-04    119.4398       0.1755898E-02
+   21     403.4045      -0.2102051        403.1943        3.146572    
+
+
+ => Cycle No.:  9  Chi2 =   1.54157    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.8517009E-01   0.4287586E-03   0.8559885E-01   0.1155286E-02
+    8    0.8687109      -0.6371737E-02   0.8623391       0.1043366E-01
+   12     101.1383      -0.2288818E-04    101.1383       0.3534935E-02
+   13     158.2816      -0.1397705E-01    158.2676        2.160810    
+   16     110.0194      -0.2288818E-04    110.0194       0.1636375E-02
+   17     473.0069      -0.1741638        472.8328        3.287613    
+   20     119.4398      -0.7629395E-05    119.4398       0.1768272E-02
+   21     403.1943      -0.1071472        403.0871        3.144916    
+
+
+ => Cycle No.: 10  Chi2 =   1.54128    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.8559885E-01   0.2356172E-03   0.8583447E-01   0.1151443E-02
+    8    0.8623391      -0.3464878E-02   0.8588743       0.1040614E-01
+   12     101.1383      -0.1525879E-04    101.1383       0.3549502E-02
+   13     158.2676      -0.6927490E-02    158.2607        2.159308    
+   16     110.0194      -0.2288818E-04    110.0194       0.1643222E-02
+   17     472.8328      -0.9054565E-01    472.7422        3.287371    
+   20     119.4398      -0.7629395E-05    119.4398       0.1774976E-02
+   21     403.0871      -0.5718994E-01    403.0299        3.144019    
+
+       GLOBAL  PARAMETERS       (Value - Sigma):  
+
+ => Kalph2/Kalph1 ratio :      0.5000      0.0000
+ => Asymmetry parameter1:      0.0000      0.0000
+ => Asymmetry parameter2:      0.0000      0.0000
+ => Parameter  U        :      0.0000      0.0000
+ => Parameter  V        :      0.0000      0.0000
+ => Parameter  W        :      0.0858      0.0012
+ => Parameter  Z        :      0.0000      0.0000
+ => Parameter Eta0      :      0.8589      0.0104
+ => Parameter  X        :      0.0000      0.0000
+
+      BACKGROUND PARAMETERS
+      Scatt. Variable     Background            Sigma
+           98.4578          118.3100            0.0000
+          124.4578          155.8686            0.0000
+
+      PEAK PARAMETERS
+
+   Npeak     2Theta       Intensity        D-Gamma         D-Eta
+
+    1       101.1383       158.2607         0.0000         0.0000
+              0.0035         2.1593         0.0000         0.0000
+    2       110.0194       472.7422         0.0000         0.0000
+              0.0016         3.2874         0.0000         0.0000
+    3       119.4398       403.0299         0.0000         0.0000
+              0.0018         3.1440         0.0000         0.0000
+
+  Rfact=    6.520   Rwfact=    9.368  Rex=    7.546
+
+ => Error correlations 
+
+    Correlation:   4 >  0% for parameters:            W & Posit_1    (   6  12)
+    Correlation:   6 >  0% for parameters:            W & Posit_2    (   6  16)
+    Correlation:   3 >  0% for parameters:            W & Posit_3    (   6  20)
+    Correlation:  16 >  0% for parameters:         Eta0 & Inten_1    (   8  13)
+    Correlation:  28 >  0% for parameters:         Eta0 & Inten_2    (   8  17)
+    Correlation:  24 >  0% for parameters:         Eta0 & Inten_3    (   8  21)
+    Correlation:   0 >  0% for parameters:      Posit_1 & Posit_2    (  12  16)
+    Correlation:   0 >  0% for parameters:      Posit_1 & Posit_3    (  12  20)
+    Correlation:   7 >  0% for parameters:      Inten_1 & Inten_2    (  13  17)
+    Correlation:   0 >  0% for parameters:      Inten_1 & Posit_3    (  13  20)
+    Correlation:   7 >  0% for parameters:      Inten_1 & Inten_3    (  13  21)
+    Correlation:   0 >  0% for parameters:      Posit_2 & Posit_3    (  16  20)
+    Correlation:   0 >  0% for parameters:      Inten_2 & Posit_3    (  17  20)
+    Correlation:  11 >  0% for parameters:      Inten_2 & Inten_3    (  17  21)
+    Correlation:   0 >  0% for parameters:      Posit_3 & Inten_3    (  20  21)
+
+ => There are  15 values of Correlation >  0%
+
+
+ => Cycle No.:  1  Chi2 =   1.54111    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.8583447E-01   0.1274794E-03   0.8596195E-01   0.1146982E-02
+    8    0.8588743      -0.1861870E-02   0.8570124       0.1036765E-01
+   12     101.1383      -0.1525879E-04    101.1383       0.3555673E-02
+   13     158.2607      -0.3067017E-02    158.2576        2.157267    
+   16     110.0194      -0.7629395E-05    110.0194       0.1646150E-02
+   17     472.7422      -0.4992676E-01    472.6923        3.284926    
+   20     119.4398        0.000000        119.4398       0.1777770E-02
+   21     403.0299      -0.2951050E-01    403.0004        3.141455    
+
+
+ => Cycle No.:  2  Chi2 =   1.54104    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.8596195E-01   0.7094443E-04   0.8603289E-01   0.1148086E-02
+    8    0.8570124      -0.1021326E-02   0.8559911       0.1038116E-01
+   12     101.1383        0.000000        101.1383       0.3561579E-02
+   13     158.2576      -0.2212524E-02    158.2554        2.157933    
+   16     110.0194      -0.7629395E-05    110.0194       0.1648934E-02
+   17     472.6923      -0.2609253E-01    472.6662        3.286944    
+   20     119.4398        0.000000        119.4398       0.1780557E-02
+   21     403.0004      -0.1666260E-01    402.9838        3.143065    
+
+
+ => Cycle No.:  3  Chi2 =   1.54100    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.8603289E-01   0.3860146E-04   0.8607149E-01   0.1147728E-02
+    8    0.8559911      -0.5505085E-03   0.8554406       0.1037898E-01
+   12     101.1383      -0.7629395E-05    101.1383       0.3564144E-02
+   13     158.2554      -0.9002686E-03    158.2545        2.157806    
+   16     110.0194        0.000000        110.0194       0.1650143E-02
+   17     472.6662      -0.1501465E-01    472.6512        3.287119    
+   20     119.4398        0.000000        119.4398       0.1781742E-02
+   21     402.9838      -0.8331299E-02    402.9754        3.143115    
+
+
+ => Cycle No.:  4  Chi2 =   1.54098    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.8607149E-01   0.2114475E-04   0.8609264E-01   0.1147448E-02
+    8    0.8554406      -0.2987981E-03   0.8551418       0.1037690E-01
+   12     101.1383        0.000000        101.1383       0.3565447E-02
+   13     158.2545      -0.5493164E-03    158.2540        2.157691    
+   16     110.0194        0.000000        110.0194       0.1650767E-02
+   17     472.6512      -0.7659912E-02    472.6435        3.287122    
+   20     119.4398      -0.7629395E-05    119.4398       0.1782349E-02
+   21     402.9754      -0.4608154E-02    402.9708        3.143060    
+
+ => Convergence reached! : Chi2(old)-Chi2(new) < 0.00001 * Chi2(old)
+
+
+       GLOBAL  PARAMETERS       (Value - Sigma):  
+
+ => Kalph2/Kalph1 ratio :      0.5000      0.0000
+ => Asymmetry parameter1:      0.0000      0.0000
+ => Asymmetry parameter2:      0.0000      0.0000
+ => Parameter  U        :      0.0000      0.0000
+ => Parameter  V        :      0.0000      0.0000
+ => Parameter  W        :      0.0861      0.0011
+ => Parameter  Z        :      0.0000      0.0000
+ => Parameter Eta0      :      0.8551      0.0104
+ => Parameter  X        :      0.0000      0.0000
+
+      BACKGROUND PARAMETERS
+      Scatt. Variable     Background            Sigma
+           98.4578          118.3100            0.0000
+          124.4578          155.8686            0.0000
+
+      PEAK PARAMETERS
+
+   Npeak     2Theta       Intensity        D-Gamma         D-Eta
+
+    1       101.1383       158.2540         0.0000         0.0000
+              0.0036         2.1577         0.0000         0.0000
+    2       110.0194       472.6435         0.0000         0.0000
+              0.0017         3.2871         0.0000         0.0000
+    3       119.4398       402.9708         0.0000         0.0000
+              0.0018         3.1431         0.0000         0.0000
+
+  Rfact=    6.520   Rwfact=    9.368  Rex=    7.546
+
+ => Error correlations 
+
+    Correlation:   4 >  0% for parameters:            W & Posit_1    (   6  12)
+    Correlation:   7 >  0% for parameters:            W & Posit_2    (   6  16)
+    Correlation:   3 >  0% for parameters:            W & Posit_3    (   6  20)
+    Correlation:  16 >  0% for parameters:         Eta0 & Inten_1    (   8  13)
+    Correlation:  28 >  0% for parameters:         Eta0 & Inten_2    (   8  17)
+    Correlation:  25 >  0% for parameters:         Eta0 & Inten_3    (   8  21)
+    Correlation:   0 >  0% for parameters:      Posit_1 & Posit_2    (  12  16)
+    Correlation:   0 >  0% for parameters:      Posit_1 & Posit_3    (  12  20)
+    Correlation:   7 >  0% for parameters:      Inten_1 & Inten_2    (  13  17)
+    Correlation:   0 >  0% for parameters:      Inten_1 & Posit_3    (  13  20)
+    Correlation:   7 >  0% for parameters:      Inten_1 & Inten_3    (  13  21)
+    Correlation:   0 >  0% for parameters:      Posit_2 & Posit_3    (  16  20)
+    Correlation:   0 >  0% for parameters:      Inten_2 & Posit_3    (  17  20)
+    Correlation:  12 >  0% for parameters:      Inten_2 & Inten_3    (  17  21)
+    Correlation:   0 >  0% for parameters:      Posit_3 & Inten_3    (  20  21)
+
+ => There are  15 values of Correlation >  0%
+ 
+ 
+            ------------------------------------ 
+                  --- PROGRAM: XRFIT ---
+            (Author: J. Rodriguez-Carvajal, LLB)
+                 (version 3.0 October 1998) 
+            ------------------------------------ 
+
+ => TITLE: ML_NaCl_20-137deg_0p01_60s_36min_20161012.dat                                                                                                                                                                                                                   
+
+ => 2Theta range, peaks and cycles read 
+ => 2Theta(init)    :  108.599
+ => 2Theta(fin )    :  133.112
+ => Number of peaks :     3
+ => Number of background points :     2
+ => Number of cycles:    10
+
+ => Global parameters                 Flag
+ => Kalph2/Kalph1 ratio :      0.5000  0
+ => Asymmetry parameter1:      0.0000  0
+ => Asymmetry parameter2:      0.0000  0
+
+      Profile Parameters for Pseudo-Voigt
+        pV(x) = ETA* L(x) + (1-ETA)* G(x)
+    FWHM = SQRT((U tanT + V) tanT + W) + Z/cosT
+    ETA  = Eta0 + X * 2T 
+
+ => Parameter  U        :      0.0000  0
+ => Parameter  V        :      0.0000  0
+ => Parameter  W        :      0.1145  1
+ => Parameter  Z        :      0.0000  0
+ => Parameter Eta0      :      0.0020  1
+ => Parameter  X        :      0.0000  0
+
+ => Background parameters
+      Scatt. Variable     Background  Flag
+          108.5987          149.5641   0
+          133.1118          160.6306   0
+
+    Position    Intensity    D-Gamma       D-Eta          Flags
+
+    109.9690        117.      0.0000      0.0000       1  1  0  0
+    119.4088        203.      0.0000      0.0000       1  1  0  0
+    129.8637        205.      0.0000      0.0000       1  1  0  0
+
+ => Total number of refined parameters:    8
+
+
+
+ => Cycle No.:  1  Chi2 =   6.48167    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1144800       0.1294033E-01   0.1274203       0.1363764E-02
+    8    0.2000000E-02   0.6232530       0.6252530       0.2049763E-01
+   12     109.9690       0.2427444        110.2117       0.8143947E-02
+   13     116.7244        286.9453        403.6697        2.728891    
+   16     119.4088       0.7598877E-01    119.4848       0.4297571E-02
+   17     202.9567        183.6815        386.6381        2.935245    
+   20     129.8637      -0.2226257E-01    129.8415       0.3632238E-02
+   21     204.6895        88.94640        293.6359        2.755966    
+
+
+ => Cycle No.:  2  Chi2 =   2.48692    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1274203       0.4497674E-01   0.1723971       0.1368762E-02
+    8    0.6252530      -0.1321703       0.4930826       0.1038861E-01
+   12     110.2117      -0.1548767        110.0569       0.2633343E-02
+   13     403.6697       -28.91269        374.7570        3.078677    
+   16     119.4848      -0.5787659E-01    119.4269       0.2513621E-02
+   17     386.6381        4.621552        391.2597        3.171485    
+   20     129.8415      -0.3051758E-04    129.8414       0.2864057E-02
+   21     293.6359        5.042816        298.6787        2.866906    
+
+
+ => Cycle No.:  3  Chi2 =   2.23728    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1723971      -0.2185543E-01   0.1505416       0.1794686E-02
+    8    0.4930826       0.5946177E-01   0.5525444       0.1075555E-01
+   12     110.0569      -0.7134247E-01    109.9855       0.3419396E-02
+   13     374.7570        60.57968        435.3367        3.316436    
+   16     119.4269       0.2226257E-01    119.4492       0.3046711E-02
+   17     391.2597       -5.074097        386.1856        3.251512    
+   20     129.8414      -0.5767822E-02    129.8357       0.3578871E-02
+   21     298.6787       -6.232788        292.4459        2.922285    
+
+
+ => Cycle No.:  4  Chi2 =   2.02369    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1505416      -0.1292127E-01   0.1376204       0.1526467E-02
+    8    0.5525444       0.3513855E-01   0.5876830       0.1010191E-01
+   12     109.9855       0.5563354E-01    110.0411       0.2612513E-02
+   13     435.3367        1.066101        436.4028        3.348651    
+   16     119.4492      -0.1419830E-01    119.4350       0.2816896E-02
+   17     386.1856       0.6320496        386.8176        3.191248    
+   20     129.8357       0.1739502E-02    129.8374       0.3275484E-02
+   21     292.4459       -2.671875        289.7740        2.876149    
+
+
+ => Cycle No.:  5  Chi2 =   1.95521    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1376204      -0.9561986E-02   0.1280584       0.1420513E-02
+    8    0.5876830       0.3451610E-01   0.6221991       0.1002376E-01
+   12     110.0411      -0.3317261E-01    110.0080       0.2530994E-02
+   13     436.4028        2.490326        438.8931        3.335204    
+   16     119.4350       0.8049011E-02    119.4431       0.2619372E-02
+   17     386.8176        1.484100        388.3017        3.174108    
+   20     129.8374       0.6713867E-03    129.8381       0.3079966E-02
+   21     289.7740       -1.070587        288.7034        2.858905    
+
+
+ => Cycle No.:  6  Chi2 =   1.91585    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1280584      -0.6539859E-02   0.1215185       0.1340913E-02
+    8    0.6221991       0.2562058E-01   0.6478196       0.9971073E-02
+   12     110.0080       0.1840973E-01    110.0264       0.2356382E-02
+   13     438.8931       0.9011841        439.7943        3.322177    
+   16     119.4431      -0.3952026E-02    119.4391       0.2477937E-02
+   17     388.3017       0.6063232        388.9081        3.164091    
+   20     129.8381       0.5340576E-03    129.8386       0.2923932E-02
+   21     288.7034       -1.068115        287.6353        2.848459    
+
+
+ => Cycle No.:  7  Chi2 =   1.90680    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1215185      -0.4162364E-02   0.1173562       0.1294751E-02
+    8    0.6478196       0.1953661E-01   0.6673563       0.9958519E-02
+   12     110.0264      -0.9162903E-02    110.0172       0.2287193E-02
+   13     439.7943        1.011505        440.8058        3.313465    
+   16     119.4391       0.1831055E-02    119.4409       0.2376267E-02
+   17     388.9081       0.6410522        389.5491        3.157061    
+   20     129.8386       0.3967285E-03    129.8390       0.2819770E-02
+   21     287.6353      -0.4414978        287.1938        2.841484    
+
+
+ => Cycle No.:  8  Chi2 =   1.90291    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1173562      -0.2663493E-02   0.1146927       0.1267274E-02
+    8    0.6673563       0.1347023E-01   0.6808265       0.9955034E-02
+   12     110.0172       0.4364014E-02    110.0216       0.2216955E-02
+   13     440.8058       0.4699097        441.2757        3.307760    
+   16     119.4409      -0.6561279E-03    119.4403       0.2312304E-02
+   17     389.5491       0.3220520        389.8712        3.153329    
+   20     129.8390       0.2593994E-03    129.8393       0.2750891E-02
+   21     287.1938      -0.3059998        286.8878        2.838044    
+
+
+ => Cycle No.:  9  Chi2 =   1.90231    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1146927      -0.1637772E-02   0.1130549       0.1252079E-02
+    8    0.6808265       0.9288967E-02   0.6901155       0.9960510E-02
+   12     110.0216      -0.1861572E-02    110.0197       0.2182639E-02
+   13     441.2757       0.3968811        441.6726        3.304307    
+   16     119.4403       0.2822876E-03    119.4406       0.2270759E-02
+   17     389.8712       0.2689819        390.1401        3.151240    
+   20     129.8393       0.1831055E-03    129.8394       0.2706928E-02
+   21     286.8878      -0.1096191        286.7782        2.836286    
+
+
+ => Cycle No.: 10  Chi2 =   1.90214    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1130549      -0.1037799E-02   0.1120171       0.1243637E-02
+    8    0.6901155       0.6231964E-02   0.6963474       0.9965019E-02
+   12     110.0197       0.8163452E-03    110.0205       0.2156348E-02
+   13     441.6726       0.2227783        441.8954        3.302336    
+   16     119.4406      -0.6866455E-04    119.4405       0.2245140E-02
+   17     390.1401       0.1550598        390.2952        3.150216    
+   20     129.8394       0.1068115E-03    129.8396       0.2679147E-02
+   21     286.7782      -0.6161499E-01    286.7166        2.835614    
+
+       GLOBAL  PARAMETERS       (Value - Sigma):  
+
+ => Kalph2/Kalph1 ratio :      0.5000      0.0000
+ => Asymmetry parameter1:      0.0000      0.0000
+ => Asymmetry parameter2:      0.0000      0.0000
+ => Parameter  U        :      0.0000      0.0000
+ => Parameter  V        :      0.0000      0.0000
+ => Parameter  W        :      0.1120      0.0012
+ => Parameter  Z        :      0.0000      0.0000
+ => Parameter Eta0      :      0.6963      0.0100
+ => Parameter  X        :      0.0000      0.0000
+
+      BACKGROUND PARAMETERS
+      Scatt. Variable     Background            Sigma
+          108.6108          149.5641            0.0000
+          133.1028          160.6306            0.0000
+
+      PEAK PARAMETERS
+
+   Npeak     2Theta       Intensity        D-Gamma         D-Eta
+
+    1       110.0205       441.8954         0.0000         0.0000
+              0.0022         3.3023         0.0000         0.0000
+    2       119.4405       390.2952         0.0000         0.0000
+              0.0022         3.1502         0.0000         0.0000
+    3       129.8396       286.7166         0.0000         0.0000
+              0.0027         2.8356         0.0000         0.0000
+
+  Rfact=    7.698   Rwfact=    9.816  Rex=    7.117
+
+ => Error correlations 
+
+    Correlation:  11 >  0% for parameters:            W & Posit_1    (   6  12)
+    Correlation:   6 >  0% for parameters:            W & Posit_2    (   6  16)
+    Correlation:   1 >  0% for parameters:            W & Posit_3    (   6  20)
+    Correlation:  35 >  0% for parameters:         Eta0 & Inten_1    (   8  13)
+    Correlation:  31 >  0% for parameters:         Eta0 & Inten_2    (   8  17)
+    Correlation:  24 >  0% for parameters:         Eta0 & Inten_3    (   8  21)
+    Correlation:   1 >  0% for parameters:      Posit_1 & Posit_2    (  12  16)
+    Correlation:   0 >  0% for parameters:      Posit_1 & Posit_3    (  12  20)
+    Correlation:  14 >  0% for parameters:      Inten_1 & Inten_2    (  13  17)
+    Correlation:   0 >  0% for parameters:      Inten_1 & Posit_3    (  13  20)
+    Correlation:  12 >  0% for parameters:      Inten_1 & Inten_3    (  13  21)
+    Correlation:   0 >  0% for parameters:      Posit_2 & Posit_3    (  16  20)
+    Correlation:   0 >  0% for parameters:      Inten_2 & Posit_3    (  17  20)
+    Correlation:  11 >  0% for parameters:      Inten_2 & Inten_3    (  17  21)
+    Correlation:   1 >  0% for parameters:      Posit_3 & Inten_3    (  20  21)
+
+ => There are  15 values of Correlation >  0%
+
+
+ => Cycle No.:  1  Chi2 =   1.90211    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1120171      -0.1586527E-03   0.1118584       0.6475783E-03
+    8    0.6963474       0.6757379E-03   0.6970232       0.4759234E-02
+   12     110.0205      -0.1068115E-03    110.0204       0.1505841E-02
+   13     441.8954      -0.6491089E-01    441.8304        2.186325    
+   16     119.4405       0.4577637E-04    119.4405       0.1573606E-02
+   17     390.2952      -0.5490112E-01    390.2403        2.112052    
+   20     129.8396       0.4577637E-04    129.8396       0.1881814E-02
+   21     286.7166      -0.6231689E-01    286.6543        1.918761    
+
+
+ => Cycle No.:  2  Chi2 =   1.90209    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1118584      -0.1404062E-03   0.1117180       0.6468782E-03
+    8    0.6970232       0.6588101E-03   0.6976820       0.4759229E-02
+   12     110.0204      -0.3051758E-04    110.0204       0.1504513E-02
+   13     441.8304      -0.2035522E-01    441.8101        2.186341    
+   16     119.4405       0.1525879E-04    119.4406       0.1572210E-02
+   17     390.2403      -0.1971436E-01    390.2206        2.112054    
+   20     129.8396       0.3051758E-04    129.8396       0.1880223E-02
+   21     286.6543      -0.3970337E-01    286.6146        1.918672    
+
+ => Convergence reached! : Chi2(old)-Chi2(new) < 0.00001 * Chi2(old)
+
+
+       GLOBAL  PARAMETERS       (Value - Sigma):  
+
+ => Kalph2/Kalph1 ratio :      0.5000      0.0000
+ => Asymmetry parameter1:      0.0000      0.0000
+ => Asymmetry parameter2:      0.0000      0.0000
+ => Parameter  U        :      0.0000      0.0000
+ => Parameter  V        :      0.0000      0.0000
+ => Parameter  W        :      0.1117      0.0006
+ => Parameter  Z        :      0.0000      0.0000
+ => Parameter Eta0      :      0.6977      0.0048
+ => Parameter  X        :      0.0000      0.0000
+
+      BACKGROUND PARAMETERS
+      Scatt. Variable     Background            Sigma
+          108.6108          149.5641            0.0000
+          133.1028          160.6306            0.0000
+
+      PEAK PARAMETERS
+
+   Npeak     2Theta       Intensity        D-Gamma         D-Eta
+
+    1       110.0204       441.8101         0.0000         0.0000
+              0.0015         2.1863         0.0000         0.0000
+    2       119.4406       390.2206         0.0000         0.0000
+              0.0016         2.1121         0.0000         0.0000
+    3       129.8396       286.6146         0.0000         0.0000
+              0.0019         1.9187         0.0000         0.0000
+
+  Rfact=    7.695   Rwfact=    9.816  Rex=    7.117
+
+ => Error correlations 
+
+    Correlation:  10 >  0% for parameters:            W & Posit_1    (   6  12)
+    Correlation:   6 >  0% for parameters:            W & Posit_2    (   6  16)
+    Correlation:   1 >  0% for parameters:            W & Posit_3    (   6  20)
+    Correlation:  35 >  0% for parameters:         Eta0 & Inten_1    (   8  13)
+    Correlation:  31 >  0% for parameters:         Eta0 & Inten_2    (   8  17)
+    Correlation:  24 >  0% for parameters:         Eta0 & Inten_3    (   8  21)
+    Correlation:   1 >  0% for parameters:      Posit_1 & Posit_2    (  12  16)
+    Correlation:   0 >  0% for parameters:      Posit_1 & Posit_3    (  12  20)
+    Correlation:  13 >  0% for parameters:      Inten_1 & Inten_2    (  13  17)
+    Correlation:   0 >  0% for parameters:      Inten_1 & Posit_3    (  13  20)
+    Correlation:  12 >  0% for parameters:      Inten_1 & Inten_3    (  13  21)
+    Correlation:   0 >  0% for parameters:      Posit_2 & Posit_3    (  16  20)
+    Correlation:   0 >  0% for parameters:      Inten_2 & Posit_3    (  17  20)
+    Correlation:  11 >  0% for parameters:      Inten_2 & Inten_3    (  17  21)
+    Correlation:   1 >  0% for parameters:      Posit_3 & Inten_3    (  20  21)
+
+ => There are  15 values of Correlation >  0%
+ 
+ 
+            ------------------------------------ 
+                  --- PROGRAM: XRFIT ---
+            (Author: J. Rodriguez-Carvajal, LLB)
+                 (version 3.0 October 1998) 
+            ------------------------------------ 
+
+ => TITLE: ML_NaCl_20-137deg_0p01_60s_36min_20161012.dat                                                                                                                                                                                                                   
+
+ => 2Theta range, peaks and cycles read 
+ => 2Theta(init)    :   54.680
+ => 2Theta(fin )    :   78.618
+ => Number of peaks :     3
+ => Number of background points :     2
+ => Number of cycles:    10
+
+ => Global parameters                 Flag
+ => Kalph2/Kalph1 ratio :      0.5000  0
+ => Asymmetry parameter1:      0.0000  0
+ => Asymmetry parameter2:      0.0000  0
+
+      Profile Parameters for Pseudo-Voigt
+        pV(x) = ETA* L(x) + (1-ETA)* G(x)
+    FWHM = SQRT((U tanT + V) tanT + W) + Z/cosT
+    ETA  = Eta0 + X * 2T 
+
+ => Parameter  U        :      0.0000  0
+ => Parameter  V        :      0.0000  0
+ => Parameter  W        :      0.0032  1
+ => Parameter  Z        :      0.0000  0
+ => Parameter Eta0      :      0.0020  1
+ => Parameter  X        :      0.0000  0
+
+ => Background parameters
+      Scatt. Variable     Background  Flag
+           54.6805          225.0842   0
+           78.6184          144.6012   0
+
+    Position    Intensity    D-Gamma       D-Eta          Flags
+
+     56.4568        130.      0.0000      0.0000       1  1  0  0
+     66.1842          0.      0.0000      0.0000       1  1  0  0
+     75.2350        307.      0.0000      0.0000       1  1  0  0
+
+ => Total number of refined parameters:    8
+
+
+ => Convergence reached! : Chi2(old)-Chi2(new) < 0.00001 * Chi2(old)
+
+
+       GLOBAL  PARAMETERS       (Value - Sigma):  
+
+ => Kalph2/Kalph1 ratio :      0.5000      0.0000
+ => Asymmetry parameter1:      0.0000      0.0000
+ => Asymmetry parameter2:      0.0000      0.0000
+ => Parameter  U        :      0.0000      0.0000
+ => Parameter  V        :      0.0000      0.0000
+ => Parameter  W        :      0.1117      0.0006
+ => Parameter  Z        :      0.0000      0.0000
+ => Parameter Eta0      :      0.6977      0.0048
+ => Parameter  X        :      0.0000      0.0000
+
+      BACKGROUND PARAMETERS
+      Scatt. Variable     Background            Sigma
+           54.6868          149.5641            0.0000
+           78.6068          160.6306            0.0000
+
+      PEAK PARAMETERS
+
+   Npeak     2Theta       Intensity        D-Gamma         D-Eta
+
+    1       110.0204       441.8101         0.0000         0.0000
+              0.0015         2.1863         0.0000         0.0000
+    2       119.4406       390.2206         0.0000         0.0000
+              0.0016         2.1121         0.0000         0.0000
+    3       129.8396       286.6146         0.0000         0.0000
+              0.0019         1.9187         0.0000         0.0000
+
+  Rfact= NaN        Rwfact= NaN       Rex=    6.162
+
+ => Error correlations 
+
+
+ => There is no correlations greater than  0% 
+ 
+ 
+            ------------------------------------ 
+                  --- PROGRAM: XRFIT ---
+            (Author: J. Rodriguez-Carvajal, LLB)
+                 (version 3.0 October 1998) 
+            ------------------------------------ 
+
+ => TITLE: ML_NaCl_20-137deg_0p01_60s_36min_20161012.dat                                                                                                                                                                                                                   
+
+ => 2Theta range, peaks and cycles read 
+ => 2Theta(init)    :   63.100
+ => 2Theta(fin )    :   78.613
+ => Number of peaks :     2
+ => Number of background points :     2
+ => Number of cycles:    30
+
+ => Global parameters                 Flag
+ => Kalph2/Kalph1 ratio :      0.5000  0
+ => Asymmetry parameter1:      0.0000  0
+ => Asymmetry parameter2:      0.0000  0
+
+      Profile Parameters for Pseudo-Voigt
+        pV(x) = ETA* L(x) + (1-ETA)* G(x)
+    FWHM = SQRT((U tanT + V) tanT + W) + Z/cosT
+    ETA  = Eta0 + X * 2T 
+
+ => Parameter  U        :      0.0000  0
+ => Parameter  V        :      0.0000  0
+ => Parameter  W        :      0.0140  1
+ => Parameter  Z        :      0.0000  0
+ => Parameter Eta0      :      0.0020  1
+ => Parameter  X        :      0.0000  0
+
+ => Background parameters
+      Scatt. Variable     Background  Flag
+           63.0996          169.4165   0
+           78.6128          139.2357   0
+
+    Position    Intensity    D-Gamma       D-Eta          Flags
+
+     66.2124        289.      0.0000      0.0000       1  1  0  0
+     75.2632        371.      0.0000      0.0000       1  1  0  0
+
+ => Total number of refined parameters:    6
+
+
+
+ => Cycle No.:  1  Chi2 =   4.17180    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1403000E-01   0.3380885E-02   0.1741089E-01   0.1288839E-03
+    8    0.2000000E-02    1.193645        1.195645       0.1350158E-01
+   12     66.21241       0.2403259E-02    66.21481       0.1158072E-02
+   13     288.6200        444.1208        732.7407        3.198432    
+   16     75.26316       0.8628845E-02    75.27179       0.9272236E-03
+   17     370.8414        507.7793        878.6207        3.572613    
+
+
+ => Cycle No.:  2  Chi2 =   2.85009    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1741089E-01   0.2013169E-02   0.1942405E-01   0.2796735E-03
+    8     1.195645      -0.1865599        1.009085       0.9109589E-02
+   12     66.21481      -0.1426697E-02    66.21339       0.5251187E-03
+   13     732.7407        6.415161        739.1559        3.643682    
+   16     75.27179      -0.3028870E-02    75.26876       0.4735479E-03
+   17     878.6207        78.09332        956.7141        4.062550    
+
+
+ => Cycle No.:  3  Chi2 =   2.65487    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1942405E-01   0.1611598E-02   0.2103565E-01   0.2242852E-03
+    8     1.009085      -0.9913421E-01   0.9099511       0.7174281E-02
+   12     66.21339       0.2746582E-03    66.21366       0.5623654E-03
+   13     739.1559       0.7751465E-02    739.1636        3.616515    
+   16     75.26876      -0.5264282E-03    75.26823       0.4699479E-03
+   17     956.7141       -6.478638        950.2354        4.029031    
+
+
+ => Cycle No.:  4  Chi2 =   2.60465    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2103565E-01   0.7447209E-03   0.2178037E-01   0.2088120E-03
+    8    0.9099511      -0.4747283E-01   0.8624783       0.6540172E-02
+   12     66.21366      -0.2212524E-03    66.21344       0.5946963E-03
+   13     739.1636      -0.9455566        738.2181        3.607839    
+   16     75.26823      -0.1068115E-03    75.26813       0.5009436E-03
+   17     950.2354       -2.785583        947.4498        4.014784    
+
+
+ => Cycle No.:  5  Chi2 =   2.59178    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2178037E-01   0.3482457E-03   0.2212862E-01   0.2021958E-03
+    8    0.8624783      -0.2289534E-01   0.8395829       0.6303560E-02
+   12     66.21344      -0.6103516E-04    66.21338       0.6102546E-03
+   13     738.2181      -0.2466431        737.9714        3.602449    
+   16     75.26813      -0.5340576E-04    75.26807       0.5153902E-03
+   17     947.4498       -1.172607        946.2772        4.007488    
+
+
+ => Cycle No.:  6  Chi2 =   2.58845    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2212862E-01   0.1664087E-03   0.2229503E-01   0.1991276E-03
+    8    0.8395829      -0.1113224E-01   0.8284507       0.6202158E-02
+   12     66.21338      -0.6103516E-04    66.21332       0.6174075E-03
+   13     737.9714      -0.8227539E-01    737.8892        3.599528    
+   16     75.26807      -0.3814697E-04    75.26804       0.5221106E-03
+   17     946.2772      -0.5357666        945.7415        4.003760    
+
+
+ => Cycle No.:  7  Chi2 =   2.58758    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2229503E-01   0.8021668E-04   0.2237524E-01   0.1976623E-03
+    8    0.8284507      -0.5425036E-02   0.8230256       0.6155611E-02
+   12     66.21332      -0.1525879E-04    66.21330       0.6207844E-03
+   13     737.8892      -0.3173828E-01    737.8574        3.598021    
+   16     75.26804      -0.2288818E-04    75.26801       0.5253229E-03
+   17     945.7415      -0.2568359        945.4846        4.001885    
+
+
+ => Cycle No.:  8  Chi2 =   2.58735    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2237524E-01   0.3883429E-04   0.2241408E-01   0.1969527E-03
+    8    0.8230256      -0.2650857E-02   0.8203748       0.6133583E-02
+   12     66.21330      -0.2288818E-04    66.21328       0.6224005E-03
+   13     737.8574      -0.1135254E-01    737.8461        3.597270    
+   16     75.26801      -0.7629395E-05    75.26801       0.5268789E-03
+   17     945.4846      -0.1272583        945.3574        4.000956    
+
+
+ => Cycle No.:  9  Chi2 =   2.58727    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2241408E-01   0.1873821E-04   0.2243282E-01   0.1966059E-03
+    8    0.8203748      -0.1291275E-02   0.8190835       0.6122977E-02
+   12     66.21328        0.000000        66.21328       0.6231759E-03
+   13     737.8461      -0.5187988E-02    737.8409        3.596899    
+   16     75.26801        0.000000        75.26801       0.5276391E-03
+   17     945.3574      -0.6256104E-01    945.2948        4.000492    
+
+
+ => Cycle No.: 10  Chi2 =   2.58724    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2243282E-01   0.9151176E-05   0.2244197E-01   0.1964368E-03
+    8    0.8190835      -0.6323457E-03   0.8184512       0.6117876E-02
+   12     66.21328      -0.7629395E-05    66.21327       0.6235564E-03
+   13     737.8409      -0.2563477E-02    737.8383        3.596716    
+   16     75.26801      -0.7629395E-05    75.26800       0.5280051E-03
+   17     945.2948      -0.2984619E-01    945.2650        4.000267    
+
+ => Convergence reached! : Chi2(old)-Chi2(new) < 0.00001 * Chi2(old)
+
+
+       GLOBAL  PARAMETERS       (Value - Sigma):  
+
+ => Kalph2/Kalph1 ratio :      0.5000      0.0000
+ => Asymmetry parameter1:      0.0000      0.0000
+ => Asymmetry parameter2:      0.0000      0.0000
+ => Parameter  U        :      0.0000      0.0000
+ => Parameter  V        :      0.0000      0.0000
+ => Parameter  W        :      0.0224      0.0002
+ => Parameter  Z        :      0.0000      0.0000
+ => Parameter Eta0      :      0.8185      0.0061
+ => Parameter  X        :      0.0000      0.0000
+
+      BACKGROUND PARAMETERS
+      Scatt. Variable     Background            Sigma
+           63.1108          169.4165            0.0000
+           78.6068          139.2357            0.0000
+
+      PEAK PARAMETERS
+
+   Npeak     2Theta       Intensity        D-Gamma         D-Eta
+
+    1        66.2133       737.8383         0.0000         0.0000
+              0.0006         3.5967         0.0000         0.0000
+    2        75.2680       945.2650         0.0000         0.0000
+              0.0005         4.0003         0.0000         0.0000
+
+  Rfact=    7.505   Rwfact=    9.875  Rex=    6.139
+
+ => Error correlations 
+
+    Correlation:   9 >  0% for parameters:            W & Posit_1    (   6  12)
+    Correlation:   6 >  0% for parameters:            W & Posit_2    (   6  16)
+    Correlation:  20 >  0% for parameters:         Eta0 & Inten_1    (   8  13)
+    Correlation:  18 >  0% for parameters:         Eta0 & Inten_2    (   8  17)
+    Correlation:   1 >  0% for parameters:      Posit_1 & Posit_2    (  12  16)
+    Correlation:   5 >  0% for parameters:      Inten_1 & Inten_2    (  13  17)
+    Correlation:   0 >  0% for parameters:      Posit_2 & Inten_2    (  16  17)
+
+ => There are   7 values of Correlation >  0%
+ 
+ 
+            ------------------------------------ 
+                  --- PROGRAM: XRFIT ---
+            (Author: J. Rodriguez-Carvajal, LLB)
+                 (version 3.0 October 1998) 
+            ------------------------------------ 
+
+ => TITLE: ML_NaCl_20-137deg_0p01_60s_36min_20161012.dat                                                                                                                                                                                                                   
+
+ => 2Theta range, peaks and cycles read 
+ => 2Theta(init)    :   51.812
+ => 2Theta(fin )    :   68.323
+ => Number of peaks :     2
+ => Number of background points :     2
+ => Number of cycles:    30
+
+ => Global parameters                 Flag
+ => Kalph2/Kalph1 ratio :      0.5000  0
+ => Asymmetry parameter1:      0.0000  0
+ => Asymmetry parameter2:      0.0000  0
+
+      Profile Parameters for Pseudo-Voigt
+        pV(x) = ETA* L(x) + (1-ETA)* G(x)
+    FWHM = SQRT((U tanT + V) tanT + W) + Z/cosT
+    ETA  = Eta0 + X * 2T 
+
+ => Parameter  U        :      0.0000  0
+ => Parameter  V        :      0.0000  0
+ => Parameter  W        :      0.0286  1
+ => Parameter  Z        :      0.0000  0
+ => Parameter Eta0      :      0.0020  1
+ => Parameter  X        :      0.0000  0
+
+ => Background parameters
+      Scatt. Variable     Background  Flag
+           51.8120          224.4804   0
+           68.3233          164.1182   0
+
+    Position    Intensity    D-Gamma       D-Eta          Flags
+
+     56.4474        315.      0.0000      0.0000       1  1  0  0
+     66.2256        573.      0.0000      0.0000       1  1  0  0
+
+ => Total number of refined parameters:    6
+
+
+
+ => Cycle No.:  1  Chi2 =   7.38432    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2862000E-01  -0.5109835E-02   0.2351017E-01   0.2221533E-03
+    8    0.2000000E-02   0.4666938       0.4686938       0.9316553E-02
+   12     56.44737       0.5821228E-02    56.45319       0.1727458E-02
+   13     314.5417        307.2735        621.8152        3.127702    
+   16     66.22556      -0.3422546E-01    66.19134       0.1001679E-02
+   17     573.0055        145.8020        718.8075        3.621339    
+
+
+ => Cycle No.:  2  Chi2 =   5.70939    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2351017E-01  -0.3941320E-03   0.2311603E-01   0.1711444E-03
+    8    0.4686938       0.6935486E-01   0.5380487       0.6432911E-02
+   12     56.45319      -0.7400513E-03    56.45245       0.8006055E-03
+   13     621.8152        25.37897        647.1942        3.429868    
+   16     66.19134       0.2896118E-01    66.22030       0.6650145E-03
+   17     718.8075       -13.27838        705.5291        3.540622    
+
+
+ => Cycle No.:  3  Chi2 =   5.50751    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2311603E-01  -0.1884334E-02   0.2123170E-01   0.1825001E-03
+    8    0.5380487       0.6498265E-01   0.6030313       0.6483060E-02
+   12     56.45245      -0.8392334E-04    56.45237       0.7583622E-03
+   13     647.1942        2.562317        649.7565        3.467653    
+   16     66.22030      -0.1225281E-01    66.20805       0.6851149E-03
+   17     705.5291        4.155090        709.6842        3.559509    
+
+
+ => Cycle No.:  4  Chi2 =   5.40838    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2123170E-01  -0.9472352E-03   0.2028446E-01   0.1732272E-03
+    8    0.6030313       0.3057951E-01   0.6336108       0.6510662E-02
+   12     56.45237       0.5950928E-03    56.45296       0.7171025E-03
+   13     649.7565      -0.9963989        648.7601        3.467679    
+   16     66.20805       0.6195068E-02    66.21424       0.6350983E-03
+   17     709.6842       0.3967285E-02    709.6882        3.555183    
+
+
+ => Cycle No.:  5  Chi2 =   5.39441    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2028446E-01  -0.6114915E-03   0.1967297E-01   0.1695968E-03
+    8    0.6336108       0.1886231E-01   0.6524732       0.6563994E-02
+   12     56.45296       0.1068115E-03    56.45307       0.6982163E-03
+   13     648.7601      -0.6951904E-01    648.6906        3.467334    
+   16     66.21424      -0.2311707E-02    66.21193       0.6188383E-03
+   17     709.6882       0.7265625        710.4147        3.554474    
+
+
+ => Cycle No.:  6  Chi2 =   5.39026    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1967297E-01  -0.2923496E-03   0.1938062E-01   0.1664602E-03
+    8    0.6524732       0.8945286E-02   0.6614184       0.6590664E-02
+   12     56.45307       0.1449585E-03    56.45321       0.6846937E-03
+   13     648.6906      -0.2011108        648.4894        3.465685    
+   16     66.21193       0.9918213E-03    66.21292       0.6043055E-03
+   17     710.4147       0.1793213        710.5941        3.552392    
+
+
+ => Cycle No.:  7  Chi2 =   5.38974    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1938062E-01  -0.1589078E-03   0.1922172E-01   0.1651034E-03
+    8    0.6614184       0.4898787E-02   0.6663172       0.6608821E-02
+   12     56.45321       0.5340576E-04    56.45327       0.6783446E-03
+   13     648.4894      -0.3314209E-01    648.4563        3.465053    
+   16     66.21292      -0.2975464E-03    66.21262       0.5984566E-03
+   17     710.5941       0.1829834        710.7770        3.551688    
+
+ => Convergence reached! : Chi2(old)-Chi2(new) < 0.00001 * Chi2(old)
+
+
+       GLOBAL  PARAMETERS       (Value - Sigma):  
+
+ => Kalph2/Kalph1 ratio :      0.5000      0.0000
+ => Asymmetry parameter1:      0.0000      0.0000
+ => Asymmetry parameter2:      0.0000      0.0000
+ => Parameter  U        :      0.0000      0.0000
+ => Parameter  V        :      0.0000      0.0000
+ => Parameter  W        :      0.0192      0.0002
+ => Parameter  Z        :      0.0000      0.0000
+ => Parameter Eta0      :      0.6663      0.0066
+ => Parameter  X        :      0.0000      0.0000
+
+      BACKGROUND PARAMETERS
+      Scatt. Variable     Background            Sigma
+           51.8138          224.4804            0.0000
+           68.3108          164.1182            0.0000
+
+      PEAK PARAMETERS
+
+   Npeak     2Theta       Intensity        D-Gamma         D-Eta
+
+    1        56.4533       648.4563         0.0000         0.0000
+              0.0007         3.4651         0.0000         0.0000
+    2        66.2126       710.7770         0.0000         0.0000
+              0.0006         3.5517         0.0000         0.0000
+
+  Rfact=    9.042   Rwfact=   14.075  Rex=    6.063
+
+ => Error correlations 
+
+    Correlation:  11 >  0% for parameters:            W & Posit_1    (   6  12)
+    Correlation:  10 >  0% for parameters:            W & Posit_2    (   6  16)
+    Correlation:  25 >  0% for parameters:         Eta0 & Inten_1    (   8  13)
+    Correlation:  26 >  0% for parameters:         Eta0 & Inten_2    (   8  17)
+    Correlation:   1 >  0% for parameters:      Posit_1 & Posit_2    (  12  16)
+    Correlation:   9 >  0% for parameters:      Inten_1 & Inten_2    (  13  17)
+
+ => There are   6 values of Correlation >  0%
+ 
+ 
+            ------------------------------------ 
+                  --- PROGRAM: XRFIT ---
+            (Author: J. Rodriguez-Carvajal, LLB)
+                 (version 3.0 October 1998) 
+            ------------------------------------ 
+
+ => TITLE: ML_NaCl_20-137deg_0p01_60s_36min_20161012.dat                                                                                                                                                                                                                   
+
+ => 2Theta range, peaks and cycles read 
+ => 2Theta(init)    :   52.821
+ => 2Theta(fin )    :   58.689
+ => Number of peaks :     2
+ => Number of background points :     2
+ => Number of cycles:    30
+
+ => Global parameters                 Flag
+ => Kalph2/Kalph1 ratio :      0.5000  0
+ => Asymmetry parameter1:      0.0000  0
+ => Asymmetry parameter2:      0.0000  0
+
+      Profile Parameters for Pseudo-Voigt
+        pV(x) = ETA* L(x) + (1-ETA)* G(x)
+    FWHM = SQRT((U tanT + V) tanT + W) + Z/cosT
+    ETA  = Eta0 + X * 2T 
+
+ => Parameter  U        :      0.0000  0
+ => Parameter  V        :      0.0000  0
+ => Parameter  W        :      0.0140  1
+ => Parameter  Z        :      0.0000  0
+ => Parameter Eta0      :      0.0020  1
+ => Parameter  X        :      0.0000  0
+
+ => Background parameters
+      Scatt. Variable     Background  Flag
+           52.8210          209.1551   0
+           58.6895          177.4649   0
+
+    Position    Intensity    D-Gamma       D-Eta          Flags
+
+     53.8408         42.      0.0000      0.0000       1  1  0  0
+     56.4592        337.      0.0000      0.0000       1  1  0  0
+
+ => Total number of refined parameters:    6
+
+
+
+ => Cycle No.:  1  Chi2 =   1.84287    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1402000E-01   0.2349889E-02   0.1636989E-01   0.1736129E-03
+    8    0.2000000E-02   0.9441932       0.9461932       0.1760494E-01
+   12     53.84079       0.1516342E-01    53.85595       0.4637809E-02
+   13     42.20328        65.53896        107.7422        1.438718    
+   16     56.45921      -0.1238251E-01    56.44683       0.1102661E-02
+   17     337.0206        323.8744        660.8950        3.501158    
+
+
+ => Cycle No.:  2  Chi2 =  0.996976    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1636989E-01   0.3579067E-02   0.1994896E-01   0.2736379E-03
+    8    0.9461932      -0.1119922       0.8342010       0.1085632E-01
+   12     53.85595      -0.7625580E-02    53.84833       0.1953693E-02
+   13     107.7422        10.92197        118.6642        1.846247    
+   16     56.44683       0.6969452E-02    56.45380       0.5800714E-03
+   17     660.8950        29.20044        690.0955        3.628658    
+
+
+ => Cycle No.:  3  Chi2 =  0.945252    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1994896E-01   0.1541959E-02   0.2149091E-01   0.2915172E-03
+    8    0.8342010      -0.4029697E-01   0.7939041       0.9871528E-02
+   12     53.84833       0.1018524E-02    53.84935       0.2034649E-02
+   13     118.6642      -0.6079483        118.0563        1.846611    
+   16     56.45380       0.3471375E-03    56.45414       0.6410432E-03
+   17     690.0955       -1.828613        688.2668        3.657398    
+
+
+ => Cycle No.:  4  Chi2 =  0.931058    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2149091E-01   0.7942729E-03   0.2228519E-01   0.3076820E-03
+    8    0.7939041      -0.1880121E-01   0.7751029       0.9802353E-02
+   12     53.84935      -0.4005432E-03    53.84895       0.2153535E-02
+   13     118.0563      -0.1486893        117.9076        1.845208    
+   16     56.45414      -0.2136230E-03    56.45393       0.6751920E-03
+   17     688.2668      -0.2129517        688.0539        3.671961    
+
+
+ => Cycle No.:  5  Chi2 =  0.927524    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2228519E-01   0.4043616E-03   0.2268955E-01   0.3160983E-03
+    8    0.7751029      -0.9030163E-02   0.7660727       0.9774837E-02
+   12     53.84895       0.3433228E-04    53.84898       0.2207680E-02
+   13     117.9076      -0.6085968E-01    117.8467        1.844739    
+   16     56.45393      -0.9155273E-04    56.45384       0.6909976E-03
+   17     688.0539      -0.3503418E-01    688.0189        3.679726    
+
+
+ => Cycle No.:  6  Chi2 =  0.926618    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2268955E-01   0.2036802E-03   0.2289323E-01   0.3204855E-03
+    8    0.7660727      -0.4346371E-02   0.7617263       0.9764081E-02
+   12     53.84898      -0.4577637E-04    53.84893       0.2234777E-02
+   13     117.8467      -0.2602386E-01    117.8207        1.844602    
+   16     56.45384      -0.4196167E-04    56.45380       0.6987409E-03
+   17     688.0189       0.4150391E-02    688.0230        3.683758    
+
+
+ => Cycle No.:  7  Chi2 =  0.926324    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2289323E-01   0.1020674E-03   0.2299530E-01   0.3227454E-03
+    8    0.7617263      -0.2092957E-02   0.7596334       0.9759720E-02
+   12     53.84893      -0.3814697E-05    53.84893       0.2248030E-02
+   13     117.8207      -0.1116180E-01    117.8095        1.844596    
+   16     56.45380      -0.1907349E-04    56.45378       0.7025563E-03
+   17     688.0230       0.7751465E-02    688.0308        3.685811    
+
+
+ => Cycle No.:  8  Chi2 =  0.926284    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2299530E-01   0.5128793E-04   0.2304658E-01   0.3238976E-03
+    8    0.7596334      -0.1028299E-02   0.7586051       0.9757851E-02
+   12     53.84893      -0.7629395E-05    53.84892       0.2254623E-02
+   13     117.8095      -0.5691528E-02    117.8038        1.844626    
+   16     56.45378      -0.1144409E-04    56.45377       0.7044403E-03
+   17     688.0308       0.4272461E-02    688.0350        3.686840    
+
+
+ => Cycle No.:  9  Chi2 =  0.926259    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2304658E-01   0.2559647E-04   0.2307218E-01   0.3244896E-03
+    8    0.7586051      -0.4892349E-03   0.7581158       0.9757113E-02
+   12     53.84892        0.000000        53.84892       0.2257910E-02
+   13     117.8038      -0.3013611E-02    117.8008        1.844638    
+   16     56.45377      -0.3814697E-05    56.45376       0.7053834E-03
+   17     688.0350       0.4150391E-02    688.0392        3.687365    
+
+
+ => Cycle No.: 10  Chi2 =  0.926249    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.2307218E-01   0.1284294E-04   0.2308502E-01   0.3247917E-03
+    8    0.7581158      -0.2393723E-03   0.7578765       0.9756804E-02
+   12     53.84892        0.000000        53.84892       0.2259556E-02
+   13     117.8008      -0.1281738E-02    117.7995        1.844658    
+   16     56.45376      -0.3814697E-05    56.45376       0.7058492E-03
+   17     688.0392       0.1770020E-02    688.0410        3.687624    
+
+ => Convergence reached! : Chi2(old)-Chi2(new) < 0.00001 * Chi2(old)
+
+
+       GLOBAL  PARAMETERS       (Value - Sigma):  
+
+ => Kalph2/Kalph1 ratio :      0.5000      0.0000
+ => Asymmetry parameter1:      0.0000      0.0000
+ => Asymmetry parameter2:      0.0000      0.0000
+ => Parameter  U        :      0.0000      0.0000
+ => Parameter  V        :      0.0000      0.0000
+ => Parameter  W        :      0.0231      0.0003
+ => Parameter  Z        :      0.0000      0.0000
+ => Parameter Eta0      :      0.7579      0.0098
+ => Parameter  X        :      0.0000      0.0000
+
+      BACKGROUND PARAMETERS
+      Scatt. Variable     Background            Sigma
+           52.8278          209.1551            0.0000
+           58.6778          177.4649            0.0000
+
+      PEAK PARAMETERS
+
+   Npeak     2Theta       Intensity        D-Gamma         D-Eta
+
+    1        53.8489       117.7995         0.0000         0.0000
+              0.0023         1.8447         0.0000         0.0000
+    2        56.4538       688.0410         0.0000         0.0000
+              0.0007         3.6876         0.0000         0.0000
+
+  Rfact=    3.817   Rwfact=    5.268  Rex=    5.474
+
+ => Error correlations 
+
+    Correlation:   4 >  0% for parameters:            W & Posit_1    (   6  12)
+    Correlation:  16 >  0% for parameters:            W & Posit_2    (   6  16)
+    Correlation:  13 >  0% for parameters:         Eta0 & Inten_1    (   8  13)
+    Correlation:  31 >  0% for parameters:         Eta0 & Inten_2    (   8  17)
+    Correlation:   1 >  0% for parameters:      Posit_1 & Posit_2    (  12  16)
+    Correlation:   6 >  0% for parameters:      Inten_1 & Inten_2    (  13  17)
+
+ => There are   6 values of Correlation >  0%
+ 
+ 
+            ------------------------------------ 
+                  --- PROGRAM: XRFIT ---
+            (Author: J. Rodriguez-Carvajal, LLB)
+                 (version 3.0 October 1998) 
+            ------------------------------------ 
+
+ => TITLE: ML_NaCl_20-137deg_0p01_60s_36min_20161012.dat                                                                                                                                                                                                                   
+
+ => 2Theta range, peaks and cycles read 
+ => 2Theta(init)    :   43.443
+ => 2Theta(fin )    :   47.142
+ => Number of peaks :     1
+ => Number of background points :     2
+ => Number of cycles:    30
+
+ => Global parameters                 Flag
+ => Kalph2/Kalph1 ratio :      0.5000  0
+ => Asymmetry parameter1:      0.0000  0
+ => Asymmetry parameter2:      0.0000  0
+
+      Profile Parameters for Pseudo-Voigt
+        pV(x) = ETA* L(x) + (1-ETA)* G(x)
+    FWHM = SQRT((U tanT + V) tanT + W) + Z/cosT
+    ETA  = Eta0 + X * 2T 
+
+ => Parameter  U        :      0.0000  0
+ => Parameter  V        :      0.0000  0
+ => Parameter  W        :      0.0145  1
+ => Parameter  Z        :      0.0000  0
+ => Parameter Eta0      :      0.0020  1
+ => Parameter  X        :      0.0000  0
+
+ => Background parameters
+      Scatt. Variable     Background  Flag
+           43.4429          293.0925   0
+           47.1421          266.2643   0
+
+    Position    Intensity    D-Gamma       D-Eta          Flags
+
+     45.4429       1525.      0.0000      0.0000       1  1  0  0
+
+ => Total number of refined parameters:    4
+
+
+
+ => Cycle No.:  1  Chi2 =   58.6226    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1447000E-01  -0.5223183E-03   0.1394768E-01   0.9404975E-04
+    8    0.2000000E-02   0.8580083       0.8600083       0.6530917E-02
+   12     45.44286      -0.3808212E-01    45.40478       0.5287929E-03
+   13     1525.065        1447.710        2972.775        6.818884    
+
+
+ => Cycle No.:  2  Chi2 =   6.84107    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1394768E-01   0.4004396E-02   0.1795208E-01   0.9942712E-04
+    8    0.8600083      -0.1539574       0.7060509       0.4291996E-02
+   12     45.40478       0.2748108E-01    45.43226       0.2346530E-03
+   13     2972.775        22.02026        2994.795        6.820910    
+
+
+ => Cycle No.:  3  Chi2 =   5.96074    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1795208E-01  -0.1142368E-02   0.1680971E-01   0.1201344E-03
+    8    0.7060509       0.2055168E-03   0.7062564       0.4008009E-02
+   12     45.43226      -0.2033234E-02    45.43023       0.2751729E-03
+   13     2994.795       -5.943604        2988.852        6.851048    
+
+
+ => Cycle No.:  4  Chi2 =   5.76828    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1680971E-01  -0.5655549E-03   0.1624415E-01   0.1102915E-03
+    8    0.7062564       0.3053963E-02   0.7093104       0.3979312E-02
+   12     45.43023       0.4768372E-03    45.43070       0.2677208E-03
+   13     2988.852       0.2888184        2989.140        6.841886    
+
+
+ => Cycle No.:  5  Chi2 =   5.72036    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1624415E-01  -0.3436636E-03   0.1590049E-01   0.1060502E-03
+    8    0.7093104       0.4334927E-02   0.7136453       0.3975774E-02
+   12     45.43070      -0.1068115E-03    45.43060       0.2637697E-03
+   13     2989.140       0.2868652        2989.427        6.837618    
+
+
+ => Cycle No.:  6  Chi2 =   5.70636    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1590049E-01  -0.1962483E-03   0.1570424E-01   0.1036826E-03
+    8    0.7136453       0.3350675E-02   0.7169960       0.3978612E-02
+   12     45.43060       0.4577637E-04    45.43064       0.2610760E-03
+   13     2989.427       0.1040039        2989.531        6.834718    
+
+
+ => Cycle No.:  7  Chi2 =   5.70340    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1570424E-01  -0.1163967E-03   0.1558785E-01   0.1024547E-03
+    8    0.7169960       0.2392888E-02   0.7193889       0.3983226E-02
+   12     45.43064       0.7629395E-05    45.43065       0.2595077E-03
+   13     2989.531       0.7202148E-01    2989.603        6.833069    
+
+
+ => Cycle No.:  8  Chi2 =   5.70330    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1558785E-01  -0.6833021E-04   0.1551952E-01   0.1017705E-03
+    8    0.7193889       0.1586020E-02   0.7209749       0.3987069E-02
+   12     45.43065       0.1144409E-04    45.43066       0.2585470E-03
+   13     2989.603       0.4711914E-01    2989.650        6.832085    
+
+ => Convergence reached! : Chi2(old)-Chi2(new) < 0.00001 * Chi2(old)
+
+
+       GLOBAL  PARAMETERS       (Value - Sigma):  
+
+ => Kalph2/Kalph1 ratio :      0.5000      0.0000
+ => Asymmetry parameter1:      0.0000      0.0000
+ => Asymmetry parameter2:      0.0000      0.0000
+ => Parameter  U        :      0.0000      0.0000
+ => Parameter  V        :      0.0000      0.0000
+ => Parameter  W        :      0.0155      0.0001
+ => Parameter  Z        :      0.0000      0.0000
+ => Parameter Eta0      :      0.7210      0.0040
+ => Parameter  X        :      0.0000      0.0000
+
+      BACKGROUND PARAMETERS
+      Scatt. Variable     Background            Sigma
+           43.4548          293.0925            0.0000
+           47.1338          266.2643            0.0000
+
+      PEAK PARAMETERS
+
+   Npeak     2Theta       Intensity        D-Gamma         D-Eta
+
+    1        45.4307      2989.6504         0.0000         0.0000
+              0.0003         6.8321         0.0000         0.0000
+
+  Rfact=    4.698   Rwfact=    7.177  Rex=    3.005
+
+ => Error correlations 
+
+    Correlation:  17 >  0% for parameters:            W & Posit_1    (   6  12)
+    Correlation:  19 >  0% for parameters:         Eta0 & Inten_1    (   8  13)
+
+ => There are   2 values of Correlation >  0%
+ 
+ 
+            ------------------------------------ 
+                  --- PROGRAM: XRFIT ---
+            (Author: J. Rodriguez-Carvajal, LLB)
+                 (version 3.0 October 1998) 
+            ------------------------------------ 
+
+ => TITLE: ML_NaCl_20-137deg_0p01_60s_36min_20161012.dat                                                                                                                                                                                                                   
+
+ => 2Theta range, peaks and cycles read 
+ => 2Theta(init)    :   30.479
+ => 2Theta(fin )    :   32.805
+ => Number of peaks :     1
+ => Number of background points :     2
+ => Number of cycles:    30
+
+ => Global parameters                 Flag
+ => Kalph2/Kalph1 ratio :      0.5000  0
+ => Asymmetry parameter1:      0.0000  0
+ => Asymmetry parameter2:      0.0000  0
+
+      Profile Parameters for Pseudo-Voigt
+        pV(x) = ETA* L(x) + (1-ETA)* G(x)
+    FWHM = SQRT((U tanT + V) tanT + W) + Z/cosT
+    ETA  = Eta0 + X * 2T 
+
+ => Parameter  U        :      0.0000  0
+ => Parameter  V        :      0.0000  0
+ => Parameter  W        :      0.0068  1
+ => Parameter  Z        :      0.0000  0
+ => Parameter Eta0      :      0.0020  1
+ => Parameter  X        :      0.0000  0
+
+ => Background parameters
+      Scatt. Variable     Background  Flag
+           30.4786          746.4824   0
+           32.8047          746.4824   0
+
+    Position    Intensity    D-Gamma       D-Eta          Flags
+
+     31.6933       6889.      0.0000      0.0000       1  1  0  0
+
+ => Total number of refined parameters:    4
+
+
+
+ => Cycle No.:  1  Chi2 =   226.115    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.6840000E-02   0.2176841E-03   0.7057684E-02   0.1936726E-04
+    8    0.2000000E-02   0.6195328       0.6215327       0.2489863E-02
+   12     31.69333      -0.1336861E-01    31.67996       0.1585262E-03
+   13     6889.431        5115.337        12004.77        13.24685    
+
+
+ => Cycle No.:  2  Chi2 =   134.124    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.7057684E-02   0.1825877E-02   0.8883561E-02   0.1971347E-04
+    8    0.6215327      -0.1086000       0.5129328       0.1694352E-02
+   12     31.67996       0.1060295E-01    31.69057       0.8768522E-04
+   13     12004.77        73.61035        12078.38        13.26773    
+
+
+ => Cycle No.:  3  Chi2 =   125.060    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.8883561E-02   0.2364498E-03   0.9120011E-02   0.2375576E-04
+    8    0.5129328      -0.1118994E-01   0.5017428       0.1565198E-02
+   12     31.69057      -0.3414154E-02    31.68715       0.9700118E-04
+   13     12078.38       -41.57227        12036.81        13.28513    
+
+
+ => Cycle No.:  4  Chi2 =   122.531    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.9120011E-02   0.5051540E-03   0.9625165E-02   0.2391588E-04
+    8    0.5017428      -0.2322951E-01   0.4785133       0.1550278E-02
+   12     31.68715       0.9651184E-03    31.68812       0.9811579E-04
+   13     12036.81       -7.264648        12029.54        13.27753    
+
+
+ => Cycle No.:  5  Chi2 =   120.966    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.9625165E-02   0.3009876E-03   0.9926152E-02   0.2485905E-04
+    8    0.4785133      -0.1300952E-01   0.4655038       0.1524188E-02
+   12     31.68812      -0.6809235E-03    31.68744       0.1001505E-03
+   13     12029.54       -2.881836        12026.66        13.28327    
+
+
+ => Cycle No.:  6  Chi2 =   120.064    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.9926152E-02   0.3014794E-03   0.1022763E-01   0.2526375E-04
+    8    0.4655038      -0.1246780E-01   0.4530360       0.1507057E-02
+   12     31.68744       0.5722046E-04    31.68749       0.1012078E-03
+   13     12026.66       -4.344727        12022.31        13.28279    
+
+
+ => Cycle No.:  7  Chi2 =   119.459    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1022763E-01   0.2296939E-03   0.1045733E-01   0.2573790E-04
+    8    0.4530360      -0.9199113E-02   0.4438369       0.1492247E-02
+   12     31.68749      -0.2059937E-03    31.68729       0.1022676E-03
+   13     12022.31       -3.137695        12019.18        13.28428    
+
+
+ => Cycle No.:  8  Chi2 =   119.075    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1045733E-01   0.1978753E-03   0.1065520E-01   0.2605883E-04
+    8    0.4438369      -0.7730067E-02   0.4361068       0.1480857E-02
+   12     31.68729      -0.5722046E-04    31.68723       0.1030300E-03
+   13     12019.18       -3.193359        12015.98        13.28447    
+
+
+ => Cycle No.:  9  Chi2 =   118.829    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1065520E-01   0.1584254E-03   0.1081363E-01   0.2634252E-04
+    8    0.4361068      -0.6069124E-02   0.4300377       0.1471613E-02
+   12     31.68723      -0.8964539E-04    31.68714       0.1036771E-03
+   13     12015.98       -2.569336        12013.41        13.28493    
+
+
+ => Cycle No.: 10  Chi2 =   118.672    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1081363E-01   0.1302613E-03   0.1094389E-01   0.2655931E-04
+    8    0.4300377      -0.4919022E-02   0.4251187       0.1464301E-02
+   12     31.68714      -0.5340576E-04    31.68709       0.1041809E-03
+   13     12013.41       -2.272461        12011.14        13.28509    
+
+
+ => Cycle No.: 11  Chi2 =   118.574    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1094389E-01   0.1050029E-03   0.1104889E-01   0.2673684E-04
+    8    0.4251187      -0.3912359E-02   0.4212063       0.1458456E-02
+   12     31.68709      -0.4768372E-04    31.68704       0.1045892E-03
+   13     12011.14       -1.851563        12009.29        13.28525    
+
+
+ => Cycle No.: 12  Chi2 =   118.514    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1104889E-01   0.8471869E-04   0.1113361E-01   0.2687739E-04
+    8    0.4212063      -0.3127724E-02   0.4180786       0.1453814E-02
+   12     31.68704      -0.3814697E-04    31.68700       0.1049135E-03
+   13     12009.29       -1.544922        12007.75        13.28535    
+
+
+ => Cycle No.: 13  Chi2 =   118.479    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1113361E-01   0.6814208E-04   0.1120175E-01   0.2698951E-04
+    8    0.4180786      -0.2497077E-02   0.4155815       0.1450121E-02
+   12     31.68700      -0.2861023E-04    31.68697       0.1051724E-03
+   13     12007.75       -1.267578        12006.48        13.28541    
+
+
+ => Cycle No.: 14  Chi2 =   118.458    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1120175E-01   0.5436502E-04   0.1125612E-01   0.2707907E-04
+    8    0.4155815      -0.1985699E-02   0.4135958       0.1447188E-02
+   12     31.68697      -0.2479553E-04    31.68695       0.1053791E-03
+   13     12006.48       -1.034180        12005.44        13.28545    
+
+
+ => Cycle No.: 15  Chi2 =   118.446    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1125612E-01   0.4358310E-04   0.1129970E-01   0.2714958E-04
+    8    0.4135958      -0.1582026E-02   0.4120138       0.1444860E-02
+   12     31.68695      -0.1907349E-04    31.68693       0.1055428E-03
+   13     12005.44      -0.8330078        12004.61        13.28547    
+
+
+ => Cycle No.: 16  Chi2 =   118.438    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1129970E-01   0.3481377E-04   0.1133451E-01   0.2720594E-04
+    8    0.4120138      -0.1258075E-02   0.4107557       0.1443010E-02
+   12     31.68693      -0.1335144E-04    31.68691       0.1056733E-03
+   13     12004.61      -0.6708984        12003.94        13.28549    
+
+
+ => Cycle No.: 17  Chi2 =   118.436    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1133451E-01   0.2772920E-04   0.1136224E-01   0.2725100E-04
+    8    0.4107557      -0.9939373E-03   0.4097618       0.1441543E-02
+   12     31.68691      -0.1144409E-04    31.68690       0.1057769E-03
+   13     12003.94      -0.5244141        12003.42        13.28552    
+
+
+ => Cycle No.: 18  Chi2 =   118.430    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1136224E-01   0.2190750E-04   0.1138415E-01   0.2728677E-04
+    8    0.4097618      -0.7901788E-03   0.4089716       0.1440383E-02
+   12     31.68690      -0.1144409E-04    31.68689       0.1058594E-03
+   13     12003.42      -0.4375000        12002.98        13.28552    
+
+ => Convergence reached! : Chi2(old)-Chi2(new) < 0.00001 * Chi2(old)
+
+
+       GLOBAL  PARAMETERS       (Value - Sigma):  
+
+ => Kalph2/Kalph1 ratio :      0.5000      0.0000
+ => Asymmetry parameter1:      0.0000      0.0000
+ => Asymmetry parameter2:      0.0000      0.0000
+ => Parameter  U        :      0.0000      0.0000
+ => Parameter  V        :      0.0000      0.0000
+ => Parameter  W        :      0.0114      0.0000
+ => Parameter  Z        :      0.0000      0.0000
+ => Parameter Eta0      :      0.4090      0.0014
+ => Parameter  X        :      0.0000      0.0000
+
+      BACKGROUND PARAMETERS
+      Scatt. Variable     Background            Sigma
+           30.4808          746.4824            0.0000
+           32.7948          746.4824            0.0000
+
+      PEAK PARAMETERS
+
+   Npeak     2Theta       Intensity        D-Gamma         D-Eta
+
+    1        31.6869     12002.9775         0.0000         0.0000
+              0.0001        13.2855         0.0000         0.0000
+
+  Rfact=   12.022   Rwfact=   14.014  Rex=    1.288
+
+ => Error correlations 
+
+    Correlation:  11 >  0% for parameters:            W & Posit_1    (   6  12)
+    Correlation:  21 >  0% for parameters:         Eta0 & Inten_1    (   8  13)
+
+ => There are   2 values of Correlation >  0%
+ 
+ 
+            ------------------------------------ 
+                  --- PROGRAM: XRFIT ---
+            (Author: J. Rodriguez-Carvajal, LLB)
+                 (version 3.0 October 1998) 
+            ------------------------------------ 
+
+ => TITLE: ML_NaCl_20-137deg_0p01_60s_36min_20161012.dat                                                                                                                                                                                                                   
+
+ => 2Theta range, peaks and cycles read 
+ => 2Theta(init)    :   30.747
+ => 2Theta(fin )    :   32.530
+ => Number of peaks :     1
+ => Number of background points :     2
+ => Number of cycles:    50
+
+ => Global parameters                 Flag
+ => Kalph2/Kalph1 ratio :      0.5000  0
+ => Asymmetry parameter1:      0.0000  0
+ => Asymmetry parameter2:      0.0000  0
+
+      Profile Parameters for Pseudo-Voigt
+        pV(x) = ETA* L(x) + (1-ETA)* G(x)
+    FWHM = SQRT((U tanT + V) tanT + W) + Z/cosT
+    ETA  = Eta0 + X * 2T 
+
+ => Parameter  U        :      0.0000  0
+ => Parameter  V        :      0.0000  0
+ => Parameter  W        :      0.0111  1
+ => Parameter  Z        :      0.0000  0
+ => Parameter Eta0      :      0.0020  1
+ => Parameter  X        :      0.0000  0
+
+ => Background parameters
+      Scatt. Variable     Background  Flag
+           30.7474          897.3912   0
+           32.5303          746.4824   0
+
+    Position    Intensity    D-Gamma       D-Eta          Flags
+
+     31.7079       8745.      0.0000      0.0000       1  1  0  0
+
+ => Total number of refined parameters:    4
+
+
+
+ => Cycle No.:  1  Chi2 =   847.417    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1108000E-01   0.2541132E-03   0.1133411E-01   0.2694466E-04
+    8    0.2000000E-02   0.3500747       0.3520747       0.1831695E-02
+   12     31.70789      -0.4327393E-01    31.66462       0.1498960E-03
+   13     8745.154        3201.618        11946.77        13.35094    
+
+
+ => Cycle No.:  2  Chi2 =   253.436    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1133411E-01   0.2943491E-02   0.1427760E-01   0.2308890E-04
+    8    0.3520747      -0.5005682E-01   0.3020179       0.1372852E-02
+   12     31.66462       0.2960014E-01    31.69422       0.1058446E-03
+   13     11946.77       -20.85449        11925.92        13.27086    
+
+
+ => Cycle No.:  3  Chi2 =   189.438    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1427760E-01  -0.1054239E-02   0.1322336E-01   0.3099118E-04
+    8    0.3020179       0.2833861E-01   0.3303565       0.1353408E-02
+   12     31.69422      -0.1218796E-01    31.68203       0.1140525E-03
+   13     11925.92       -28.84277        11897.08        13.33629    
+
+
+ => Cycle No.:  4  Chi2 =   169.438    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1322336E-01   0.1616301E-03   0.1338499E-01   0.2855395E-04
+    8    0.3303565      -0.5633235E-02   0.3247232       0.1369355E-02
+   12     31.68203       0.6628036E-02    31.68866       0.1114807E-03
+   13     11897.08       -38.74219        11858.33        13.28367    
+
+
+ => Cycle No.:  5  Chi2 =   163.501    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1338499E-01  -0.5332092E-03   0.1285178E-01   0.2961651E-04
+    8    0.3247232       0.1328269E-01   0.3380059       0.1378996E-02
+   12     31.68866      -0.3374100E-02    31.68528       0.1124240E-03
+   13     11858.33        22.04688        11880.38        13.30929    
+
+
+ => Cycle No.:  6  Chi2 =   161.272    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1285178E-01  -0.9044632E-04   0.1276134E-01   0.2850313E-04
+    8    0.3380059       0.2371728E-02   0.3403777       0.1386746E-02
+   12     31.68528       0.1907349E-02    31.68719       0.1108666E-03
+   13     11880.38       -4.781250        11875.60        13.29520    
+
+
+ => Cycle No.:  7  Chi2 =   160.506    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1276134E-01  -0.2428899E-03   0.1251845E-01   0.2863744E-04
+    8    0.3403777       0.7018268E-02   0.3473959       0.1393327E-02
+   12     31.68719      -0.8983612E-03    31.68629       0.1107758E-03
+   13     11875.60        8.890625        11884.49        13.30259    
+
+
+ => Cycle No.:  8  Chi2 =   160.116    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1251845E-01  -0.9825546E-04   0.1242019E-01   0.2821695E-04
+    8    0.3473959       0.3121614E-02   0.3505175       0.1398798E-02
+   12     31.68629       0.5416870E-03    31.68683       0.1100722E-03
+   13     11884.49       0.7548828        11885.24        13.29884    
+
+
+ => Cycle No.:  9  Chi2 =   159.931    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1242019E-01  -0.1219586E-03   0.1229823E-01   0.2816912E-04
+    8    0.3505175       0.3860980E-02   0.3543785       0.1403111E-02
+   12     31.68683      -0.2155304E-03    31.68662       0.1098476E-03
+   13     11885.24        3.717773        11888.96        13.30084    
+
+
+ => Cycle No.: 10  Chi2 =   159.822    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1229823E-01  -0.7109903E-04   0.1222714E-01   0.2799131E-04
+    8    0.3543785       0.2367139E-02   0.3567457       0.1406630E-02
+   12     31.68662       0.1602173E-03    31.68678       0.1095005E-03
+   13     11888.96        1.301758        11890.26        13.29987    
+
+
+ => Cycle No.: 11  Chi2 =   159.753    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1222714E-01  -0.6783009E-04   0.1215931E-01   0.2792660E-04
+    8    0.3567457       0.2233565E-02   0.3589792       0.1409381E-02
+   12     31.68678      -0.4386902E-04    31.68673       0.1093172E-03
+   13     11890.26        1.771484        11892.04        13.30038    
+
+
+ => Cycle No.: 12  Chi2 =   159.705    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1215931E-01  -0.4678033E-04   0.1211253E-01   0.2783778E-04
+    8    0.3589792       0.1576275E-02   0.3605555       0.1411592E-02
+   12     31.68673       0.5149841E-04    31.68678       0.1091269E-03
+   13     11892.04       0.9892578        11893.02        13.30012    
+
+
+ => Cycle No.: 13  Chi2 =   159.675    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1211253E-01  -0.3958587E-04   0.1207294E-01   0.2778743E-04
+    8    0.3605555       0.1337707E-02   0.3618932       0.1413318E-02
+   12     31.68678        0.000000        31.68678       0.1090003E-03
+   13     11893.02       0.9785156        11894.00        13.30026    
+
+
+ => Cycle No.: 14  Chi2 =   159.652    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1207294E-01  -0.2972595E-04   0.1204321E-01   0.2773893E-04
+    8    0.3618932       0.1012146E-02   0.3629054       0.1414693E-02
+   12     31.68678       0.1907349E-04    31.68680       0.1088896E-03
+   13     11894.00       0.6621094        11894.67        13.30020    
+
+
+ => Cycle No.: 15  Chi2 =   159.640    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1204321E-01  -0.2393499E-04   0.1201928E-01   0.2770495E-04
+    8    0.3629054       0.8196831E-03   0.3637250       0.1415774E-02
+   12     31.68680       0.5722046E-05    31.68681       0.1088074E-03
+   13     11894.67       0.5712891        11895.24        13.30024    
+
+
+ => Cycle No.: 16  Chi2 =   159.632    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1201928E-01  -0.1867115E-04   0.1200061E-01   0.2767641E-04
+    8    0.3637250       0.6348193E-03   0.3643599       0.1416633E-02
+   12     31.68681       0.7629395E-05    31.68682       0.1087408E-03
+   13     11895.24       0.4101563        11895.65        13.30022    
+
+
+ => Cycle No.: 17  Chi2 =   159.622    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1200061E-01  -0.1489185E-04   0.1198572E-01   0.2765437E-04
+    8    0.3643599       0.5029738E-03   0.3648628       0.1417310E-02
+   12     31.68682       0.5722046E-05    31.68682       0.1086892E-03
+   13     11895.65       0.3281250        11895.97        13.30021    
+
+
+ => Cycle No.: 18  Chi2 =   159.617    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1198572E-01  -0.1160242E-04   0.1197411E-01   0.2763654E-04
+    8    0.3648628       0.3997087E-03   0.3652625       0.1417844E-02
+   12     31.68682       0.3814697E-05    31.68683       0.1086475E-03
+   13     11895.97       0.2753906        11896.25        13.30022    
+
+ => Convergence reached! : Chi2(old)-Chi2(new) < 0.00001 * Chi2(old)
+
+
+       GLOBAL  PARAMETERS       (Value - Sigma):  
+
+ => Kalph2/Kalph1 ratio :      0.5000      0.0000
+ => Asymmetry parameter1:      0.0000      0.0000
+ => Asymmetry parameter2:      0.0000      0.0000
+ => Parameter  U        :      0.0000      0.0000
+ => Parameter  V        :      0.0000      0.0000
+ => Parameter  W        :      0.0120      0.0000
+ => Parameter  Z        :      0.0000      0.0000
+ => Parameter Eta0      :      0.3653      0.0014
+ => Parameter  X        :      0.0000      0.0000
+
+      BACKGROUND PARAMETERS
+      Scatt. Variable     Background            Sigma
+           30.7538          897.3912            0.0000
+           32.5218          746.4824            0.0000
+
+      PEAK PARAMETERS
+
+   Npeak     2Theta       Intensity        D-Gamma         D-Eta
+
+    1        31.6868     11896.2500         0.0000         0.0000
+              0.0001        13.3002         0.0000         0.0000
+
+  Rfact=   12.418   Rwfact=   14.400  Rex=    1.140
+
+ => Error correlations 
+
+    Correlation:  10 >  0% for parameters:            W & Posit_1    (   6  12)
+    Correlation:  23 >  0% for parameters:         Eta0 & Inten_1    (   8  13)
+
+ => There are   2 values of Correlation >  0%
+ 
+ 
+            ------------------------------------ 
+                  --- PROGRAM: XRFIT ---
+            (Author: J. Rodriguez-Carvajal, LLB)
+                 (version 3.0 October 1998) 
+            ------------------------------------ 
+
+ => TITLE: ML_NaCl_20-137deg_0p01_60s_36min_20161012.dat                                                                                                                                                                                                                   
+
+ => 2Theta range, peaks and cycles read 
+ => 2Theta(init)    :   26.838
+ => 2Theta(fin )    :   27.955
+ => Number of peaks :     1
+ => Number of background points :     2
+ => Number of cycles:    50
+
+ => Global parameters                 Flag
+ => Kalph2/Kalph1 ratio :      0.5000  0
+ => Asymmetry parameter1:      0.0000  0
+ => Asymmetry parameter2:      0.0000  0
+
+      Profile Parameters for Pseudo-Voigt
+        pV(x) = ETA* L(x) + (1-ETA)* G(x)
+    FWHM = SQRT((U tanT + V) tanT + W) + Z/cosT
+    ETA  = Eta0 + X * 2T 
+
+ => Parameter  U        :      0.0000  0
+ => Parameter  V        :      0.0000  0
+ => Parameter  W        :      0.0081  1
+ => Parameter  Z        :      0.0000  0
+ => Parameter Eta0      :      0.0020  1
+ => Parameter  X        :      0.0000  0
+
+ => Background parameters
+      Scatt. Variable     Background  Flag
+           26.8384          688.9338   0
+           27.9549          653.7225   0
+
+    Position    Intensity    D-Gamma       D-Eta          Flags
+
+     27.3590        192.      0.0000      0.0000       1  1  0  0
+
+ => Total number of refined parameters:    4
+
+
+
+ => Cycle No.:  1  Chi2 =   15.3016    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.8140000E-02   0.4741326E-03   0.8614132E-02   0.2208432E-03
+    8    0.2000000E-02    1.023368        1.025368       0.3864450E-01
+   12     27.35902      -0.3113937E-01    27.32788       0.1365022E-02
+   13     192.0982        193.1148        385.2130        3.787026    
+
+
+ => Cycle No.:  2  Chi2 =   2.74862    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.8614132E-02   0.4763332E-02   0.1337746E-01   0.2929617E-03
+    8     1.025368      -0.3049463       0.7204219       0.2184421E-01
+   12     27.32788       0.1880836E-01    27.34669       0.6503813E-03
+   13     385.2130        12.21301        397.4260        3.736656    
+
+
+ => Cycle No.:  3  Chi2 =   2.47280    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1337746E-01   0.1224774E-02   0.1460224E-01   0.3538542E-03
+    8    0.7204219      -0.1192130       0.6012089       0.2080797E-01
+   12     27.34669       0.2094269E-02    27.34878       0.8013565E-03
+   13     397.4260       -16.40167        381.0243        3.982084    
+
+
+ => Cycle No.:  4  Chi2 =   2.30161    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1460224E-01   0.5839132E-03   0.1518615E-01   0.3516383E-03
+    8    0.6012089      -0.5885464E-01   0.5423543       0.2116994E-01
+   12     27.34878      -0.1249313E-02    27.34753       0.8687820E-03
+   13     381.0243       -1.586121        379.4382        4.056524    
+
+
+ => Cycle No.:  5  Chi2 =   2.27464    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1518615E-01   0.5089417E-03   0.1569509E-01   0.3431294E-03
+    8    0.5423543      -0.3825951E-01   0.5040948       0.2107489E-01
+   12     27.34753       0.4196167E-04    27.34758       0.8858472E-03
+   13     379.4382       -1.239441        378.1987        4.087815    
+
+
+ => Cycle No.:  6  Chi2 =   2.26846    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1569509E-01   0.3190450E-03   0.1601414E-01   0.3413429E-03
+    8    0.5040948      -0.2144790E-01   0.4826469       0.2108706E-01
+   12     27.34758      -0.2460480E-03    27.34733       0.9007427E-03
+   13     378.1987      -0.5915222        377.6072        4.113501    
+
+
+ => Cycle No.:  7  Chi2 =   2.26792    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1601414E-01   0.3902614E-04   0.1605316E-01   0.1666695E-03
+    8    0.4826469      -0.2364248E-02   0.4802826       0.8505587E-02
+   12     27.34733      -0.4386902E-04    27.34729       0.6295436E-03
+   13     377.6072       0.3353577        377.9426        2.205323    
+
+
+ => Cycle No.:  8  Chi2 =   2.26781    
+
+
+   No.    Old-Value        Change        New-Value         Sigma 
+
+    6    0.1605316E-01   0.4572794E-05   0.1605774E-01   0.6583136E-04
+    8    0.4802826      -0.2578497E-03   0.4800248       0.3219967E-02
+   12     27.34729      -0.3814697E-05    27.34728       0.2672035E-03
+   13     377.9426       0.3689575E-01    377.9795       0.8847806    
+
+ => Convergence reached! : Chi2(old)-Chi2(new) < 0.00001 * Chi2(old)
+
+
+       GLOBAL  PARAMETERS       (Value - Sigma):  
+
+ => Kalph2/Kalph1 ratio :      0.5000      0.0000
+ => Asymmetry parameter1:      0.0000      0.0000
+ => Asymmetry parameter2:      0.0000      0.0000
+ => Parameter  U        :      0.0000      0.0000
+ => Parameter  V        :      0.0000      0.0000
+ => Parameter  W        :      0.0161      0.0001
+ => Parameter  Z        :      0.0000      0.0000
+ => Parameter Eta0      :      0.4800      0.0032
+ => Parameter  X        :      0.0000      0.0000
+
+      BACKGROUND PARAMETERS
+      Scatt. Variable     Background            Sigma
+           26.8408          688.9338            0.0000
+           27.9458          653.7225            0.0000
+
+      PEAK PARAMETERS
+
+   Npeak     2Theta       Intensity        D-Gamma         D-Eta
+
+    1        27.3473       377.9795         0.0000         0.0000
+              0.0003         0.8848         0.0000         0.0000
+
+  Rfact=    3.888   Rwfact=    4.667  Rex=    3.099
+
+ => Error correlations 
+
+    Correlation:   3 >  0% for parameters:            W & Posit_1    (   6  12)
+    Correlation:  64 >  0% for parameters:         Eta0 & Inten_1    (   8  13)
+
+ => There are   2 values of Correlation >  0%

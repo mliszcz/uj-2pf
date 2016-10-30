@@ -28,7 +28,7 @@ abstract: |
   W ćwiczeniu przeprowadzona została analiza próbek substancji krystalicznych
   metodą dyfrakcji promieni rentgenowskich. Z wykorzystaniem równania Bragga
   próbka NaCl została wywskaźnikowana i wyznaczona została dla niej stała sieci
-  krysta licznej wynosząca $a = 0.564(xx)\,\mathrm{nm}$. Wskaźnikowanie
+  krysta licznej wynosząca $a = 5.641320(37)\,\mathrm{\AA}$. Wskaźnikowanie
   potwierdziło zakładany model sieci krystalicznej fcc a wyznaczona stała
   sieci jest zgodna z wartościami tablicowymi.
   Dodatkowo została zbadany został dyfraktogram próbki wielofazowej z którego
@@ -153,7 +153,9 @@ wzorcowe próbki P1, P2 i P3.
 ## Stała sieciowa próbki NaCl
 
 Przyjęta w obliczeniach długość falii linii $K_{\alpha1}$ miedzi to
-$\lambda=1.54056\,\mathrm{\AA}$.
+$\lambda=1.54056\,\mathrm{\AA}$ [^note-ka-lambda].
+
+[^note-ka-lambda]: Stała podana przez program WinPlotr.
 
 TODO:
 
@@ -162,25 +164,25 @@ TODO:
 * rachunek niepewności + zaokrąglenie wyników
 * *systematic absences*, *allowed hkl list for fcc* [@lufaso2013]
 
-$2\theta\,[\degree]$ | $h^2+k^2+l^2$ | $(hkl)$ | $a\,[\mathrm{nm}]$
----------------------|---------------|---------|-------------------
-27.3473              | 3             | $(111)$ | 0.5643879589
-31.6868              | 4             | $(200)$ | 0.564289042
-45.4307              | 8             | $(220)$ | 0.5642011867
-53.8489              | 11            | $(311)$ | 0.5641881253
-56.4538              | 12            | $(222)$ | 0.5641709494
-66.2128              | 16            | $(400)$ | 0.5641056767
-75.2684              | 20            | $(420)$ | 0.5641492758
-83.9582              | 24            | $(422)$ | 0.5641821667
-101.1383             | 32            | $(440)$ | 0.5641388541
-110.0194             | 36            | $(442)$ | 0.5641360838
-119.4398             | 40            | $(620)$ | 0.5641319576
-129.8396             | 44            | $(622)$ | 0.5641352502
+$2\theta\,[\degree]$ | $hkl$       | $a\,[\mathrm{\AA}]$
+---------------------|-------------|-------------------
+27.34730(30)         |    $111$    |    5.64388(76)
+31.68680(10)         |    $200$    |    5.64289(65)
+45.43070(30)         |    $220$    |    5.64201(44)
+53.8489(23)          |    $311$    |    5.64188(43)
+56.45330(70)         |    $222$    |    5.64176(35)
+66.21260(60)         |    $400$    |    5.64107(29)
+75.26800(50)         |    $420$    |    5.64152(24)
+83.95820(80)         |    $422$    |    5.64182(21)
+101.1383(36)         |    $440$    |    5.64139(21)
+110.0194(17)         |    $442$    |    5.64136(14)
+119.4398(18)         |    $620$    |    5.64132(12)
+129.8396(19)         |    $622$    |    5.641353(96)
 
 Table: Wskaźnikowanie refleksów dyfraktogramu próbki P1 w punktach $2\theta$.
 Rozkłady $(hkl)$ podane są z dokładnością do permutacji. {#tbl:wskaznikowanie}
 
-\begin{figure}[H]
+\begin{figure}
 \centering
 
 \includegraphics[width=0.81\textwidth]{{../workspace/plots/ML_NaCl_20-137deg_0p01_60s_36min_20161012.ASC.svg}.pdf}
@@ -191,7 +193,20 @@ Rozkłady $(hkl)$ podane są z dokładnością do permutacji. {#tbl:wskaznikowa
 TODO: wykresy:
 
 * dyfraktogram NaCl + inset dla dużych kątów + krzywa ekstrapolacyjna
-* regresja liniowa dopasowania $a$
+
+\begin{figure}
+\centering
+
+\includegraphics[width=0.60\textwidth]{{../workspace/plots/nacl-analyzed.txt.svg}.pdf}
+\caption{Zależność stałej struktury krystalicznej $a$ od wartości funkcji
+  Nelsona-Rileya dla kąta $\theta$. Prosta została dopasowana do czterech
+  punktów o największej wartości kąta $\theta$ (wartość funkcji Nelsona-Rileya
+  z przedziału $[0,1]$).}
+
+\end{figure}
+
+Wyznaczona wartość stałej $a$ to $5.641320(37)$ \AA. Wartość podawana w
+tablicach to $5.6402$ \AA [].
 
 ## Analiza próbki polifazowej
 

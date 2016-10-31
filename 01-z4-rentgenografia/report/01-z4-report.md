@@ -11,7 +11,8 @@ csl: ieee.csl
 documentclass: article
 lang: pl-PL
 
-geometry: a4paper, margin=6em
+geometry: a4paper, tmargin=3cm, bmargin=3cm, lmargin=3cm, rmargin=3cm
+
 header-includes:
   - \usepackage[pdftex]{graphicx}
   - \usepackage{hyperref}
@@ -150,19 +151,39 @@ Dla próbki P1 przeprowadziłem wskaźnikowanie i wyznaczyłem stałą sieci
 krystalicznej. Dla wielofazowej próbki P5 dokonałem rozkładu dyfraktogramu na
 wzorcowe próbki P1, P2 i P3.
 
-## Stała sieciowa próbki NaCl
+## Stała sieciowa i wskaźnikowanie próbki NaCl
 
+Przy użyciu programu WinPLOTR [] odczytałem położenia maksimów dyfrakcyjnych.
+Do poszczególnych maksimów program pozwalał na dopasowanie krzywej
+ekstrapolacyjnej. Cały dygraktogram NaCl wraz z dopasowaniem dla jednego z
+refleksów przedstawia [].
+
+\begin{figure}
+\centering
+
+\includegraphics[width=0.81\textwidth]{{../workspace/plots/ML_NaCl_20-137deg_0p01_60s_36min_20161012.ASC.svg}.pdf}
+\caption{Dyfraktogram NaCl.}
+
+\end{figure}
+
+Dyfraktogram wywskaźnikowałem dobierając taki dzielnik, który dla wszystkich
+wartości $\sin^2 \theta$ dawał liczbę całkowitą. Zgodnie z równaniem (3)
+liczba ta powinna być równa $h^2+k^2+l^2$. Dzięki zastosowaniu filtra
+niklowego w widmie nie było zauważalnych refleksów od linii $K_{\beta}$ miedzi.
+W ten sposób udało się wywskaźnikować wszystkie refleksy dyfraktogramu.
+Wartość $h^2+k^2+l^2$ dla każdego z refleksów dawała jednoznaczny rozkład na
+wskaźniki $h$, $k$ i $l$ (z dokładnością do ich permutacji). Wszystkie
+wskaźniki refleksów były albo parzyste albo nieparzyste, co jest zgodne z
+regułą wygaszeń dla sieci *fcc* [@lufaso2013]. NaCl krystalizuje więc w
+strukturze regularnej powierzchniowo centrowanej.
+
+Znając wartości kąta $\theta$ i wskaźników, przy pomocy równania (3)
+wyznaczyłem wartości stałych sieciowych $a$. Wyniki wskaźnikowania i
+wyznaczone stałe sieciowe przedstawia tabela [].
 Przyjęta w obliczeniach długość falii linii $K_{\alpha1}$ miedzi to
 $\lambda=1.54056\,\mathrm{\AA}$ [^note-ka-lambda].
 
 [^note-ka-lambda]: Stała podana przez program WinPlotr.
-
-TODO:
-
-* uzupełnić tekst
-* wyrzucić z tabelki $a$ (wyliczyć z regresji liniowej)
-* rachunek niepewności + zaokrąglenie wyników
-* *systematic absences*, *allowed hkl list for fcc* [@lufaso2013]
 
 $2\theta\,[\degree]$ | $hkl$       | $a\,[\mathrm{\AA}]$
 ---------------------|-------------|-------------------
@@ -179,20 +200,19 @@ $2\theta\,[\degree]$ | $hkl$       | $a\,[\mathrm{\AA}]$
 119.4398(18)         |    $620$    |    5.64132(12)
 129.8396(19)         |    $622$    |    5.641353(96)
 
-Table: Wskaźnikowanie refleksów dyfraktogramu próbki P1 w punktach $2\theta$.
-Rozkłady $(hkl)$ podane są z dokładnością do permutacji. {#tbl:wskaznikowanie}
+Table: Wskaźnikowanie refleksów dyfraktogramu próbki P1 w punktach $2\theta$. {#tbl:wskaznikowanie}
 
-\begin{figure}
-\centering
-
-\includegraphics[width=0.81\textwidth]{{../workspace/plots/ML_NaCl_20-137deg_0p01_60s_36min_20161012.ASC.svg}.pdf}
-\caption{Profil natężenia wiązki laserowej}
-
-\end{figure}
-
-TODO: wykresy:
-
-* dyfraktogram NaCl + inset dla dużych kątów + krzywa ekstrapolacyjna
+W celu wyznaczenia dokładnej wartości stałej sieciowej $a_0$, do zależności
+stałych $a$ od wartośc funkcji Nelsona-Rileya [] dla $\theta$,
+dopasowałem prostą regresji liniowej. Prosta przedstawiona jest na rys [].
+Stały parametr dopasowania to
+wartość $a_0$. Otrzymałem $a = 5.641320(37)$ \AA. Wartośći podawane w
+różnych bazach materiałów różnią się między sobą:
+$5.6404(1)$ \AA [^note-nacl-mindat],
+$5.64154(6)$ \AA [^note-nacl-ruff01],
+$5.6429(1)$ \AA [^note-nacl-ruff01]. Wartość stałej sieci zależy od wielu
+czynników, między innymi temperatury panującej w trakcie eksperymentu.
+Otrzymany wynik potwierdza że badana próbka ma strukturę halitu.
 
 \begin{figure}
 \centering
@@ -205,14 +225,16 @@ TODO: wykresy:
 
 \end{figure}
 
-Wyznaczona wartość stałej $a$ to $5.641320(37)$ \AA. Wartość podawana w
-tablicach to $5.6402$ \AA [].
+[^note-nacl-ruff01]: http://rruff.info/halite/display=default/R070534
+[^note-nacl-ruff02]: http://rruff.info/halite/display=default/R070586
+[^note-nacl-mindat]: http://www.mindat.org/min-1804.html
 
 ## Analiza próbki polifazowej
 
-TODO:
-
-* wykres z nałożonymi dyfraktogramami
+Dokonałem analizy jakościowej obrazu dyfrakcyjnego wielofazowej próbki P5.
+Porównując go z dyfraktogramami próbek wzorcowych P1, P2 i P3 udało się
+zidentyfikować wszystkie refleksy próbki P5 jako pochodzące od poszczególnych
+jej składników. Złożenie dyfraktogramów przedstawia rys [].
 
 # Podsumowanie
 

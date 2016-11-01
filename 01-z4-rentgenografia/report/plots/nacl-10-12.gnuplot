@@ -3,7 +3,7 @@ set encoding utf8
 input_data = "../../data/10-12/ML_NaCl_20-137deg_0p01_60s_36min_20161012.ASC"
 extra_data = "../../data/10-19/nacl-110-3next.dat"
 
-set terminal cairolatex pdf input color size 12cm,7cm
+set terminal cairolatex pdf input color size 12cm,8cm
 set output "out/nacl-10-12.tex"
 
 # svg preview is not generated here since multiplot does not support replot

@@ -14,8 +14,7 @@ fit f(x) input_data every ::8 using 7:3:8:4 xyerrors via a, b
 set xlabel 'NR($\theta$)'
 set ylabel 'a [\AA]'
 
-# set x2label 'θ'
-# set x2tics
+set key right bottom
 
 set xrange [0:6]
 
@@ -23,8 +22,8 @@ set xrange [0:6]
 
 plot \
   f(x) title 'a(NR($\theta$))' with line, \
-  input_data every ::8 using 7:3:8:4 title "a" with xyerrorbars, \
-  input_data every ::0::7 using 7:3:8:4 title "a" with xyerrorbars
+  input_data every ::8 using 7:3:8:4 title "a (użyte w regresji)" lc 7 with xyerrorbars, \
+  input_data every ::0::7 using 7:3:8:4 title "a (pozostałe)" with xyerrorbars
 
 set terminal svg size 900,600 fname 'Verdana' fsize 16
 set output "out/nacl-analyzed.svg"

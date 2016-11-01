@@ -156,13 +156,15 @@ wzorcowe próbki P1, P2 i P3.
 
 Przy użyciu programu WinPLOTR [] odczytałem położenia maksimów dyfrakcyjnych.
 Do poszczególnych maksimów program pozwalał na dopasowanie krzywej
-ekstrapolacyjnej. Cały dygraktogram NaCl wraz z dopasowaniem dla jednego z
+ekstrapolacyjnej. Dygraktogram NaCl wraz z dopasowaniem dla jednego z
 refleksów przedstawia [].
 
 \begin{figure}
 \centering
 \input{plots/out/nacl-10-12.tex}
-\caption{Dyfraktogram NaCl.}
+\caption{Dyfraktogram NaCl z krzywą ekstrapolacyjną dla jednego z refleksów.
+  Dla czytelności rysunku pominięty został najbardziej intensywny refleks
+  dla $2\theta \approx 27\degree$.}
 
 \end{figure}
 
@@ -215,13 +217,12 @@ czynników, między innymi temperatury panującej w trakcie eksperymentu.
 Otrzymany wynik potwierdza jednak że stała sieciowa badanej próbki jest równa
 stałej sieciowej halitu.
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \input{plots/out/nacl-analyzed.tex}
 \caption{Zależność stałej struktury krystalicznej $a$ od wartości funkcji
   Nelsona-Rileya dla kąta $\theta$. Prosta została dopasowana do czterech
-  punktów o największej wartości kąta $\theta$ (wartość funkcji Nelsona-Rileya
-  z przedziału $[0,1]$).}
+  punktów o największej wartości kąta $\theta$.}
 
 \end{figure}
 
@@ -258,7 +259,7 @@ orientacji w samych próbkacj jednofazowych.
 \centering
 \input{plots/out/multiphase-salvita-si-loangle.tex}
 \caption{Dyfraktogram próbki wielofazowej P5 (u góry) porównany z
-  dyfraktogramami próbek P1, P2 i P3 (u dołu).}
+  dyfraktogramami próbek P1, P2 i P3 (u dołu) dla $\theta<40\degree$.}
 
 \end{figure}
 

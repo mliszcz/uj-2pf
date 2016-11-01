@@ -14,7 +14,7 @@ set xlabel '2$\theta$ [$\degree$]'
 set ylabel 'natężenie [j.]'
 
 set xtics 10
-set yrange [80:]
+set yrange [0:]
 set xrange [40:]
 
 set obj 6 rect from 118.5,1000+100 to 121,40-100

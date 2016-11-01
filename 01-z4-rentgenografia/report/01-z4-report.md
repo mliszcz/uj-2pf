@@ -234,7 +234,33 @@ stałej sieciowej halitu.
 Dokonałem analizy jakościowej obrazu dyfrakcyjnego wielofazowej próbki P5.
 Porównując go z dyfraktogramami próbek wzorcowych P1, P2 i P3 udało się
 zidentyfikować wszystkie refleksy próbki P5 jako pochodzące od poszczególnych
-jej składników. Złożenie dyfraktogramów przedstawia rys [].
+jej składników. Złożenie dyfraktogramów przedstawia rys [@Fig:multiphase].
+
+Natężenia odpowiadających sobie refleksów w próbce wielofazowej i próbkach
+wzorcowych różnią się między sobą. Jest to związane z różną zawartością
+poszczególnych substancji w próbce wielofazowej i występującą preferencją
+orientacji w samych próbkacj jednofazowych.
+
+\begin{figure}
+\centering
+\input{plots/out/multiphase-salvita-si-hiangle.tex}
+\label{fig:multiphase-salvita-si-hiangle}
+\caption{Dyfraktogram próbki wielofazowej P5 (u góry) porównany z
+  dyfraktogramami próbek P1, P2 i P3 (u dołu). Dla każdego z refleksów próbki
+  P5 widać odpowiadający refleks jednej z próbek wzorcowych. Dla zwiększenia
+  czytelności rysunku pokazane są dyfraktogramy tylko dla $\theta>40\degree$
+  a natężenia refleksów dla próbek P1, P2 i P3 zostały przeskalowane i
+  przesunięte.}
+
+\end{figure}
+
+\begin{figure}
+\centering
+\input{plots/out/multiphase-salvita-si-loangle.tex}
+\caption{Dyfraktogram próbki wielofazowej P5 (u góry) porównany z
+  dyfraktogramami próbek P1, P2 i P3 (u dołu).}
+
+\end{figure}
 
 # Podsumowanie
 

@@ -27,22 +27,22 @@ keywords:
   - NaCl
 
 abstract: |
-  W ćwiczeniu przeprowadzona została analiza próbek substancji krystalicznych
-  metodą dyfrakcji promieni rentgenowskich. Z wykorzystaniem równania Bragga
-  próbka NaCl została wywskaźnikowana i wyznaczona została dla niej stała sieci
-  krysta licznej wynosząca $a = 5.641320(37)\,\mathrm{\AA}$. Wskaźnikowanie
-  potwierdziło zakładany model sieci krystalicznej fcc a wyznaczona stała
-  sieci jest zgodna z wartościami tablicowymi.
-  Dodatkowo została zbadany został dyfraktogram próbki wielofazowej z którego
-  wyodrębiono wszystkie refleksy próbek wzorcowych i potwierdzono jej skład.
+  W eksperymencie przeprowadzona została jakościowa analiza próbek substancji
+  krystalicznych metodą dyfrakcji rentgenowskiej. Zostały wywskaźnikowane
+  dyfraktogramy NaCl, KCl, salvity i salvity z krzemem.
+  Dla NaCl została wyzaczona stała sieci krystalicznej $a = 5.641320(37)$ \AA.
+  Wszystkie wskaźniki tej próbki spełniały reguły wygaszeń dla sieci *fcc*,
+  co potwierdziło strukturę krystaliczną NaCl.
+  Dyfraktogram salvity z krzemem został rozłożony na
+  sumę dyfraktogramów NaCl, KCl oraz Si, potwierdzając jej skład pierwiastkowy.
 ---
 
 # Wstęp
 
-// TODO napisac tutaj o dyskretnym obrazie dyfrakcyjnym
-
-Zgodnie z klasyczną definicją kryształ to ciało stałe o periodycznej budowie
-w którym występuje atomowy porządek dalekiego zasięgu. Strukturę krystaliczną
+Kryształy to ciała stałe dające dyskretny obraz dyfrakcyjny. Wiele kryształów
+spełnia jednak klasyczną definicję, określającą kryształ jako ciało o
+periodycznej budowie w którym występuje atomowy porządek dalekiego zasięgu.
+Strukturę krystaliczną
 definiuje sieć punktów (sieć krystaliczna) oraz baza (grupa atomów związana z
 każdym węzłem sieci). Sieć krystaliczna to zbiór punktów określonych przez
 *wektory translacji sieciowej* $\bm{a}_i$ dające taki sam obraz sieci z punktów
@@ -72,8 +72,9 @@ wykorzystaniem zjawiska *dyfrakcji promieniowania* na strukturze krystalicznej.
 Kryształy dają dyskretny obraz dyfrakcyjny z maksimami pochodzącymi od różnych
 rodzin płaszczyzn krystalograficznych.
 Dyfrakcję promieniowania na krysztale można analizować trzema metodami,
-zaproponowanymi kolejno przez Lauego [], Ewalda [] i Braggów []. W tej pracy
-wykorzystane zostało podejście Braggów.
+zaproponowanymi kolejno przez Lauego [@penkala1976laue], Ewalda i
+Braggów [@penkala1976bragg].
+W tej pracy wykorzystane zostało podejście Braggów.
 Promieniowanie padające na kryształ pod kątem $\theta$ w niewielkiej części
 przenika w głąb kryształu i jest odbijane od kolejnych warstw struktury
 krystalicznej. Dla warstw kryształu odległych o $d$ różnica dróg przebytych
@@ -145,7 +146,7 @@ i bez niego pozwoliło zidentyfikować refleksy $K_{\beta}$. Kolejne, właściwe
 już pomiary, wykonywane były w zakresie od $20\degree$ do $137\degree$.
 Dyfraktometr pracował w trybie ciągłym z szybkością obrotu odpowiadającą
 krokowi $0.013\degree$, w którym pomiar trwa $0.235$ s. Po zakończeniu
-pomiaru na każdej z próbek można było obserwować powstałe centra barwne []
+pomiaru na każdej z próbek można było obserwować powstałe centra barwne [@norby2006]
 będące wynikiem oddziaływania promieniowania rentgenowskiego z materiałem
 próbki.
 
@@ -157,13 +158,14 @@ wzorcowe próbki P1, P2 i P3.
 
 ## Stała sieciowa i wskaźnikowanie próbki NaCl
 
-Przy użyciu programu WinPLOTR [] odczytałem położenia maksimów dyfrakcyjnych.
-Do poszczególnych maksimów program pozwalał na dopasowanie krzywej
-ekstrapolacyjnej. Dygraktogram NaCl wraz z dopasowaniem dla jednego z
-refleksów przedstawia [].
+Przy użyciu programu WinPLOTR [@www-winplotr] odczytałem położenia maksimów
+dyfrakcyjnych. Do poszczególnych maksimów program pozwalał na dopasowanie
+krzywej ekstrapolacyjnej. Dygraktogram NaCl wraz z dopasowaniem dla jednego z
+refleksów przedstawia \ref{fig:nacl-diff}.
 
 \begin{figure}
 \centering
+\label{fig:nacl-diff}
 \input{plots/out/nacl-10-12.tex}
 \caption{Dyfraktogram NaCl z krzywą ekstrapolacyjną dla jednego z refleksów.
   Dla czytelności rysunku pominięty został najbardziej intensywny refleks
@@ -184,7 +186,7 @@ strukturze regularnej powierzchniowo centrowanej**.
 
 Znając wartości kąta $\theta$ i wskaźników, przy pomocy równania (3)
 wyznaczyłem wartości stałych sieciowych $a$. Wyniki wskaźnikowania i
-wyznaczone stałe sieciowe przedstawia tabela [].
+wyznaczone stałe sieciowe przedstawia tabela [@Tbl:wskaznikowanie].
 Przyjęta w obliczeniach długość falii linii $K_{\alpha1}$ miedzi to
 $\lambda=1.54056\,\mathrm{\AA}$ [^note-ka-lambda].
 Trzy refleksy, dla kątów $2\theta$ wynoszących odpowiednio około $73.0\degree$,
@@ -212,9 +214,9 @@ $2\theta\,[\degree]$ | $hkl$       | $a\,[\mathrm{\AA}]$
 Table: Wskaźnikowanie refleksów dyfraktogramu próbki P1 w punktach $2\theta$. {#tbl:wskaznikowanie}
 
 W celu wyznaczenia dokładnej wartości stałej sieciowej $a_0$, do zależności
-stałych $a$ od wartośc funkcji Nelsona-Rileya [] dla $\theta$,
-dopasowałem prostą regresji liniowej. Prosta przedstawiona jest na rys [].
-Stały parametr dopasowania to
+stałych $a$ od wartośc funkcji Nelsona-Rileya [@de2006uncertainty] dla $\theta$,
+dopasowałem prostą regresji liniowej. Prosta przedstawiona jest na
+\ref{fig:nr-fit}. Stały parametr dopasowania to
 wartość $a_0$. \textbf{Otrzymałem $a = 5.641320(37)$ \AA}. Wartości podawane w
 różnych bazach materiałów różnią się między sobą:
 $5.6404(1)$ \AA [^note-nacl-mindat],
@@ -227,6 +229,7 @@ stałej sieciowej halitu.
 \begin{figure}[H]
 \centering
 \input{plots/out/nacl-analyzed.tex}
+\label{fig:nr-fit}
 \caption{Zależność stałej struktury krystalicznej $a$ od wartości funkcji
   Nelsona-Rileya dla kąta $\theta$. Prosta została dopasowana do czterech
   punktów o największej wartości kąta $\theta$.}
@@ -237,12 +240,13 @@ stałej sieciowej halitu.
 [^note-nacl-ruff02]: http://rruff.info/halite/display=default/R070586
 [^note-nacl-mindat]: http://www.mindat.org/min-1804.html
 
-## Analiza próbki polifazowej
+## Analiza próbki wielofazowej
 
 Dokonałem analizy jakościowej obrazu dyfrakcyjnego wielofazowej próbki P5.
 Porównując go z dyfraktogramami próbek wzorcowych P1, P2 i P3 udało się
 zidentyfikować wszystkie refleksy próbki P5 jako pochodzące od poszczególnych
-jej składników. Złożenie dyfraktogramów przedstawia rys [@Fig:multiphase].
+jej składników. Złożenie dyfraktogramów przedstawiają \ref{fig:multiphase-salvita-si-hiangle}
+oraz \ref{fig:multiphase-salvita-si-loangle}.
 
 \begin{figure}
 \centering
@@ -260,6 +264,7 @@ jej składników. Złożenie dyfraktogramów przedstawia rys [@Fig:multiphase].
 \begin{figure}
 \centering
 \input{plots/out/multiphase-salvita-si-loangle.tex}
+\label{fig:multiphase-salvita-si-loangle}
 \caption{Dyfraktogram próbki wielofazowej P5 (u góry) porównany z
   dyfraktogramami próbek P1, P2 i P3 (u dołu) dla $\theta<40\degree$.}
 
@@ -272,10 +277,16 @@ orientacji w samych próbkacj jednofazowych.
 
 # Podsumowanie
 
-Przeprowadzone pomiary i analiza wykazały że NaCl krystalizuje w strukturze
+W eksperymencie zbadana została struktura pięciu materiałów z wykorzystaniem
+dyfrakcji rentgenowskiej. Uzyskane zostały dyfraktogramy dla NaCl, KCl, Si,
+salvity oraz salvity zmieszanej z krzemem. Wszystkie próbki dały dyskretny
+obraz dyfrakcyjny, co jest spodziewane dla ciał o strukturze krystalicznej.
+Dalsza analiza skupiła się na próbce NaCl.
+
+Przeprowadzone pomiary wykazały że NaCl krystalizuje w strukturze
 regularnej powierzchniowo centrowanej. W obserwowanym dyfraktogramie udało
 się wywskaźnikować wszystkie zauważalne refleksy, co potwierdziło skuteczność
-zastosowania filtra niklowego w połączeniu z lampą z anodą Cu. Wszystkie
+zastosowania filtra niklowego w połączeniu z lampą o anodzie Cu. Wszystkie
 refleksy spełniają reguły wygaszeń oczekiwane dla struktury fcc. Eksperyment
 potwierdził, że dla dużych wartości kąta $2\theta$ (większych od $100\degree$)
 zależność stałej struktury krystalicznej $a$ od wartości funkcji Nelsona-Rileya
@@ -321,7 +332,7 @@ całkowite (lub bardzo bliskie całkowitych). Odpowiednią wartością $C_1$ dla
 pierwszego refleksu okazała się liczba $3$. Przyjmując $\gamma =
 \sin^2 \theta_1 / C_1$ wyliczyłem pozostałe wartości $C_n$. Następnie dla
 każdego $C_n = (h_n^2 + k_n^2 + l_n^2)$ odgadłem odpowiedni rozkład na $h_n$,
-$k_n$ i $l_n$. Wynik wskaźnikowania przedstawia tabela [] we właściwej części
+$k_n$ i $l_n$. Wynik wskaźnikowania przedstawia tabela we właściwej części
 sprawozdania.
 
 ## Wyliczenie stałej $a_0$
@@ -349,8 +360,8 @@ Gdzie $a_0$ jest dokładną wartością stałej sieci.
 Dla czterech refleksów z największymi kątami $\theta$ wyliczyłem wartość
 stałej $a$ z równania (4) oraz wartość funkcji $\mathrm{NR}(\theta)$. Metodą
 regresji liniowej do tych danych dopasowałem prostą. Stały współczynnik
-dopasowania to szukana wartość $a_0$. Dopasowana prosta przedstawiona jest na
-[]. Wynik dopasowania podany jest w sprawozdaniu.
+dopasowania to szukana wartość $a_0$. Dopasowana prosta jak i otrzymane
+współczynniki podane są w sprawozdaniu.
 
 # Ilościowa analiza niepewności pomiarowych
 

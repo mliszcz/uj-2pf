@@ -11,6 +11,13 @@ csl: ieee.csl
 documentclass: article
 lang: pl-PL
 
+figureTitle: Rysunek
+tableTitle: Tabela
+listingTitle: Listing
+
+figPrefix: ['rys.', 'rys.']
+tblPrefix: ['tabela', 'tabele']
+
 geometry: a4paper, tmargin=3cm, bmargin=3cm, lmargin=3cm, rmargin=3cm
 
 header-includes:
@@ -160,7 +167,7 @@ wzorcowe próbki P1, P2 i P3.
 
 Przy użyciu programu WinPLOTR [@www-winplotr] odczytałem położenia maksimów
 dyfrakcyjnych. Do poszczególnych maksimów program pozwalał na dopasowanie
-krzywej ekstrapolacyjnej. Dygraktogram NaCl wraz z dopasowaniem dla jednego z
+krzywej ekstrapolacyjnej. Dyfraktogram NaCl wraz z dopasowaniem dla jednego z
 refleksów przedstawia \ref{fig:nacl-diff}.
 
 \begin{figure}
@@ -186,7 +193,7 @@ strukturze regularnej powierzchniowo centrowanej**.
 
 Znając wartości kąta $\theta$ i wskaźników, przy pomocy równania (3)
 wyznaczyłem wartości stałych sieciowych $a$. Wyniki wskaźnikowania i
-wyznaczone stałe sieciowe przedstawia tabela [@Tbl:wskaznikowanie].
+wyznaczone stałe sieciowe przedstawia [@Tbl:wskaznikowanie].
 Przyjęta w obliczeniach długość falii linii $K_{\alpha1}$ miedzi to
 $\lambda=1.54056\,\mathrm{\AA}$ [^note-ka-lambda].
 Trzy refleksy, dla kątów $2\theta$ wynoszących odpowiednio około $73.0\degree$,
@@ -214,10 +221,10 @@ $2\theta\,[\degree]$ | $hkl$       | $a\,[\mathrm{\AA}]$
 Table: Wskaźnikowanie refleksów dyfraktogramu próbki P1 w punktach $2\theta$. {#tbl:wskaznikowanie}
 
 W celu wyznaczenia dokładnej wartości stałej sieciowej $a_0$, do zależności
-stałych $a$ od wartośc funkcji Nelsona-Rileya [@de2006uncertainty] dla $\theta$,
+stałych $a$ od wartości funkcji Nelsona-Rileya [@de2006uncertainty] dla $\theta$,
 dopasowałem prostą regresji liniowej. Prosta przedstawiona jest na
 \ref{fig:nr-fit}. Stały parametr dopasowania to
-wartość $a_0$. \textbf{Otrzymałem $a = 5.641320(37)$ \AA}. Wartości podawane w
+wartość $a_0$. \textbf{Otrzymałem $a_0 = 5.641320(37)$ \AA}. Wartości podawane w
 różnych bazach materiałów różnią się między sobą:
 $5.6404(1)$ \AA [^note-nacl-mindat],
 $5.64154(6)$ \AA [^note-nacl-ruff01],
@@ -299,6 +306,7 @@ składników (pozyskane z próbek wzorcowych).
 
 # Bibliografia
 
+\setlength{\parindent}{0cm}
 <div id="refs"></div>
 
 \newpage
@@ -367,9 +375,9 @@ współczynniki podane są w sprawozdaniu.
 
 Wyznaczając położenia $2\theta$ refleksów program WinPLOTR podawał również
 niepewność statystyczną $u_A(2\theta)$ tego położenia. Przyjąłem więc
-niepewnośći statystyczne odczytu kątów jako:
+niepewności statystyczne odczytu kątów jako:
 
-$$ u_A(\theta) = \frac{1}{2} u_A(2\theta) $$
+$$ u_A(\theta) = \frac{1}{2} u_A(2\theta) $$ {#eq:}
 
 Błąd systematyczny odczytu położeń $2\theta$ może być związany z dokładnością
 dyfraktometru. Pomiar był wykonywany w sposób ciągły, równoważny pomiarom
@@ -378,22 +386,22 @@ niepewność systematyczną pomiarów $2\theta$ przyjmuję więc ten krok
 (w radianach), podzielony przez dwa ze względu na wysoką klasę przyrządu
 pomiarowego. Niepewność systematyczna odczytu kąta to zatem:
 
-$$ u_B(\theta) = \frac{1}{\sqrt{3}} \frac{1}{2} \frac{1}{2} \Delta 2\theta $$
+$$ u_B(\theta) = \frac{1}{\sqrt{3}} \frac{1}{2} \frac{1}{2} \Delta 2\theta $$ {#eq:}
 
-Jako całkowitą niepewność pomiaru kąta $\theta$ przyjmuję połączenie tych
+Jako całkowitą niepewność pomiaru kąta $\theta$ przyjąłem połączenie tych
 niepewności:
 
-$$ u(\theta) = \sqrt{ u_A^2(\theta) + u_B^2(\theta) } $$
+$$ u(\theta) = \sqrt{ u_A^2(\theta) + u_B^2(\theta) } $$ {#eq:}
 
 Wartości stałej sieci $a$ obliczałem z zależności:
 
-$$ a = \frac{\lambda}{2\sin\theta} \sqrt{h^2 + k^2 + l^2} $$
+$$ a = \frac{\lambda}{2\sin\theta} \sqrt{h^2 + k^2 + l^2} $$ {#eq:}
 
 Niepewność $u(a)$ wyraża się zatem przez niepewność $u(\theta)$ zgodnie z
 prawem przenoszenia niepewności:
 
 $$ u(a) = \left| \frac{\mathrm{d}a}{\mathrm{d}\theta} u(\theta) \right|
-  = \frac{\lambda}{2}\sqrt{h^2 + k^2 + l^2} \left|\frac{\cos\theta}{\sin^2\theta} u(\theta)\right| $$
+  = \frac{\lambda}{2}\sqrt{h^2 + k^2 + l^2} \left|\frac{\cos\theta}{\sin^2\theta} u(\theta)\right| $$ {#eq:}
 
 W powyższym równaniu założyłem że wartość $\lambda$ nie jest obarczona
 niepewnością pomiaru.
@@ -403,7 +411,7 @@ obliczyłem również:
 
 $$ u(\mathrm{NR}(\theta)) = \left| \frac{\mathrm{d}\,\mathrm{NR}(\theta)}{\mathrm{d}\theta} u(\theta) \right|
   = \left|\left( \cos\theta + \frac{\cos^2\theta}{\theta^2}
-    + \frac{\cos\theta}{\sin^2\theta} + \frac{2\cos\theta\sin\theta}{\theta} \right) u(\theta)\right| $$
+    + \frac{\cos\theta}{\sin^2\theta} + \frac{2\cos\theta\sin\theta}{\theta} \right) u(\theta)\right| $$ {#eq:}
 
 Tak wyliczone niepewności $u(a)$ i $u(\mathrm{NR}(\theta))$ użyłem w liniowej
 regresji ważonej do wyznaczenia stałej $a_0$. Wynik wraz z niepewnością

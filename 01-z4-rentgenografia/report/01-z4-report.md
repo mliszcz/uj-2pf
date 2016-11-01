@@ -144,7 +144,10 @@ $5\degree$ do $150\degree$. Porównanie dyfraktogramów otrzymanych z filtrem
 i bez niego pozwoliło zidentyfikować refleksy $K_{\beta}$. Kolejne, właściwe
 już pomiary, wykonywane były w zakresie od $20\degree$ do $137\degree$.
 Dyfraktometr pracował w trybie ciągłym z szybkością obrotu odpowiadającą
-krokowi $0.013\degree$, w którym pomiar trwa $0.235$ s.
+krokowi $0.013\degree$, w którym pomiar trwa $0.235$ s. Po zakończeniu
+pomiaru na każdej z próbek można było obserwować powstałe centra barwne []
+będące wynikiem oddziaływania promieniowania rentgenowskiego z materiałem
+próbki.
 
 # Wyniki i dyskusja
 
@@ -184,6 +187,10 @@ wyznaczyłem wartości stałych sieciowych $a$. Wyniki wskaźnikowania i
 wyznaczone stałe sieciowe przedstawia tabela [].
 Przyjęta w obliczeniach długość falii linii $K_{\alpha1}$ miedzi to
 $\lambda=1.54056\,\mathrm{\AA}$ [^note-ka-lambda].
+Trzy refleksy, dla kątów $2\theta$ wynoszących odpowiednio około $73.0\degree$,
+$90.5\degree$ i $107.5\degree$, które ze względu na bardzo małe natężenie nie
+zostały użyte w dalszych obliczeniach, również spełniały równanie Bragga.
+Odpowiadają one brakującym zestawom wskaźników: $331$, $511$ i $531$.
 
 [^note-ka-lambda]: Stała podana przez program WinPlotr.
 
@@ -237,11 +244,6 @@ Porównując go z dyfraktogramami próbek wzorcowych P1, P2 i P3 udało się
 zidentyfikować wszystkie refleksy próbki P5 jako pochodzące od poszczególnych
 jej składników. Złożenie dyfraktogramów przedstawia rys [@Fig:multiphase].
 
-Natężenia odpowiadających sobie refleksów w próbce wielofazowej i próbkach
-wzorcowych różnią się między sobą. Jest to związane z różną zawartością
-poszczególnych substancji w próbce wielofazowej i występującą preferencją
-orientacji w samych próbkacj jednofazowych.
-
 \begin{figure}
 \centering
 \input{plots/out/multiphase-salvita-si-hiangle.tex}
@@ -263,7 +265,26 @@ orientacji w samych próbkacj jednofazowych.
 
 \end{figure}
 
+Natężenia odpowiadających sobie refleksów w próbce wielofazowej i próbkach
+wzorcowych różnią się między sobą. Jest to związane z różną zawartością
+poszczególnych substancji w próbce wielofazowej i występującą preferencją
+orientacji w samych próbkacj jednofazowych.
+
 # Podsumowanie
+
+Przeprowadzone pomiary i analiza wykazały że NaCl krystalizuje w strukturze
+regularnej powierzchniowo centrowanej. W obserwowanym dyfraktogramie udało
+się wywskaźnikować wszystkie zauważalne refleksy, co potwierdziło skuteczność
+zastosowania filtra niklowego w połączeniu z lampą z anodą Cu. Wszystkie
+refleksy spełniają reguły wygaszeń oczekiwane dla struktury fcc. Eksperyment
+potwierdził, że dla dużych wartości kąta $2\theta$ (większych od $100\degree$)
+zależność stałej struktury krystalicznej $a$ od wartości funkcji Nelsona-Rileya
+kąta $\theta$ jest liniowa. Pozwoliło to otrzymać dokładną wartość stałej
+sieci, zbliżoną do wartości podawanych w bazach danych.
+
+Dzięki jakościowej analizie próbki wielofazowej udało się określić jej skład,
+poprzez rozseparowanie refleksów na refleksy pochodzące od poszczególnych
+składników (pozyskane z próbek wzorcowych).
 
 # Bibliografia
 
@@ -274,4 +295,105 @@ orientacji w samych próbkacj jednofazowych.
 
 # Opracowanie wyników pomiarów
 
-# Analiza niepewności pomiarowych
+W celu wywskaźnikowania dyfraktogramu i wyznaczenia stałej sieciowej wykonałem
+opisane dalej kroki.
+
+## Wskaźnikowanie
+
+Z dyfraktogramu próbki NaCl odczytałem przy użyciu programu WinPLOTR
+położenia ($2\theta$) refleksów. Zgodnie z równaniem Bragga, dla wszystkich
+refleksów powinno być spełnione:
+
+$$ \sin^2 \theta = \frac{\lambda^2}{4a^2}(h^2 + k^2 + l^2) $$ {#eq:simple-bragg}
+
+co można zapisać jako:
+
+$$ \sin^2 \theta = \gamma C, \qquad \gamma \equiv \frac{\lambda^2}{4a^2} \in \mathbb{R},
+  \qquad C \equiv (h^2 + k^2 + l^2) \in \mathbb{N} $$
+
+Umieściłem wartości $\sin^2 \theta$ wszystkich refleksów w arkuszu
+kalkulacyjnym. Dla pierwszego z refleksów (o najmniejszym kącie $\theta_1$)
+dzieliłem wartość $\sin^2 \theta_1$ przez kolejne $C_1=1,2,3,...$, otrzymując
+hipotetyczną wartość $\gamma$. Dla kolejnych wartości $\gamma$ obserwowałem w
+dodatkowej kolumnie wartości $C_n$ dla pozostałych refleksów. Właściwa wartość
+$\gamma$ to taka, dla której wartości $C_n$ wszystkich refleksów są
+całkowite (lub bardzo bliskie całkowitych). Odpowiednią wartością $C_1$ dla
+pierwszego refleksu okazała się liczba $3$. Przyjmując $\gamma =
+\sin^2 \theta_1 / C_1$ wyliczyłem pozostałe wartości $C_n$. Następnie dla
+każdego $C_n = (h_n^2 + k_n^2 + l_n^2)$ odgadłem odpowiedni rozkład na $h_n$,
+$k_n$ i $l_n$. Wynik wskaźnikowania przedstawia tabela [] we właściwej części
+sprawozdania.
+
+## Wyliczenie stałej $a_0$
+
+Istnieje wiele zależności opisujących względny błąd wyznaczenia odległości
+międzypłaszczyznowej $d \propto a$ na podstawie równania Bragga. W analizie
+wyników skorzystałem z funkcji Nelsona-Rileya, wyrażającej ten błąd jako:
+
+$$ \frac{\Delta d}{d}
+  = K\left(\frac{\cos^2\theta}{\sin\theta}+\frac{\cos^2\theta}{\theta}\right)
+  = K\,\mathrm{NR}(\theta),
+  \qquad K \in \mathbb{R} $$ {#eq:nelson-riley}
+
+Powyższa zależność jest prawdziwa dla dużych kątów $\theta > 50\degree$.
+Korzystając z tego że $d \propto a$, można dalej zapisać:
+
+$$ \frac{\Delta a}{a}
+  = \frac{a - a_0}{a}
+  = K\,\mathrm{NR}(\theta)
+  \qquad \Rightarrow \qquad
+  a = a_0 K \, \mathrm{NR}(\theta) + a_0 $$ {#eq:nelson-riley}
+
+Gdzie $a_0$ jest dokładną wartością stałej sieci.
+
+Dla czterech refleksów z największymi kątami $\theta$ wyliczyłem wartość
+stałej $a$ z równania (4) oraz wartość funkcji $\mathrm{NR}(\theta)$. Metodą
+regresji liniowej do tych danych dopasowałem prostą. Stały współczynnik
+dopasowania to szukana wartość $a_0$. Dopasowana prosta przedstawiona jest na
+[]. Wynik dopasowania podany jest w sprawozdaniu.
+
+# Ilościowa analiza niepewności pomiarowych
+
+Wyznaczając położenia $2\theta$ refleksów program WinPLOTR podawał również
+niepewność statystyczną $u_A(2\theta)$ tego położenia. Przyjąłem więc
+niepewnośći statystyczne odczytu kątów jako:
+
+$$ u_A(\theta) = \frac{1}{2} u_A(2\theta) $$
+
+Błąd systematyczny odczytu położeń $2\theta$ może być związany z dokładnością
+dyfraktometru. Pomiar był wykonywany w sposób ciągły, równoważny pomiarom
+krokowym z krokiem $\Delta \theta = 0.013\degree$ trwającym $0.235$ s. Jako
+niepewność systematyczną pomiarów $2\theta$ przyjmuję więc ten krok
+(w radianach), podzielony przez dwa ze względu na wysoką klasę przyrządu
+pomiarowego. Niepewność systematyczna odczytu kąta to zatem:
+
+$$ u_B(\theta) = \frac{1}{\sqrt{3}} \frac{1}{2} \frac{1}{2} \Delta 2\theta $$
+
+Jako całkowitą niepewność pomiaru kąta $\theta$ przyjmuję połączenie tych
+niepewności:
+
+$$ u(\theta) = \sqrt{ u_A^2(\theta) + u_B^2(\theta) } $$
+
+Wartości stałej sieci $a$ obliczałem z zależności:
+
+$$ a = \frac{\lambda}{2\sin\theta} \sqrt{h^2 + k^2 + l^2} $$
+
+Niepewność $u(a)$ wyraża się zatem przez niepewność $u(\theta)$ zgodnie z
+prawem przenoszenia niepewności:
+
+$$ u(a) = \left| \frac{\mathrm{d}a}{\mathrm{d}\theta} u(\theta) \right|
+  = \frac{\lambda}{2}\sqrt{h^2 + k^2 + l^2} \left|\frac{\cos\theta}{\sin^2\theta} u(\theta)\right| $$
+
+W powyższym równaniu założyłem że wartość $\lambda$ nie jest obarczona
+niepewnością pomiaru.
+
+W celu wyznaczenia dokładnej wartości $a_0$ z użyciem funkcji Nelsona-Rileya,
+obliczyłem również:
+
+$$ u(\mathrm{NR}(\theta)) = \left| \frac{\mathrm{d}\,\mathrm{NR}(\theta)}{\mathrm{d}\theta} u(\theta) \right|
+  = \left|\left( \cos\theta + \frac{\cos^2\theta}{\theta^2}
+    + \frac{\cos\theta}{\sin^2\theta} + \frac{2\cos\theta\sin\theta}{\theta} \right) u(\theta)\right| $$
+
+Tak wyliczone niepewności $u(a)$ i $u(\mathrm{NR}(\theta))$ użyłem w liniowej
+regresji ważonej do wyznaczenia stałej $a_0$. Wynik wraz z niepewnością
+przedstawiony jest w dyskusji wyników.

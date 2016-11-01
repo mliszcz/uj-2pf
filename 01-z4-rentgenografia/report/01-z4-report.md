@@ -20,6 +20,7 @@ header-includes:
   - \usepackage{gensymb}
   - \usepackage{bm}
   - \setlength{\parindent}{3em}
+  - \graphicspath{{./plots/},{./}}
 
 keywords:
   - dyfrakcja
@@ -160,8 +161,7 @@ refleksów przedstawia [].
 
 \begin{figure}
 \centering
-
-\includegraphics[width=0.81\textwidth]{{../workspace/plots/ML_NaCl_20-137deg_0p01_60s_36min_20161012.ASC.svg}.pdf}
+\input{plots/out/nacl-10-12.tex}
 \caption{Dyfraktogram NaCl.}
 
 \end{figure}
@@ -174,8 +174,8 @@ W ten sposób udało się wywskaźnikować wszystkie refleksy dyfraktogramu.
 Wartość $h^2+k^2+l^2$ dla każdego z refleksów dawała jednoznaczny rozkład na
 wskaźniki $h$, $k$ i $l$ (z dokładnością do ich permutacji). Wszystkie
 wskaźniki refleksów były albo parzyste albo nieparzyste, co jest zgodne z
-regułą wygaszeń dla sieci *fcc* [@lufaso2013]. NaCl krystalizuje więc w
-strukturze regularnej powierzchniowo centrowanej.
+regułą wygaszeń dla sieci *fcc* [@lufaso2013]. **NaCl krystalizuje więc w
+strukturze regularnej powierzchniowo centrowanej**.
 
 Znając wartości kąta $\theta$ i wskaźników, przy pomocy równania (3)
 wyznaczyłem wartości stałych sieciowych $a$. Wyniki wskaźnikowania i
@@ -206,18 +206,18 @@ W celu wyznaczenia dokładnej wartości stałej sieciowej $a_0$, do zależności
 stałych $a$ od wartośc funkcji Nelsona-Rileya [] dla $\theta$,
 dopasowałem prostą regresji liniowej. Prosta przedstawiona jest na rys [].
 Stały parametr dopasowania to
-wartość $a_0$. Otrzymałem $a = 5.641320(37)$ \AA. Wartośći podawane w
+wartość $a_0$. \textbf{Otrzymałem $a = 5.641320(37)$ \AA}. Wartości podawane w
 różnych bazach materiałów różnią się między sobą:
 $5.6404(1)$ \AA [^note-nacl-mindat],
 $5.64154(6)$ \AA [^note-nacl-ruff01],
 $5.6429(1)$ \AA [^note-nacl-ruff01]. Wartość stałej sieci zależy od wielu
 czynników, między innymi temperatury panującej w trakcie eksperymentu.
-Otrzymany wynik potwierdza że badana próbka ma strukturę halitu.
+Otrzymany wynik potwierdza jednak że stała sieciowa badanej próbki jest równa
+stałej sieciowej halitu.
 
 \begin{figure}
 \centering
-
-\includegraphics[width=0.60\textwidth]{{../workspace/plots/nacl-analyzed.txt.svg}.pdf}
+\input{plots/out/nacl-analyzed.tex}
 \caption{Zależność stałej struktury krystalicznej $a$ od wartości funkcji
   Nelsona-Rileya dla kąta $\theta$. Prosta została dopasowana do czterech
   punktów o największej wartości kąta $\theta$ (wartość funkcji Nelsona-Rileya
@@ -247,4 +247,4 @@ jej składników. Złożenie dyfraktogramów przedstawia rys [].
 
 # Opracowanie wyników pomiarów
 
-# Analiza niepewnośći pomiarowych
+# Analiza niepewności pomiarowych

@@ -23,7 +23,7 @@ set arrow from 120,3200 to 120,1400 lw 1 back filled
 plot \
   input_data using 1:2 notitle dashtype 1 lw 0.8 lc 3 with lines, \
   input_data using 1:($2/0) title "dyfraktogram" with linespoints lc 3, \
-  input_data using 1:($2/0) title "krzywa ekstrapolacyjna" with lines lc 7,
+  input_data using 1:($2/0) title "dopasowanie profilu linii (pseudo-Voigt)" with lines lc 7,
 
 unset title
 unset xlabel

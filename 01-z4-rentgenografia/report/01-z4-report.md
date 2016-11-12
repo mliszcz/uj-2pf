@@ -38,10 +38,10 @@ abstract: |
   krystalicznych metodą dyfrakcji rentgenowskiej. Zostały wywskaźnikowane
   dyfraktogramy NaCl, KCl, salvity i salvity z krzemem.
   Dla NaCl została wyzaczona stała sieci krystalicznej $a = 5.641320(37)$ \AA.
-  Wszystkie wskaźniki tej próbki spełniały reguły wygaszeń dla sieci *fcc*,
-  co potwierdziło strukturę krystaliczną NaCl.
+  Wszystkie wskaźniki Millera tej próbki były albo parzyste albo nieparzyste *fcc*,
+  co potwierdziło że NaCl krystalizuje w strukturze *fcc*.
   Dyfraktogram salvity z krzemem został rozłożony na
-  sumę dyfraktogramów NaCl, KCl oraz Si, potwierdzając jej skład pierwiastkowy.
+  sumę dyfraktogramów NaCl, KCl oraz Si, potwierdzając jej skład fazowy.
 ---
 
 # Wstęp
@@ -83,33 +83,33 @@ zaproponowanymi kolejno przez Lauego [@penkala1976laue], Ewalda i
 Braggów [@penkala1976bragg].
 W tej pracy wykorzystane zostało podejście Braggów.
 Promieniowanie padające na kryształ pod kątem $\theta$ w niewielkiej części
-przenika w głąb kryształu i jest odbijane od kolejnych warstw struktury
-krystalicznej. Dla warstw kryształu odległych o $d$ różnica dróg przebytych
+przenika w głąb kryształu i jest odbijane od kolejnych płaszczyzn
+krystalograficznych. Dla warstw kryształu odległych o $d$ różnica długości dróg przebytych
 przez odbite od nich promienie wynosi $2d \sin \theta$. Wzmocnienie odbitego
 promieniowania następuje kiedy różnica dróg optycznych jest równa całkowitej
-wielokrotności fali promieniowania padającego. Powoduje to pojawianie się
-lokalnych maksimów na obrazie dyfrakcyjnym. Warunek ten można zapisać w postaci
+wielokrotności fali promieniowania padającego. Powoduje to pojawianie się maksimów na obrazie dyfrakcyjnym. Warunek ten można zapisać w postaci
 równania Bragga-Wulfa:
 
 $$ 2d \sin \theta = n \lambda $$ {#eq:bragg}
 
 Odległość $d$ w rodzinie płaszczyzn $(hkl)$ jest zależna od typu komórki
-elementarnej [ ]. Dla sieci regularnej warunek łączący $d$ ze wskaźnikami
+elementarnej []. Dla sieci regularnej warunek łączący $d$ ze wskaźnikami
 $h$, $k$ i $l$ to:
 
 $$ \frac{1}{d^2} = \frac{h^2 + k^2 + l^2}{a^2} $$ {#eq:dinhkl}
 
 gdzie $a$ jest stałą sieci krystalicznej. Łącząc oba warunki otrzymujemy
 równanie które pozwala dla danego maksimum dyfrakcyjnego wyznaczyć rodzinę
-płaszczyzn sieciowych na których nastąpiło odbicie:
+płaszczyzn sieciowych na których nastąpiło ugięcie:
 
-$$ \sin^2 \theta = \frac{n^2\lambda^2}{4a^2}(h^2 + k^2 + l^2) $$ {#eq:quadratic}
+$$ \sin^2 \theta = \frac{\lambda^2}{4a^2}(h^2 + k^2 + l^2) $$ {#eq:quadratic}
 
 W przypadku próbek wielofazowych, gdzie zmieszane są różne substancje
-krystaliczne, na dyfraktogramie widać maksima pochodzące od wszystkich
+krystaliczne, dyfraktogram jest sumą dyfraktogramów wszystkich
 substancji składowych. Dysponując bazą wzorców można na tej podstawie określić
 skład próbki wielofazowej.
 
+*TODO: ten caly akapit jest do przerobienia.*
 Z równania Bragga widać ograniczenie na wyrażenie $n\lambda/2d$ przez
 maksymalną wartość funkcji $\sin\theta$. Z tego względu do analizy struktury
 krystalicznej wykorzystuje się promieniowanie o bardzo małej długości fali,
@@ -123,11 +123,12 @@ z przejścia elektronów z poziomów $L$ i $M$ na poziom $K$.
 
 Celem eksperymentu była analiza obrazu dyfrakcyjnego próbki jednofazowej,
 przeprowadzenie jego wskaźnikowania oraz wyznaczenie stałej sieci
-krystalicznej. Analizie została poddana również próbka wielofazowa.
+krystalicznej. Analizie została poddana również próbka wielofazowa w celu
+ustalenia jej składu fazowego.
 
 # Opis eksperymentu
 
-W eksperymencie badałem próbki cztery próbki,
+W eksperymencie badałem pięć próbek,
 P1: *NaCl* (sproszkowana, ucierana),
 P2: *KCl* (sproszkowana),
 P3: *Si* (wzorzec PANalytical),
@@ -135,11 +136,11 @@ P4: *Salvita* (sproszkowana, ucierana, mieszanina 75% NaCl i 25% KCl),
 P5: *Salvita z krzemem* (sproszkowana).
 
 Pomiary przeprowadziłem z wykorzystaniem dyfraktometru rentgenowskiego
-PANalytical EMPYREAN oraz detektora PIXcel3D. Dyfraktometr pracował w geometrii
-Bragga-Brentano. Promieniowanie rentgenowskie pochodziło z lampy Cu.
+PANalytical EMPYREAN wyposażonego w detektor PIXcel3D. Dyfraktometr pracował w geometrii
+Bragga-Brentano. Promieniowanie rentgenowskie pochodziło z lampy z anodą Cu ($K_{\alpha 1} = 1.5406\,\mathrm{\AA}$).
 Lampa zasilana była prądem $40$ mA z napięciem $40$ kV. Promień
 goniometru w tym układzie wynosił 240 mm.
-W dyfraktometrze zbudowałem następujący układ dla *wiązki pierwotnej*:
+W dyfraktometrze ustawiłem następującą konfigurację *wiązki pierwotnej*:
 układ szczelin Solera $0.04$ rad, szczelina wejściowa $1/4\degree$, maska
 $10$ mm i szczelina przeciwrozproszeniowa $1/2\degree$. *Wiązka odbita*
 przechodziła przez układ szczelin Solera $0.04$ rad i filtr niklowy.
@@ -153,9 +154,8 @@ i bez niego pozwoliło zidentyfikować refleksy $K_{\beta}$. Kolejne, właściwe
 już pomiary, wykonywane były w zakresie od $20\degree$ do $137\degree$.
 Dyfraktometr pracował w trybie ciągłym z szybkością obrotu odpowiadającą
 krokowi $0.013\degree$, w którym pomiar trwa $0.235$ s. Po zakończeniu
-pomiaru na każdej z próbek można było obserwować powstałe centra barwne [@norby2006]
-będące wynikiem oddziaływania promieniowania rentgenowskiego z materiałem
-próbki.
+pomiaru na każdej z próbek można było obserwować powstałe centra barwne będące wynikiem oddziaływania promieniowania rentgenowskiego z materiałem
+próbki [@norby2006].
 
 # Wyniki i dyskusja
 
@@ -163,8 +163,9 @@ Dla próbki P1 przeprowadziłem wskaźnikowanie i wyznaczyłem stałą sieci
 krystalicznej. Dla wielofazowej próbki P5 dokonałem rozkładu dyfraktogramu na
 wzorcowe próbki P1, P2 i P3.
 
-## Stała sieciowa i wskaźnikowanie próbki NaCl
+## Wskaźnikowanie dyfraktogramu i wyznaczenie stałej sieciowej NaCl
 
+*TODO: poprawic to zdanie*
 Przy użyciu programu WinPLOTR [@www-winplotr] odczytałem położenia maksimów
 dyfrakcyjnych. Do poszczególnych maksimów program pozwalał na dopasowanie
 krzywej ekstrapolacyjnej. Dyfraktogram NaCl wraz z dopasowaniem dla jednego z
@@ -174,7 +175,7 @@ refleksów przedstawia \ref{fig:nacl-diff}.
 \centering
 \label{fig:nacl-diff}
 \input{plots/out/nacl-10-12.tex}
-\caption{Dyfraktogram NaCl z krzywą ekstrapolacyjną dla jednego z refleksów.
+\caption{Dyfraktogram NaCl z dopasowaniem profilu dla jednego z refleksów.
   Dla czytelności rysunku pominięty został najbardziej intensywny refleks
   dla $2\theta \approx 27\degree$.}
 
@@ -183,15 +184,17 @@ refleksów przedstawia \ref{fig:nacl-diff}.
 Dyfraktogram wywskaźnikowałem dobierając taki dzielnik, który dla wszystkich
 wartości $\sin^2 \theta$ dawał liczbę całkowitą. Zgodnie z równaniem (3)
 liczba ta powinna być równa $h^2+k^2+l^2$. Dzięki zastosowaniu filtra
-niklowego w widmie nie było zauważalnych refleksów od linii $K_{\beta}$ miedzi.
-W ten sposób udało się wywskaźnikować wszystkie refleksy dyfraktogramu.
-Wartość $h^2+k^2+l^2$ dla każdego z refleksów dawała jednoznaczny rozkład na
-wskaźniki $h$, $k$ i $l$ (z dokładnością do ich permutacji). Wszystkie
-wskaźniki refleksów były albo parzyste albo nieparzyste, co jest zgodne z
-regułą wygaszeń dla sieci *fcc* [@lufaso2013]. **NaCl krystalizuje więc w
-strukturze regularnej powierzchniowo centrowanej**.
+niklowego na dyfraktogramie nie było zauważalnych wysokokątowych refleksów
+od linii $K_{\beta}$ miedzi.
+W ten sposób wywskaźnikowałem wszystkie refleksy dyfraktogramu od linii
+$K_{\alpha 1}$ miedzi.
+Wartość $h^2+k^2+l^2$ dla każdego z refleksów dawała się rozłożyć tak, by
+wskaźniki $h$, $k$ i $l$ były albo parzyste albo nieparzyste, co jest
+zgodne z regułą wygaszeń dla sieci *fcc* [@lufaso2013]. **NaCl krystalizuje
+więc w strukturze regularnej powierzchniowo centrowanej**.
 
-Znając wartości kąta $\theta$ i wskaźników, przy pomocy równania (3)
+Znając wskaźniki Millera i wartość kąta $\theta$ przy którym obserwowane
+było maksimum braggowskie, przy pomocy równania (3)
 wyznaczyłem wartości stałych sieciowych $a$. Wyniki wskaźnikowania i
 wyznaczone stałe sieciowe przedstawia [@Tbl:wskaznikowanie].
 Przyjęta w obliczeniach długość falii linii $K_{\alpha1}$ miedzi to
@@ -218,7 +221,7 @@ $2\theta\,[\degree]$ | $hkl$ | $a\,[\mathrm{\AA}]$
 119.4398(18) | $620$ | 5.64132(12)
 129.8396(19) | $622$ | 5.641353(96)
 
-Table: Wskaźnikowanie refleksów dyfraktogramu próbki P1 w punktach $2\theta$. {#tbl:wskaznikowanie}
+Table: Wskaźnikowanie refleksów dyfraktogramu próbki P1 w punktach $2\theta$. *TODO sprawdzic wyniki* {#tbl:wskaznikowanie}
 
 W celu wyznaczenia dokładnej wartości stałej sieciowej $a_0$, do zależności
 stałych $a$ od wartości funkcji Nelsona-Rileya [@de2006uncertainty] dla $\theta$,
@@ -230,8 +233,8 @@ $5.6404(1)$ \AA [^note-nacl-mindat],
 $5.64154(6)$ \AA [^note-nacl-ruff01],
 $5.6429(1)$ \AA [^note-nacl-ruff01]. Wartość stałej sieci zależy od wielu
 czynników, między innymi temperatury panującej w trakcie eksperymentu.
-Otrzymany wynik potwierdza jednak że stała sieciowa badanej próbki jest równa
-stałej sieciowej halitu.
+Otrzymany wynik potwierdza jednak że stała sieciowa badanej próbki w
+granicach niepewności pomiarowej jest zgodna ze stałą sieciową halitu.
 
 \begin{figure}[H]
 \centering
@@ -247,7 +250,7 @@ stałej sieciowej halitu.
 [^note-nacl-ruff02]: http://rruff.info/halite/display=default/R070586
 [^note-nacl-mindat]: http://www.mindat.org/min-1804.html
 
-## Analiza próbki wielofazowej
+## Analiza składu próbki wielofazowej
 
 Dokonałem analizy jakościowej obrazu dyfrakcyjnego wielofazowej próbki P5.
 Porównując go z dyfraktogramami próbek wzorcowych P1, P2 i P3 udało się
@@ -292,15 +295,17 @@ Dalsza analiza skupiła się na próbce NaCl.
 
 Przeprowadzone pomiary wykazały że NaCl krystalizuje w strukturze
 regularnej powierzchniowo centrowanej. W obserwowanym dyfraktogramie udało
-się wywskaźnikować wszystkie zauważalne refleksy, co potwierdziło skuteczność
-zastosowania filtra niklowego w połączeniu z lampą o anodzie Cu. Wszystkie
-refleksy spełniają reguły wygaszeń oczekiwane dla struktury fcc. Eksperyment
-potwierdził, że dla dużych wartości kąta $2\theta$ (większych od $100\degree$)
-zależność stałej struktury krystalicznej $a$ od wartości funkcji Nelsona-Rileya
-kąta $\theta$ jest liniowa. Pozwoliło to otrzymać dokładną wartość stałej
-sieci, zbliżoną do wartości podawanych w bazach danych.
+się wywskaźnikować wszystkie zauważalne refleksy od linii Cu $K_{\alpha 1}$.
+Dla wszystkich refleksów są spełnione reguły wygaszeń oczekiwane dla
+struktury *fcc*.
+Eksperyment potwierdził, że dla dużych wartości kąta $2\theta$ (większych
+od $100\degree$) zależność stałej struktury krystalicznej $a$ od wartości
+funkcji Nelsona-Rileya kąta $\theta$ jest liniowa. Pozwoliło to otrzymać
+dokładną wartość stałej sieci, zbliżoną do wartości podawanych w bazach
+danych.
 
-Dzięki jakościowej analizie próbki wielofazowej udało się określić jej skład,
+Jakościowa analiza dyfraktogramu próbki wielofazowej umożliwiła określenie
+jej składu
 poprzez rozseparowanie refleksów na refleksy pochodzące od poszczególnych
 składników (pozyskane z próbek wzorcowych).
 
@@ -345,9 +350,8 @@ sprawozdania.
 
 ## Wyliczenie stałej $a_0$
 
-Istnieje wiele zależności opisujących względny błąd wyznaczenia odległości
-międzypłaszczyznowej $d \propto a$ na podstawie równania Bragga. W analizie
-wyników skorzystałem z funkcji Nelsona-Rileya, wyrażającej ten błąd jako:
+W analizie wyników skorzystałem z funkcji Nelsona-Rileya, wyrażającej błąd
+wyznaczenia odległości międzypłaszczyznowej $d$ jako:
 
 $$ \frac{\Delta d}{d}
   = K\left(\frac{\cos^2\theta}{\sin\theta}+\frac{\cos^2\theta}{\theta}\right)
@@ -381,7 +385,7 @@ $$ u_A(\theta) = \frac{1}{2} u_A(2\theta) $$ {#eq:}
 
 Błąd systematyczny odczytu położeń $2\theta$ może być związany z dokładnością
 dyfraktometru. Pomiar był wykonywany w sposób ciągły, równoważny pomiarom
-krokowym z krokiem $\Delta \theta = 0.013\degree$ trwającym $0.235$ s. Jako
+krokowym z krokiem $\Delta 2\theta = 0.013\degree$ trwającym $0.235$ s. Jako
 niepewność systematyczną pomiarów $2\theta$ przyjmuję więc ten krok
 (w radianach), podzielony przez dwa ze względu na wysoką klasę przyrządu
 pomiarowego. Niepewność systematyczna odczytu kąta to zatem:

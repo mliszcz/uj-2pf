@@ -79,21 +79,22 @@ wykorzystaniem zjawiska *dyfrakcji promieniowania* na strukturze krystalicznej.
 Kryształy dają dyskretny obraz dyfrakcyjny z maksimami pochodzącymi od różnych
 rodzin płaszczyzn krystalograficznych.
 Dyfrakcję promieniowania na krysztale można analizować trzema metodami,
-zaproponowanymi kolejno przez Lauego [@penkala1976laue], Ewalda i
-Braggów [@penkala1976bragg].
+zaproponowanymi kolejno przez Lauego (str. 245-252 w [@penkala1976]), Ewalda i
+Braggów (str. 252-253 w [@penkala1976]).
 W tej pracy wykorzystane zostało podejście Braggów.
 Promieniowanie padające na kryształ pod kątem $\theta$ w niewielkiej części
 przenika w głąb kryształu i jest odbijane od kolejnych płaszczyzn
-krystalograficznych. Dla warstw kryształu odległych o $d$ różnica długości dróg przebytych
-przez odbite od nich promienie wynosi $2d \sin \theta$. Wzmocnienie odbitego
-promieniowania następuje kiedy różnica dróg optycznych jest równa całkowitej
-wielokrotności fali promieniowania padającego. Powoduje to pojawianie się maksimów na obrazie dyfrakcyjnym. Warunek ten można zapisać w postaci
-równania Bragga-Wulfa:
+krystalograficznych. Dla warstw kryształu odległych o $d$ różnica długości dróg
+przebytych przez odbite od nich promienie wynosi $2d \sin \theta$. Wzmocnienie
+odbitego promieniowania następuje kiedy różnica dróg optycznych jest równa
+całkowitej wielokrotności fali promieniowania padającego. Powoduje to
+pojawianie się maksimów na obrazie dyfrakcyjnym. Warunek ten można zapisać w
+postaci równania Bragga-Wulfa:
 
 $$ 2d \sin \theta = n \lambda $$ {#eq:bragg}
 
 Odległość $d$ w rodzinie płaszczyzn $(hkl)$ jest zależna od typu komórki
-elementarnej []. Dla sieci regularnej warunek łączący $d$ ze wskaźnikami
+elementarnej. Dla sieci regularnej warunek łączący $d$ ze wskaźnikami
 $h$, $k$ i $l$ to:
 
 $$ \frac{1}{d^2} = \frac{h^2 + k^2 + l^2}{a^2} $$ {#eq:dinhkl}
@@ -109,17 +110,12 @@ krystaliczne, dyfraktogram jest sumą dyfraktogramów wszystkich
 substancji składowych. Dysponując bazą wzorców można na tej podstawie określić
 skład próbki wielofazowej.
 
-*TODO: ten caly akapit jest do przerobienia.*
-Z równania Bragga widać ograniczenie na wyrażenie $n\lambda/2d$ przez
-maksymalną wartość funkcji $\sin\theta$. Z tego względu do analizy struktury
-krystalicznej wykorzystuje się promieniowanie o bardzo małej długości fali,
-rzędu $1$ \AA. Często jest to promieniowanie rentgenowskie, pochodzące od
-zderzeń przyspieszonych elektronów z tarczą anody w lampie rentgenowskiej.
-Elektrony blisko jądra zostają wybite a następnie powracają na niższe poziomy
-energetyczne emitując *promieniowanie charakterystyczne*. W widmie
-promieniowania dla lampy o anodzie miedzianej (Cu) można obserwować
-promieniowanie linii $K_{\alpha1}$, $K_{\alpha2}$ oraz $K_{\beta}$, wynikające
-z przejścia elektronów z poziomów $L$ i $M$ na poziom $K$.
+W analizie próbek polikrystalicznych wykorzystywane jest promieniowanie z
+*widma charakterystycznego* lamp rentgenowskich. Największą intensywnością
+charakteryzują się linie serii $K$: $K_{\alpha1}$, $K_{\alpha2}$ oraz
+$K_{\beta}$, pochodzące z przejść elektronowych z poziomów $L$ i $M$ na poziom
+$K$. Promieniowanie od niepożądanych linii usuwa się z widma przez zastosowanie
+odpowiednich filtrów.
 
 Celem eksperymentu była analiza obrazu dyfrakcyjnego próbki jednofazowej,
 przeprowadzenie jego wskaźnikowania oraz wyznaczenie stałej sieci
@@ -165,11 +161,11 @@ wzorcowe próbki P1, P2 i P3.
 
 ## Wskaźnikowanie dyfraktogramu i wyznaczenie stałej sieciowej NaCl
 
-*TODO: poprawic to zdanie*
 Przy użyciu programu WinPLOTR [@www-winplotr] odczytałem położenia maksimów
 dyfrakcyjnych. Do poszczególnych maksimów program pozwalał na dopasowanie
-krzywej ekstrapolacyjnej. Dyfraktogram NaCl wraz z dopasowaniem dla jednego z
-refleksów przedstawia \ref{fig:nacl-diff}.
+krzywej ekstrapolacyjnej. Szczegóły tego procesu opisuje załącznik A.
+Dyfraktogram NaCl wraz z dopasowaniem dla jednego z refleksów przedstawia
+\ref{fig:nacl-diff}.
 
 \begin{figure}
 \centering
@@ -221,7 +217,7 @@ $2\theta\,[\degree]$ | $hkl$ | $a\,[\mathrm{\AA}]$
 119.4398(18) | $620$ | 5.64132(12)
 129.8396(19) | $622$ | 5.641353(96)
 
-Table: Wskaźnikowanie refleksów dyfraktogramu próbki P1 w punktach $2\theta$. *TODO sprawdzic wyniki* {#tbl:wskaznikowanie}
+Table: Wskaźnikowanie refleksów dyfraktogramu próbki P1 w punktach $2\theta$. {#tbl:wskaznikowanie}
 
 W celu wyznaczenia dokładnej wartości stałej sieciowej $a_0$, do zależności
 stałych $a$ od wartości funkcji Nelsona-Rileya [@de2006uncertainty] dla $\theta$,
@@ -336,7 +332,8 @@ $$ \sin^2 \theta = \gamma C, \qquad \gamma \equiv \frac{\lambda^2}{4a^2} \in \ma
   \qquad C \equiv (h^2 + k^2 + l^2) \in \mathbb{N} $$
 
 Umieściłem wartości $\sin^2 \theta$ wszystkich refleksów w arkuszu
-kalkulacyjnym. Dla pierwszego z refleksów (o najmniejszym kącie $\theta_1$)
+kalkulacyjnym (dostępny w załączniku). Dla pierwszego z refleksów (o
+najmniejszym kącie $\theta_1$)
 dzieliłem wartość $\sin^2 \theta_1$ przez kolejne $C_1=1,2,3,...$, otrzymując
 hipotetyczną wartość $\gamma$. Dla kolejnych wartości $\gamma$ obserwowałem w
 dodatkowej kolumnie wartości $C_n$ dla pozostałych refleksów. Właściwa wartość
@@ -358,7 +355,7 @@ $$ \frac{\Delta d}{d}
   = K\,\mathrm{NR}(\theta),
   \qquad K \in \mathbb{R} $$ {#eq:nelson-riley}
 
-Powyższa zależność jest prawdziwa dla dużych kątów $\theta > 50\degree$.
+Powyższa zależność jest prawdziwa dla dużych kątów $\theta > 30\degree$.
 Korzystając z tego że $d \propto a$, można dalej zapisać:
 
 $$ \frac{\Delta a}{a}
@@ -369,11 +366,19 @@ $$ \frac{\Delta a}{a}
 
 Gdzie $a_0$ jest dokładną wartością stałej sieci.
 
-Dla czterech refleksów z największymi kątami $\theta$ wyliczyłem wartość
+Dla wszystkich refleksów wyliczyłem wartość
 stałej $a$ z równania (4) oraz wartość funkcji $\mathrm{NR}(\theta)$. Metodą
-regresji liniowej do tych danych dopasowałem prostą. Stały współczynnik
-dopasowania to szukana wartość $a_0$. Dopasowana prosta jak i otrzymane
-współczynniki podane są w sprawozdaniu.
+regresji liniowej do czterech punktów o największej wartości $\theta$
+dopasowałem prostą. Kolejne punkty, mimo że powinny spełniać wyżej opisaną
+zależność, znacznie odbiegały od prostej wyznaczonej przez cztery pierwsze
+punkty. Może to być wynik niedokładnego dopasowania profilu w tych refleksach.
+Stały współczynnik
+dopasowania to szukana wartość $a_0$. Dopasowana prosta przedstawiona
+jest na rys. 1 w sprawozdaniu. Otrzymane parametry dopasowania to:
+
+$$ a(\theta) = \alpha \mathrm{NR}(\theta) + \beta, \qquad
+\alpha = 4.8(6.8) \cdot 10^{-5} \,\mathrm{\AA}, \qquad
+\beta = 5.641320(37)\,\mathrm{\AA}$$ {#eq:}
 
 # Ilościowa analiza niepewności pomiarowych
 
@@ -407,8 +412,8 @@ prawem przenoszenia niepewności:
 $$ u(a) = \left| \frac{\mathrm{d}a}{\mathrm{d}\theta} u(\theta) \right|
   = \frac{\lambda}{2}\sqrt{h^2 + k^2 + l^2} \left|\frac{\cos\theta}{\sin^2\theta} u(\theta)\right| $$ {#eq:}
 
-W powyższym równaniu założyłem że wartość $\lambda$ nie jest obarczona
-niepewnością pomiaru.
+W powyższym równaniu założyłem że wartość $\lambda$ jest obarczona
+zaniedbywalnie małą niepewnością pomiaru.
 
 W celu wyznaczenia dokładnej wartości $a_0$ z użyciem funkcji Nelsona-Rileya,
 obliczyłem również:
@@ -419,4 +424,18 @@ $$ u(\mathrm{NR}(\theta)) = \left| \frac{\mathrm{d}\,\mathrm{NR}(\theta)}{\mathr
 
 Tak wyliczone niepewności $u(a)$ i $u(\mathrm{NR}(\theta))$ użyłem w liniowej
 regresji ważonej do wyznaczenia stałej $a_0$. Wynik wraz z niepewnością
-przedstawiony jest w dyskusji wyników.
+przedstawiony jest w dyskusji wyników. Dane dla których sporządziłem wykres
+przedstawia tabela 2.
+
+$2\theta\,[\degree]$ | $a\,[\mathrm{\AA}]$ | $\mathrm{NR}(\theta)$ | $2\theta\,[\degree]$ | $a\,[\mathrm{\AA}]$ | $\mathrm{NR}(\theta)$
+------------|------------|------------|------------|------------|------------
+27.34730(30) | 5.64388(76)  | 7.9500(12)  | 75.26800(50) | 5.64152(24)  | 1.98188(19)
+31.68680(10) | 5.64289(65)  | 6.73671(91) | 83.95820(80) | 5.64182(21)  | 1.58048(16)
+45.43070(30) | 5.64201(44)  | 4.34971(47) | 101.1383(36) | 5.64139(21)  | 0.97936(15)
+53.8489(23)  | 5.64188(43)  | 3.44728(41) | 110.0194(17) | 5.64136(14)  | 0.743877(99)
+56.45330(70) | 5.64176(35)  | 3.21717(32) | 119.4398(18) | 5.64132(12)  | 0.538337(82)
+66.21260(60) | 5.64107(29)  | 2.49901(24) | 129.8396(19) | 5.641353(96) | 0.356963(65)
+
+Table: Wartości funkcji $\mathrm{NR}(\theta)$ i odpowiadające im $a(\theta)$
+użyte do sporządzenia wykresu. {#tbl:}
+

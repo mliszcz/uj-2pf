@@ -6,8 +6,8 @@ si_data = "../../data/10-19/Si_20-137deg_0p01_60s_36min_1.ASC"
 salvita_si_data = "../../data/10-19/SalvitaSi_20-137deg_0p01_60s_36min_1.ASC"
 
 set terminal cairolatex pdf input color size 7.8cm,10cm
-# set terminal svg size 900,600 fname 'Verdana' fsize 16
-set output "out/multiphase-salvita-si-loangle.tex"
+# set terminal svg size 750,1000 fname 'Verdana' fsize 16
+set output "out/multiphase-salvita-si-fullangle.tex"
 
 # svg preview is not generated here since multiplot does not support replot
 
@@ -20,8 +20,8 @@ unset bmargin
 set ylabel 'natężenie [j.]'
 set yrange [0:]
 
-set xrange [25:52]
-set x2range [25:52]
+set xrange [52:80]
+set x2range [52:80]
 
 set xtics 10
 set x2tics 10
@@ -45,7 +45,7 @@ unset bmargin
 
 set ytics format ""
 unset ylabel
-set lmargin 9.35
+set lmargin 8.35
 
 plot \
   nacl_data using 1:($2/3+50)  title 'NaCl' lw 0.6 lc 1 with lines, \

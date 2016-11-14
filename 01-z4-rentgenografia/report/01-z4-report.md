@@ -165,7 +165,7 @@ Przy użyciu programu WinPLOTR [@www-winplotr] odczytałem położenia maksimów
 dyfrakcyjnych. Do poszczególnych maksimów program pozwalał na dopasowanie
 krzywej ekstrapolacyjnej. Szczegóły tego procesu opisuje załącznik A.
 Dyfraktogram NaCl wraz z dopasowaniem dla jednego z refleksów przedstawia
-\ref{fig:nacl-diff}.
+rys. 1.
 
 \begin{figure}
 \centering
@@ -192,7 +192,7 @@ więc w strukturze regularnej powierzchniowo centrowanej**.
 Znając wskaźniki Millera i wartość kąta $\theta$ przy którym obserwowane
 było maksimum braggowskie, przy pomocy równania (3)
 wyznaczyłem wartości stałych sieciowych $a$. Wyniki wskaźnikowania i
-wyznaczone stałe sieciowe przedstawia [@Tbl:wskaznikowanie].
+wyznaczone stałe sieciowe przedstawia tabela 1.
 Przyjęta w obliczeniach długość falii linii $K_{\alpha1}$ miedzi to
 $\lambda=1.54056\,\mathrm{\AA}$ [^note-ka-lambda].
 Trzy refleksy, dla kątów $2\theta$ wynoszących odpowiednio około $73.0\degree$,
@@ -222,7 +222,7 @@ Table: Wskaźnikowanie refleksów dyfraktogramu próbki P1 w punktach $2\theta$.
 W celu wyznaczenia dokładnej wartości stałej sieciowej $a_0$, do zależności
 stałych $a$ od wartości funkcji Nelsona-Rileya [@de2006uncertainty] dla $\theta$,
 dopasowałem prostą regresji liniowej. Prosta przedstawiona jest na
-\ref{fig:nr-fit}. Stały parametr dopasowania to
+rys. 2. Stały parametr dopasowania to
 wartość $a_0$. \textbf{Otrzymałem $a_0 = 5.641320(37)$ \AA}. Wartości podawane w
 różnych bazach materiałów różnią się między sobą:
 $5.6404(1)$ \AA [^note-nacl-mindat],
@@ -251,8 +251,7 @@ granicach niepewności pomiarowej jest zgodna ze stałą sieciową halitu.
 Dokonałem analizy jakościowej obrazu dyfrakcyjnego wielofazowej próbki P5.
 Porównując go z dyfraktogramami próbek wzorcowych P1, P2 i P3 udało się
 zidentyfikować wszystkie refleksy próbki P5 jako pochodzące od poszczególnych
-jej składników. Złożenie dyfraktogramów przedstawiają \ref{fig:multiphase-salvita-si-hiangle}
-oraz \ref{fig:multiphase-salvita-si-loangle}.
+jej składników. Złożenie dyfraktogramów przedstawiają rys. 3 i 4.
 
 \begin{figure}
 \centering
@@ -261,7 +260,7 @@ oraz \ref{fig:multiphase-salvita-si-loangle}.
 \caption{Dyfraktogram próbki wielofazowej P5 (u góry) porównany z
   dyfraktogramami próbek P1, P2 i P3 (u dołu). Dla każdego z refleksów próbki
   P5 widać odpowiadający refleks jednej z próbek wzorcowych. Dla zwiększenia
-  czytelności rysunku pokazane są dyfraktogramy tylko dla $\theta>40\degree$
+  czytelności rysunku pokazane są dyfraktogramy tylko dla $2 \theta>80\degree$
   a natężenia refleksów dla próbek P1, P2 i P3 zostały przeskalowane i
   przesunięte.}
 
@@ -269,11 +268,17 @@ oraz \ref{fig:multiphase-salvita-si-loangle}.
 
 \begin{figure}
 \centering
-\input{plots/out/multiphase-salvita-si-loangle.tex}
+\begin{minipage}{.5\textwidth}
+  \centering
+  \input{plots/out/multiphase-salvita-si-loangle.tex}
+\end{minipage}%
+\begin{minipage}{.5\textwidth}
+  \centering
+  \input{plots/out/multiphase-salvita-si-fullangle.tex}
+  \label{fig:multiphase-salvita-si-fullangle}
+\end{minipage}
+\captionof{figure}{Dyfraktogram P5 porównany z dyfraktogramami P1, P2 i P3 dla $2 \theta<80\degree$.}
 \label{fig:multiphase-salvita-si-loangle}
-\caption{Dyfraktogram próbki wielofazowej P5 (u góry) porównany z
-  dyfraktogramami próbek P1, P2 i P3 (u dołu) dla $\theta<40\degree$.}
-
 \end{figure}
 
 Natężenia odpowiadających sobie refleksów w próbce wielofazowej i próbkach
@@ -410,7 +415,7 @@ Niepewność $u(a)$ wyraża się zatem przez niepewność $u(\theta)$ zgodnie z
 prawem przenoszenia niepewności:
 
 $$ u(a) = \left| \frac{\mathrm{d}a}{\mathrm{d}\theta} u(\theta) \right|
-  = \frac{\lambda}{2}\sqrt{h^2 + k^2 + l^2} \left|\frac{\cos\theta}{\sin^2\theta} u(\theta)\right| $$ {#eq:}
+  = \frac{\lambda}{2}\sqrt{h^2 + k^2 + l^2} \left|\frac{\cos\theta}{\sin^2\theta}\right| u(\theta) $$ {#eq:}
 
 W powyższym równaniu założyłem że wartość $\lambda$ jest obarczona
 zaniedbywalnie małą niepewnością pomiaru.
@@ -419,8 +424,8 @@ W celu wyznaczenia dokładnej wartości $a_0$ z użyciem funkcji Nelsona-Rileya,
 obliczyłem również:
 
 $$ u(\mathrm{NR}(\theta)) = \left| \frac{\mathrm{d}\,\mathrm{NR}(\theta)}{\mathrm{d}\theta} u(\theta) \right|
-  = \left|\left( \cos\theta + \frac{\cos^2\theta}{\theta^2}
-    + \frac{\cos\theta}{\sin^2\theta} + \frac{2\cos\theta\sin\theta}{\theta} \right) u(\theta)\right| $$ {#eq:}
+  = \left| \cos\theta + \frac{\cos^2\theta}{\theta^2}
+    + \frac{\cos\theta}{\sin^2\theta} + \frac{2\cos\theta\sin\theta}{\theta} \right| u(\theta) $$ {#eq:}
 
 Tak wyliczone niepewności $u(a)$ i $u(\mathrm{NR}(\theta))$ użyłem w liniowej
 regresji ważonej do wyznaczenia stałej $a_0$. Wynik wraz z niepewnością

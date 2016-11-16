@@ -37,8 +37,8 @@ abstract: |
   W eksperymencie przeprowadzona została jakościowa analiza próbek substancji
   krystalicznych metodą dyfrakcji rentgenowskiej. Zostały wywskaźnikowane
   dyfraktogramy NaCl, KCl, salvity i salvity z krzemem.
-  Dla NaCl została wyzaczona stała sieci krystalicznej $a = 5.641320(37)$ \AA.
-  Wszystkie wskaźniki Millera tej próbki były albo parzyste albo nieparzyste *fcc*,
+  Dla NaCl została wyzaczona stała sieci krystalicznej to $a = 5.641320(37)$ \AA.
+  Wszystkie wskaźniki Millera tej próbki były albo parzyste albo nieparzyste,
   co potwierdziło że NaCl krystalizuje w strukturze *fcc*.
   Dyfraktogram salvity z krzemem został rozłożony na
   sumę dyfraktogramów NaCl, KCl oraz Si, potwierdzając jej skład fazowy.

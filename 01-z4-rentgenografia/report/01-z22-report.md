@@ -56,10 +56,10 @@ poddawana była strona awersu (z orzełkiem). W pomiarach nie były stosowane
 Spektrogramy poddano analizie jakościowej, która potwierdziła taki sam skład
 fazowy wszystkich monet: miedź, cynk i mangan. Jest to zgodne z podawanymi
 przez NBP informacjami o wykonaniu monet z *mosiądzu manganowego*[^nbp-monety].
-Spektrogram próbki z 2003 roku przedstawia [@Fig:moneta03]. Na wszystkich
+Spektrogram próbki z 2003 roku przedstawia rys. 1. Na wszystkich
 spektrogramach dobrze widoczne były linie emisyjne $K\alpha$ i $K\beta$
 wymienionych wcześniej pierwiastków. Zaobserwować można również piki ucieczki
-i sumy od linii $\mathrm{Cu}_{K\alpha}$. W Tabeli 1 porównane zostały ilości
+i sumy od linii $\mathrm{Cu}_{K\alpha}$. W tabeli 1 porównane zostały ilości
 zliczeń fotonów emitowanych przy poszczególnych przejściach. Na przestrzeni lat
 ich stosunek zmieniał się nieznacznie w obrębie każdej próbki i nie jest
 widoczny tutaj żaden trend. Widać natomiast że monety z 2003 i 2013 wyemitowały
@@ -103,8 +103,8 @@ $\mathrm{Rh}_{K\alpha}$ i $\mathrm{Rh}_{K\beta}$.
 ## Nieznany drut
 
 Analiza wykazała że drut w całości składał się z kobaltu. Wyraźnie dało się
-zidentyfikować linie $\mathrm{Co}_{K\alpha}$ i $\mathrm{Co}_{K\beta}$. Pomiar
-przeprowadzony był przy parametrach lampy $14\,\mathrm{kV}$ i
+zidentyfikować linie $\mathrm{Co}_{K\alpha}$ (6.92 keV) i $\mathrm{Co}_{K\beta}$
+(7.64 keV). Pomiar przeprowadzony był przy parametrach lampy $14\,\mathrm{kV}$ i
 $341\,\mathrm{\mu A}$
 
 ## Skorupki jajek białych i niebieskich
@@ -114,7 +114,7 @@ niebieskich nie wykazało żadnych różnic. Różnica w kolorze próbek powinna
 również widoczna na spektrogramach. Próbki muszą się więc różnić składem
 pierwiastków lekkich (lżejszych od Na), których nie może wykryć spektrometr
 wykorzystany w eksperymencie. Spektrogram próbki skorupek białych jajek
-przedstawia rys [@Fig:jajka-biale]. Analiza wykazała że skorupki składają
+przedstawia rys. 2. Analiza wykazała że skorupki składają
 się głównie z wapnia.
 Pomiar przeprowadzony był przy parametrach lampy $14\,\mathrm{kV}$ i
 $88\,\mathrm{\mu A}$
@@ -137,4 +137,5 @@ więc zwiększając grubość powierzchni na jaką pada promieniowanie) zaobserw
 niewielkie różnice w ilości zliczeń energii tych samych linii. Dla próbki o
 trzykrotnie większej grubości było około 3.5% więcej zliczeń dla linii
 $\mathrm{Ca}_{K\alpha}$ i około 3.0% więcej dla linii
-$\mathrm{Ca}_{K\beta}$.
+$\mathrm{Ca}_{K\beta}$. Oznacza to że nawet próbka o najmniejszej grubości
+badanego materiału daje dobre przybliżenie próbki nieskończenie grubej.

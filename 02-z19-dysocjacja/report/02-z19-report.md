@@ -42,6 +42,15 @@ abstract: |
 
 # Bibliografia
 
+* <https://en.wikipedia.org/wiki/Bond-dissociation_energy>
+* <http://www.sciencedirect.com/science/article/pii/0009261473801897>
+* <http://www.colby.edu/chemistry/PChem/lab/DissEI2Br2.pdf>
+
+
+* $D_0 = 151\,\mathrm{kJ/mol}$
+* $D_0 = 1.57\,\mathrm{eV}$
+* $D_0 = 12440.1\,\mathrm{cm}^{-1}$
+
 \setlength{\parindent}{0cm}
 <div id="refs"></div>
 
